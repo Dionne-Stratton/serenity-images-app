@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/logo.png";
+import { NavLink } from "react-router-dom";
 
 const HeaderNav = () => {
   return (
@@ -14,21 +15,21 @@ const HeaderNav = () => {
         </div>
 
         <nav id="hnavbuttons">
-          <a className="button1" href="/home">
+          <NavLink className="main-nav" activeClassName="active" to="/home">
             Home
-          </a>
-          <a className="button2" href="/about">
+          </NavLink>
+          <NavLink className="main-nav" activeClassName="active" to="/about">
             About
-          </a>
-          <a className="button3" href="/contact">
+          </NavLink>
+          <NavLink className="main-nav" activeClassName="active" to="/contact">
             Connect
-          </a>
-          <a className="button4" href="/gallery">
+          </NavLink>
+          <NavLink className="main-nav" activeClassName="active" to="/gallery">
             Gallery
-          </a>
-          <a className="button5" href="/shop">
+          </NavLink>
+          <NavLink className="main-nav" activeClassName="active" to="/shop">
             Shop
-          </a>
+          </NavLink>
         </nav>
       </header>
     </div>
