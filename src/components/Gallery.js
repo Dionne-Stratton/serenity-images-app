@@ -10,7 +10,7 @@ const Gallery = () => {
       <div className="gallery">
         {GalleryArray.map((item) => (
           <div className="pic">
-            <img src={item.images} alt="art" />
+            <img src={item.baseImage} alt="art" />
             <caption>{item.title}</caption>
           </div>
         ))}
