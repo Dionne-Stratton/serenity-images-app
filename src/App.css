@@ -122,7 +122,7 @@ nav a:hover {
 .aboutbox {
   width: 52%;
   display: inline-block;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 5%;
   padding-left: 5%;
   color: #023e8a;
@@ -175,6 +175,8 @@ o #pic {
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-evenly;
+  align-content: center;
+  align-content: space-evenly;
 }
 
 .pic {

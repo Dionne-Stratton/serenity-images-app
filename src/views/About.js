@@ -8,11 +8,13 @@ const About = () => {
         <img src={profileimage2} alt="me" />
         <div className="aboutbox">
           <h3>Meet the Artist</h3>
+          <br></br>
           <p>
             "My passion is to create art that is simply beautiful and a pleasure
             to behold. My art is intended to be relatively natural, and always
             uplifting. Art that anyone can enjoy!"
           </p>
+          <br></br>
           <p>~ Dionne Stratton</p>
         </div>
       </section>

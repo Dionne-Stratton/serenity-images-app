@@ -9,8 +9,10 @@ const Contact = () => {
         <div className="aboutbox">
           <div className="textbox">
             <h3>Got Questions?</h3>
+            <br></br>
             <p>Email me at: SerentiyImagesStudio@gmail.com</p>
             <p>Or look for me on social media!</p>
+            <br></br>
           </div>
         </div>
       </section>
