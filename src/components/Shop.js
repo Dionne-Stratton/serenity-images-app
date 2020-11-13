@@ -4,6 +4,7 @@ import { axiosWithAuth } from "../API/axiosWithAuth";
 const Shop = () => {
   const [canvasPrints, setcanvasPrints] = useState([]);
   const [posterPrints, setPosterPrints] = useState([]);
+  const [phoneCases, setPhoneCases] = useState([]);
 
   const getCanvasPrints = () => {
     axiosWithAuth()
@@ -29,9 +30,34 @@ const Shop = () => {
       });
   };
 
+  const getPhoneCases = () => {
+    axiosWithAuth()
+      .get("/v1/shops/2251242/products.json?limit=100")
+      .then((res) => {
+        console.log("Phone Case Shop", res);
+        setPhoneCases(res.data.data.reverse());
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
+  const getShops = () => {
+    axiosWithAuth()
+      .get("/v1/shops.json")
+      .then((res) => {
+        console.log("Shops:", res);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
   useEffect(() => {
     getCanvasPrints();
     getPosterPrints();
+    getPhoneCases();
+    getShops();
     console.log();
   }, []);
 
@@ -54,6 +80,13 @@ const Shop = () => {
             <div className="item">
               <p>{item.title.substring(13)}</p>
               <p>{item.title.substring(0, 13)}</p>
+              <img src={item.images[0].src} alt="art" />
+            </div>
+          ))}
+          {phoneCases.map((item) => (
+            <div className="item">
+              <p>{item.title.substring(9)}</p>
+              <p>{item.title.substring(0, 9)}</p>
               <img src={item.images[0].src} alt="art" />
             </div>
           ))}

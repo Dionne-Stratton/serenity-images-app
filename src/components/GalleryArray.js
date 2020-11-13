@@ -8,7 +8,7 @@ const GalleryArray = [
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/splnd%20wren.jpg",
     sizes: ["small"],
     description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    price: 50,
   },
   {
     title: "Sun Parakeet",
@@ -19,7 +19,7 @@ const GalleryArray = [
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/sun%20parakeet.jpg",
     sizes: ["small"],
     description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    price: 50,
   },
   {
     title: "Red-rumped Parakeet",
@@ -30,7 +30,7 @@ const GalleryArray = [
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/redrumpd.jpg",
     sizes: ["small"],
     description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    price: 50,
   },
   {
     title: "Cannon Ball Flowers",
@@ -41,7 +41,7 @@ const GalleryArray = [
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/cannonballflwrs.jpg",
     sizes: ["small"],
     description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    price: 50,
   },
   {
     title: "Acaia Tree",
@@ -52,7 +52,7 @@ const GalleryArray = [
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/acaia%20tree.jpg",
     sizes: ["small"],
     description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    price: 50,
   },
   {
     title: "Celestial Gate",
@@ -62,8 +62,8 @@ const GalleryArray = [
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/celestial%20gate.jpg",
     sizes: ["small"],
-    description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    description: "Acrylic paint on 11x14 inch wrapped canvas.",
+    price: 70,
   },
   {
     title: "Cherry Blossoms",
@@ -73,8 +73,8 @@ const GalleryArray = [
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/cherry%20blossoms.jpg",
     sizes: ["small"],
-    description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    description: "Acrylic paint on 9x12 inch wrapped canvas.",
+    price: 50,
   },
   {
     title: "Palm Tree Beach",
@@ -84,8 +84,8 @@ const GalleryArray = [
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/beach.jpg",
     sizes: ["small"],
-    description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    description: "Acrylic paint on 16x20 inch wrapped canvas.",
+    price: 200,
   },
   {
     title: "Fairy Gate",
@@ -96,7 +96,7 @@ const GalleryArray = [
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/fairy%20gate.jpg",
     sizes: ["small"],
     description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    price: 50,
   },
   {
     title: "Blue Macaw",
@@ -107,7 +107,7 @@ const GalleryArray = [
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/blue%20macaw.jpg",
     sizes: ["small"],
     description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    price: 50,
   },
   {
     title: "Owl on Cherry Tree",
@@ -118,7 +118,7 @@ const GalleryArray = [
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/owl.jpg",
     sizes: ["small"],
     description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    price: 50,
   },
   {
     title: "Luna Moth",
@@ -129,7 +129,7 @@ const GalleryArray = [
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/luna%20moth.jpg",
     sizes: ["small"],
     description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    price: 50,
   },
   {
     title: "King Fisher",
@@ -139,8 +139,8 @@ const GalleryArray = [
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/king%20fisher.jpg",
     sizes: ["small"],
-    description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    description: "Acrylic paint on 11x14 inch wrapped canvas.",
+    price: 70,
   },
   {
     title: "Joy Comes in the Morning",
@@ -150,8 +150,8 @@ const GalleryArray = [
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/joy.jpg",
     sizes: ["small"],
-    description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 21,
+    description: "Acrylic paint on 16x20 inch wrapped canvas.",
+    price: 200,
   },
   {
     title: "Magnolias",
