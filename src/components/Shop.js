@@ -3,8 +3,8 @@ import { axiosWithAuth } from "../API/axiosWithAuth";
 
 const Shop = () => {
   const [canvasPrints, setcanvasPrints] = useState([]);
-  const [posterPrints, setPosterPrints] = useState([]);
-  const [phoneCases, setPhoneCases] = useState([]);
+  // const [posterPrints, setPosterPrints] = useState([]);
+  // const [phoneCases, setPhoneCases] = useState([]);
 
   const getCanvasPrints = () => {
     axiosWithAuth()
@@ -18,46 +18,46 @@ const Shop = () => {
       });
   };
 
-  const getPosterPrints = () => {
-    axiosWithAuth()
-      .get("/v1/shops/2224652/products.json?limit=100")
-      .then((res) => {
-        console.log("Poster Shop", res);
-        setPosterPrints(res.data.data.reverse());
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
+  // const getPosterPrints = () => {
+  //   axiosWithAuth()
+  //     .get("/v1/shops/2224652/products.json?limit=100")
+  //     .then((res) => {
+  //       console.log("Poster Shop", res);
+  //       setPosterPrints(res.data.data.reverse());
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // };
 
-  const getPhoneCases = () => {
-    axiosWithAuth()
-      .get("/v1/shops/2251242/products.json?limit=100")
-      .then((res) => {
-        console.log("Phone Case Shop", res);
-        setPhoneCases(res.data.data.reverse());
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
+  // const getPhoneCases = () => {
+  //   axiosWithAuth()
+  //     .get("/v1/shops/2251242/products.json?limit=100")
+  //     .then((res) => {
+  //       console.log("Phone Case Shop", res);
+  //       setPhoneCases(res.data.data.reverse());
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // };
 
-  const getShops = () => {
-    axiosWithAuth()
-      .get("/v1/shops.json")
-      .then((res) => {
-        console.log("Shops:", res);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
+  // const getShops = () => {
+  //   axiosWithAuth()
+  //     .get("/v1/shops.json")
+  //     .then((res) => {
+  //       console.log("Shops:", res);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // };
 
   useEffect(() => {
     getCanvasPrints();
-    getPosterPrints();
-    getPhoneCases();
-    getShops();
+    // getPosterPrints();
+    // getPhoneCases();
+    // getShops();
     console.log();
   }, []);
 
@@ -76,7 +76,7 @@ const Shop = () => {
               <img src={item.images[0].src} alt="art" />
             </div>
           ))}
-          {posterPrints.map((item) => (
+          {/* {posterPrints.map((item) => (
             <div className="item">
               <p>{item.title.substring(13)}</p>
               <p>{item.title.substring(0, 13)}</p>
@@ -89,7 +89,7 @@ const Shop = () => {
               <p>{item.title.substring(0, 9)}</p>
               <img src={item.images[0].src} alt="art" />
             </div>
-          ))}
+          ))} */}
         </div>
       </section>
     </div>
