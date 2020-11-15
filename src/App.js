@@ -8,6 +8,9 @@ import About from "./views/About";
 import Contact from "./views/Contact";
 import Gallery from "./components/Gallery";
 import Shop from "./components/Shop";
+import Originals from "./components/Originals";
+import POD from "./components/POD";
+import Watch from "./components/Watch";
 
 function App() {
   return (
@@ -22,7 +25,10 @@ function App() {
       <Route path="/contact" component={Contact} />
       <Route path="/about" component={About} />
       <Route path="/gallery" component={Gallery} />
+      <Route path="/originals" component={Originals} />
+      <Route path="/pod" component={POD} />
       <Route path="/shop" component={Shop} />
+      <Route path="/watch" component={Watch} />
       <Footer />
     </div>
   );

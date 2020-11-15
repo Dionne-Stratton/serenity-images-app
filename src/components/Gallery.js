@@ -1,21 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import GalleryArray from "../components/GalleryArray";
 
 const Gallery = () => {
+  const [search, setSearch] = useState("");
+
+  let filteredArray = GalleryArray.filter((art) =>
+    art.category.includes(search)
+  );
+
   return (
     <div className="gallerypage">
-      {/* <section className="section1"> */}
       <h3>Gallery</h3>
-      <br></br>
+      <input
+        className="search"
+        type="text"
+        placeholder="Search Gallery"
+        onChange={(e) => setSearch(e.target.value)}
+      />
       <div className="gallery">
-        {GalleryArray.map((item) => (
+        {filteredArray.map((item) => (
           <div className="pic">
             <img src={item.baseImage} alt="art" />
             <caption>{item.title}</caption>
           </div>
         ))}
       </div>
-      {/* </section> */}
     </div>
   );
 };

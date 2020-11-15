@@ -30,6 +30,9 @@ const HeaderNav = () => {
           <NavLink className="main-nav" activeClassName="active" to="/shop">
             Shop
           </NavLink>
+          <NavLink className="main-nav" activeClassName="active" to="/watch">
+            Watch
+          </NavLink>
         </nav>
       </header>
     </div>
