@@ -2,7 +2,7 @@ const GalleryArray = [
   {
     title: "Splendid Fairy Wren",
     id: 1,
-    category: ["bird", "birds", "sky", "sunset", ""],
+    category: ["bird", "birds", "sky", "sunset", "splendid", "wren", ""],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/splnd%20wren.jpg",
@@ -13,7 +13,7 @@ const GalleryArray = [
   {
     title: "Sun Parakeet",
     id: 2,
-    category: ["birds", "bird", "flowers", "flower", ""],
+    category: ["birds", "bird", "flowers", "sun", "parakeet", "flower", ""],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/sun%20parakeet.jpg",
@@ -24,7 +24,7 @@ const GalleryArray = [
   {
     title: "Red-rumped Parakeet",
     id: 3,
-    category: ["birds", "bird", "sunset", "sky", ""],
+    category: ["birds", "bird", "sunset", "sky", "red", "parakeet", ""],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/redrumpd.jpg",
@@ -35,7 +35,7 @@ const GalleryArray = [
   {
     title: "Cannon Ball Flowers",
     id: 4,
-    category: ["flowers", "flower", ""],
+    category: ["flowers", "flower", "cannon", ""],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/cannonballflwrs.jpg",
@@ -46,7 +46,7 @@ const GalleryArray = [
   {
     title: "Acaia Tree",
     id: 5,
-    category: ["landscape", "tree", ""],
+    category: ["landscape", "tree", "acaia", ""],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/acaia%20tree.jpg",
@@ -63,6 +63,7 @@ const GalleryArray = [
       "sunset",
       "night",
       "ocean",
+      "celestial",
       "gate",
       "gates",
       "tori",
@@ -78,7 +79,7 @@ const GalleryArray = [
   {
     title: "Cherry Blossoms",
     id: 9,
-    category: ["flowers", "sky", "flower", ""],
+    category: ["flowers", "sky", "flower", "cherry", "blossom", "sakura", ""],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/cherry%20blossoms.jpg",
@@ -89,7 +90,16 @@ const GalleryArray = [
   {
     title: "Palm Tree Beach",
     id: 8,
-    category: ["ocean", "beach", "seascape", "palmtree", "palm tree", ""],
+    category: [
+      "ocean",
+      "beach",
+      "seascape",
+      "palmtree",
+      "palm tree",
+      "palm",
+      "tree",
+      "",
+    ],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/beach.jpg",
@@ -100,7 +110,16 @@ const GalleryArray = [
   {
     title: "Fairy Gate",
     id: 6,
-    category: ["fantasy", "landscape", "night", "sunset", "tree", ""],
+    category: [
+      "fantasy",
+      "landscape",
+      "night",
+      "sunset",
+      "tree",
+      "fairy",
+      "gate",
+      "",
+    ],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/fairy%20gate.jpg",
@@ -111,7 +130,7 @@ const GalleryArray = [
   {
     title: "Blue Macaw",
     id: 10,
-    category: ["birds", "bird", "night", "macaw", "bird", ""],
+    category: ["birds", "bird", "night", "macaw", "bird", "blue", ""],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/blue%20macaw.jpg",
@@ -131,6 +150,7 @@ const GalleryArray = [
       "owl",
       "cherry",
       "blossom",
+      "tree",
       "blossoms",
       "",
     ],
@@ -144,7 +164,7 @@ const GalleryArray = [
   {
     title: "Luna Moth",
     id: 12,
-    category: ["moths", "moth", "night", ""],
+    category: ["moths", "moth", "night", "luna", ""],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/luna%20moth.jpg",
@@ -155,7 +175,16 @@ const GalleryArray = [
   {
     title: "King Fisher",
     id: 13,
-    category: ["birds", "bird", "flowers", "flower", "sunset", ""],
+    category: [
+      "birds",
+      "bird",
+      "flowers",
+      "flower",
+      "sunset",
+      "king",
+      "fisher",
+      "",
+    ],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/king%20fisher.jpg",
@@ -170,6 +199,8 @@ const GalleryArray = [
       "sunset",
       "butterfly",
       "monarch",
+      "joy",
+      "morning",
       "butterfly",
       "butterflies",
       "",
@@ -184,7 +215,7 @@ const GalleryArray = [
   {
     title: "Magnolias",
     id: 15,
-    category: ["flowers", "flower", ""],
+    category: ["flowers", "magnolia", "flower", ""],
     products: ["Canvas Print"],
     baseImage:
       "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/magnolias.jpg",
