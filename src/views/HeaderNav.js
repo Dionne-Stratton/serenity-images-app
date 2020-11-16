@@ -21,9 +21,6 @@ const HeaderNav = () => {
           <NavLink className="main-nav" activeClassName="active" to="/about">
             About
           </NavLink>
-          <NavLink className="main-nav" activeClassName="active" to="/contact">
-            Connect
-          </NavLink>
           <NavLink className="main-nav" activeClassName="active" to="/gallery">
             Gallery
           </NavLink>

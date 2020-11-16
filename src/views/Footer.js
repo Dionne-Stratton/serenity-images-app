@@ -9,9 +9,8 @@ const Footer = () => {
       <footer>
         <div className="ender">
           <h2>Like what you see?</h2>
-          <a className="contactbutton" href="/contact">
-            Contact Me
-          </a>
+          <p>Email me at: SerentiyImagesStudio@gmail.com</p>
+          <p>Or look for me on social media!</p>
         </div>
         <div className="icons">
           <a

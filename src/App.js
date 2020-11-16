@@ -5,7 +5,6 @@ import HeaderNav from "./views/HeaderNav";
 import Footer from "./views/Footer";
 import Home from "./views/Home";
 import About from "./views/About";
-import Contact from "./views/Contact";
 import Gallery from "./components/Gallery";
 import Shop from "./components/Shop";
 import Originals from "./components/Originals";
@@ -22,7 +21,6 @@ function App() {
       <HeaderNav />
       <Route exact path="/" component={Home} />
       <Route path="/home" component={Home} />
-      <Route path="/contact" component={Contact} />
       <Route path="/about" component={About} />
       <Route path="/gallery" component={Gallery} />
       <Route path="/originals" component={Originals} />

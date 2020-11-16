@@ -5,14 +5,25 @@ const Watch = () => {
     <div className="shoppage">
       <h3>Watch</h3>
       <br></br>
-      <div className="section1">
-        <a // eslint-disable-next-line
-          target="_blank"
-          className="projectsbutton"
-          href="https://www.youtube.com/channel/UCOkeCTEFbJ7zRyGgF_eZd5Q"
-        >
-          Tutorial Videos
-        </a>
+      <div className="gallery">
+        <iframe
+          title="d"
+          width="420"
+          height="345"
+          src="https://www.youtube.com/embed/LDnL-6F9n00"
+        ></iframe>
+        <iframe
+          title="d"
+          width="420"
+          height="345"
+          src="https://www.youtube.com/embed/1kplBptiZhc"
+        ></iframe>
+        <iframe
+          title="d"
+          width="420"
+          height="345"
+          src="https://www.youtube.com/embed/BCoo5P62vXo"
+        ></iframe>
       </div>
     </div>
   );
