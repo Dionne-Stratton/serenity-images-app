@@ -20,7 +20,9 @@ const Gallery = () => {
       <div className="gallery">
         {filteredArray.map((item) => (
           <div className="pic">
-            <img src={item.baseImage} alt="art" />
+            <a href={item.page} target="_blank">
+              <img src={item.baseImage} alt="art" />
+            </a>
             <caption>{item.title}</caption>
           </div>
         ))}

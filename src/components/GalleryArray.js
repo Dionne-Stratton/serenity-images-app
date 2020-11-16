@@ -1,3 +1,5 @@
+import icon from "../images/originalsIcon.png";
+
 const GalleryArray = [
   {
     title: "Splendid Fairy Wren",
@@ -9,6 +11,8 @@ const GalleryArray = [
     size: "small 9 x 12",
     description: "Acrylic paint on 9x12 inch canvas sheet.",
     price: 50,
+    page:
+      "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/splnd%20wren.jpg",
   },
   {
     title: "Sun Parakeet",
@@ -164,6 +168,15 @@ const GalleryArray = [
     description: "Acrylic paint on 9x12 inch canvas sheet.",
     price: 21,
   },
+  // {
+  //   title: "Icon",
+  //   id: 15,
+  //   category: "flowers magnolia flower",
+  //   medium: "canvas sheet acrylic",
+  //   baseImage: { icon },
+  //   description: "Acrylic paint on 9x12 inch canvas sheet.",
+  //   price: 21,
+  // },
 ];
 
 export default GalleryArray;
