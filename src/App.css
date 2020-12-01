@@ -195,7 +195,7 @@ o #pic {
 }
 
 .shop :hover {
-  opacity: 50%;
+  opacity: 0.8;
 }
 
 .shop a p {
