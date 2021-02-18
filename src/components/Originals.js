@@ -28,7 +28,7 @@ const Shop = () => {
         <br></br>
         <p>Comming Soon!</p>
         <br></br>
-        <div className="originals">
+        {/* <div className="originals">
           {mocks.map((item) => (
             <div className="item">
               <p>{item.title.substring(13)}</p>
@@ -36,7 +36,7 @@ const Shop = () => {
               <img src={item.images[0].src} alt="art" />
             </div>
           ))}
-        </div>
+        </div> */}
       </section>
     </div>
   );
