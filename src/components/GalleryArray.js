@@ -1,17 +1,61 @@
 import swren from "../images/galleryPics/sunset-fairy-wren.jpg";
+import swrenB from "../images/galleryPics/bigger/sunset-fairy-wren-bird-canvas.webp";
 import sunP from "../images/galleryPics/sunParakeet.jpg";
+import sunPB from "../images/galleryPics/bigger/sun-parakeet-mimosa-flowers-canvas.webp";
 import redrumpd from "../images/galleryPics/redRumped.jpg";
+import redrumpdB from "../images/galleryPics/bigger/red-rumped-parrot-at-sunset-canvas.webp";
 import cannonballflwrs from "../images/galleryPics/cannonballflwrs2.jpg";
+import cannonballflwrsB from "../images/galleryPics/bigger/cannonball-flowers-canvas.webp";
 import celestial from "../images/galleryPics/celestialGate2.jpg";
+import celestialB from "../images/galleryPics/bigger/celestial-gate-b.jpg";
 import cherryb from "../images/galleryPics/cherryBlossoms.jpg";
+import cherryB from "../images/galleryPics/bigger/cherry-blossom-branch1273986-canvas.webp";
 import fairyGate from "../images/galleryPics/fairyGate.jpg";
 import fairyGateB from "../images/galleryPics/bigger/fairy-gate2730911-canvas.webp";
 import blueM from "../images/galleryPics/blueMacaw2.jpg";
+import blueMB from "../images/galleryPics/bigger/dawn-bringer-canvas.webp";
 import mags from "../images/galleryPics/magnolias2.jpg";
+import magsB from "../images/galleryPics/bigger/magnolia2832489-canvas.webp";
 import nightOwl from "../images/galleryPics/nightOwl.jpg";
+import nightOwlB from "../images/galleryPics/bigger/night-owl2246387-canvas.webp";
 import kingF from "../images/galleryPics/kingfisherSunset.jpg";
+import kingFB from "../images/galleryPics/bigger/kingfisher-sunset2724780-canvas.webp";
 import lunaM from "../images/galleryPics/lunaMoth.jpg";
-import celestialB from "../images/galleryPics/bigger/celestial-gate-b.jpg";
+import lunaMB from "../images/galleryPics/bigger/luna-moth2882386-canvas.webp";
+import acaia from "../images/galleryPics/acaia-tree-canvas.webp";
+import acaiaB from "../images/galleryPics/bigger/acaia-tree-canvas.webp";
+import amParr from "../images/galleryPics/amazonParrots.jpg"
+import amParrB from "../images/galleryPics/bigger/parrots-of-the-amazon1436762-canvas.webp";
+import blueJay from "../images/galleryPics/blue-jay-on-almond-blossom-tree.jpg";
+import blueJayB from "../images/galleryPics/bigger/blue-jay-on-almond-blossom-tree-canvas.webp";
+import calm from "../images/galleryPics/calmBlue.jpg";
+import calmB from "../images/galleryPics/bigger/calm-blue2679832-canvas.webp";
+import cherry2 from "../images/galleryPics/cherry-blossoms.jpg";
+import cherry2B from "../images/galleryPics/bigger/cherry-blossoms1108697-canvas.webp";
+import chickadee from "../images/galleryPics/chickadee-on-cherry-tree.jpg";
+import chickadeeB from "../images/galleryPics/bigger/chickadee-on-cherry-tree-canvas.webp";
+import crWave from "../images/galleryPics/cresting-wave.jpg";
+import crWaveB from "../images/galleryPics/bigger/cresting-wave1201498-canvas.webp";
+import deernight from "../images/galleryPics/deerAtNight.jpg";
+import deernightB from "../images/galleryPics/bigger/deer-at-night-canvas.webp";
+import deRose from "../images/galleryPics/desert-rose.jpg";
+import deRoseB from "../images/galleryPics/bigger/desert-rose1687521-canvas.webp";
+import oranges from "../images/galleryPics/flowing-orange-tree.jpg";
+import orangesB from "../images/galleryPics/bigger/flowing-orange-tree-canvas.webp";
+// import mags from "../images/galleryPics/magnolias2.jpg";
+// import magsB from "../images/galleryPics/bigger/magnolia2832489-canvas.webp";
+// import nightOwl from "../images/galleryPics/nightOwl.jpg";
+// import nightOwlB from "../images/galleryPics/bigger/night-owl2246387-canvas.webp";
+// import kingF from "../images/galleryPics/kingfisherSunset.jpg";
+// import kingFB from "../images/galleryPics/bigger/kingfisher-sunset2724780-canvas.webp";
+// import lunaM from "../images/galleryPics/lunaMoth.jpg";
+// import lunaMB from "../images/galleryPics/bigger/luna-moth2882386-canvas.webp";
+// import acaia from "../images/galleryPics/acaia-tree-canvas.webp";
+// import acaiaB from "../images/galleryPics/bigger/acaia-tree-canvas.webp";
+// import amParr from "../images/galleryPics/amazonParrots.jpg"
+// import amParrB from "../images/galleryPics/bigger/parrots-of-the-amazon1436762-canvas.webp";
+
+
 
 
 const GalleryArray = [
@@ -24,8 +68,7 @@ const GalleryArray = [
     size: "small 9 x 12",
     description: "Acrylic paint on 9x12 inch canvas sheet.",
     price: 50,
-    page:
-      "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/splnd%20wren.jpg",
+    zoomed: swrenB,
   },
   {
     title: "Sun Parakeet",
@@ -36,8 +79,7 @@ const GalleryArray = [
     size: "small 9 x 12",
     description: "Acrylic paint on 9x12 inch canvas sheet.",
     price: 50,
-    page:
-      "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/sun%20parakeet.jpg",
+    zoomed: sunPB,
   },
   {
     title: "Red-rumped Parakeet",
@@ -48,8 +90,7 @@ const GalleryArray = [
     size: "small 9 x 12",
     description: "Acrylic paint on 9x12 inch canvas sheet.",
     price: 50,
-    page:
-      "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/redrumpd.jpg",
+    zoomed: redrumpdB,
   },
   {
     title: "Cannon Ball Flowers",
@@ -60,20 +101,19 @@ const GalleryArray = [
     size: "small 9 x 12",
     description: "Acrylic paint on 9x12 inch canvas sheet.",
     price: 50,
-    page:
-    "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/cannonballflwrs.jpg",
+    zoomed: cannonballflwrsB,
   },
-  // {
-  //   title: "Acaia Tree",
-  //   id: 5,
-  //   category: "landscape tree acaia",
-  //   medium: "canvas sheet acrylic",
-  //   baseImage: acaia,
-  //   sizes: "small 9 x 12",
-  //   description: "Acrylic paint on 9x12 inch canvas sheet.",
-  //   price: 50,
-  //   page:"https://user-interface-ii-5fl9n5s96.vercel.app/images/art/acaia%20tree.jpg",
-  // },
+  {
+    title: "Acaia Tree",
+    id: 5,
+    category: "landscape tree acaia",
+    medium: "canvas sheet acrylic",
+    baseImage: acaia,
+    sizes: "small 9 x 12",
+    description: "Acrylic paint on 9x12 inch canvas sheet.",
+    price: 50,
+    zoomed: acaiaB,
+  },
   {
     title: "Celestial Gate",
     id: 7,
@@ -83,7 +123,7 @@ const GalleryArray = [
     size: "small 11 x 14",
     description: "Acrylic paint on 11x14 inch wrapped canvas.",
     price: 70,
-    page: celestialB,
+    zoomed: celestialB,
   },
   {
     title: "Cherry Blossoms",
@@ -94,7 +134,7 @@ const GalleryArray = [
     size: "small 9 x 12",
     description: "Acrylic paint on 9x12 inch wrapped canvas.",
     price: 50,
-    page: "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/cherry%20blossoms.jpg",
+    zoomed: cherryB,
   },
   // {
   //   title: "Palm Tree Beach",
@@ -105,7 +145,7 @@ const GalleryArray = [
   //   size: "medium 16 x 20",
   //   description: "Acrylic paint on 16x20 inch wrapped canvas.",
   //   price: 200,
-  //   page: "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/beach.jpg",
+  //   zoomed: "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/beach.jpg",
   // },
   {
     title: "Fairy Gate",
@@ -116,7 +156,7 @@ const GalleryArray = [
     size: "small 9 x 12",
     description: "Acrylic paint on 9x12 inch canvas paper.",
     price: 50,
-    page: fairyGateB,
+    zoomed: fairyGateB,
   },
   {
     title: "Blue Macaw",
@@ -127,18 +167,7 @@ const GalleryArray = [
     size: "small 9 x 12",
     description: "Acrylic paint on 9x12 inch canvas paper.",
     price: 50,
-    page: "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/blue%20macaw.jpg",
-  },
-  {
-    title: "Night Owl",
-    id: 11,
-    category: "birds flowers night owl cherry tree blossoms",
-    medium: "canvas sheet acrylic",
-    baseImage: nightOwl,
-    size: "small 9 x 12",
-    description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 50,
-    // page: "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/owl.jpg",
+    zoomed: blueMB,
   },
   {
     title: "Luna Moth",
@@ -149,7 +178,7 @@ const GalleryArray = [
     size: "small 9 x 12",
     description: "Acrylic paint on 9x12 inch canvas paper.",
     price: 50,
-    page: "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/luna%20moth.jpg",
+    zoomed: lunaMB,
   },
   {
     title: "King Fisher",
@@ -160,7 +189,7 @@ const GalleryArray = [
     size: "medium 11 x 14 ",
     description: "Acrylic paint on 11x14 inch wrapped canvas.",
     price: 70,
-    page: "https://ctl.s6img.com/society6/img/ErFGAIQeZfdB4xLeE3e8J_wtKBc/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/30a08495e88842ce9bf8e97c5136309f/~~/kingfisher-sunset2724780-canvas.jpg?wait=0&attempt=0",
+    zoomed: kingFB,
   },
   // {
   //   title: "Joy Comes in the Morning",
@@ -171,7 +200,7 @@ const GalleryArray = [
   //   size: "medium 16 x 20",
   //   description: "Acrylic paint on 16x20 inch wrapped canvas.",
   //   price: 200,
-  //   page: "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/joy.jpg",
+  //   zoomed: "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/joy.jpg",
   // },
   {
     title: "Magnolias",
@@ -182,7 +211,117 @@ const GalleryArray = [
     size: "small 9 x 12",
     description: "Acrylic paint on 9x12 inch canvas sheet.",
     price: 21,
-    page: "https://user-interface-ii-5fl9n5s96.vercel.app/images/art/magnolias.jpg",
+    zoomed: magsB,
+  },
+  {
+    title: "Amazon Parrots",
+    id: 16,
+    category: "birds parrots green landscape",
+    medium: "canvas wrap acrylic",
+    baseImage: amParr,
+    size: "large 16 x 20 ",
+    description: "Acrylic paint on 16x20 inch wrapped canvas.",
+    price: 200,
+    zoomed: amParrB,
+  },
+  {
+    title: "Night Owl",
+    id: 11,
+    category: "birds night owl blue sky stars space",
+    medium: "canvas sheet acrylic",
+    baseImage: nightOwl,
+    size: "small 9 x 12",
+    description: "Acrylic paint on 9x12 inch canvas paper.",
+    price: 50,
+    zoomed: nightOwlB,
+  },
+  {
+    title: "Cherry Blossoms",
+    id: 17,
+    category: "flowers sky flower cherry blossom sakura",
+    medium: "canvas wrap acrylic",
+    baseImage: cherry2,
+    size: "small 8 x 10",
+    description: "Acrylic paint on 8x10 inch canvas pannel.",
+    price: 50,
+    zoomed: cherry2B,
+  },
+    {
+    title: "Calm Blue",
+    id: 18,
+    category: "ocean seascape water sky blue",
+    medium: "canvas acrylic",
+    baseImage: calm,
+    size: "medium 9 x 12",
+    description: "Acrylic paint on 9x12 inch canvas sheet.",
+    price: 60,
+    zoomed: calmB,
+  },
+  {
+    title: "Blue Jay Almond Blossoms",
+    id: 19,
+    category: "birds jay bird blue almond blossoms flowers tree",
+    medium: "canvas sheet acrylic",
+    baseImage: blueJay,
+    size: "small 9 x 12",
+    description: "Acrylic paint on 9x12 inch canvas paper.",
+    price: 250,
+    zoomed: blueJayB,
+  },
+  {
+    title: "Chickadee on Cherry Tree",
+    id: 20,
+    category: "birds cherry blossoms flowers tree chickadee",
+    medium: "canvas acrylic",
+    baseImage: chickadee,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 250,
+    zoomed: chickadeeB,
+  },
+  {
+    title: "Cresting Wave",
+    id: 21,
+    category: "ocean seascape water wave blue",
+    medium: "canvas acrylic",
+    baseImage: crWave,
+    size: "medium",
+    description: "Acrylic paint on canvas.",
+    price: 60,
+    zoomed: crWaveB,
+  },
+  {
+    title: "Deer at Night",
+    id: 22,
+    category: "night deer blue sky purple moon stars space",
+    medium: "canvas sheet acrylic",
+    baseImage: deernight,
+    size: "small",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: deernightB,
+  },
+  {
+    title: "Shine",
+    id: 23,
+    category: "desert rose flowers shine",
+    medium: "canvas acrylic",
+    baseImage: deRose,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 250,
+    zoomed: deRoseB,
+  },
+  {
+    title: "Flowering Orange Tree",
+    id: 24,
+    category: "flowers blossoms tree orange",
+    medium: "canvas acrylic",
+    baseImage: oranges,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: orangesB,
   },
 
 ];
