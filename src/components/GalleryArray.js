@@ -5,6 +5,7 @@ import cannonballflwrs from "../images/galleryPics/cannonballflwrs2.jpg";
 import celestial from "../images/galleryPics/celestialGate2.jpg";
 import cherryb from "../images/galleryPics/cherryBlossoms.jpg";
 import fairyGate from "../images/galleryPics/fairyGate.jpg";
+import fairyGateB from "../images/galleryPics/bigger/fairy-gate2730911-canvas.webp";
 import blueM from "../images/galleryPics/blueMacaw2.jpg";
 import mags from "../images/galleryPics/magnolias2.jpg";
 import nightOwl from "../images/galleryPics/nightOwl.jpg";
@@ -115,7 +116,7 @@ const GalleryArray = [
     size: "small 9 x 12",
     description: "Acrylic paint on 9x12 inch canvas paper.",
     price: 50,
-    page: "https://ctl.s6img.com/society6/img/bTDxG4Bq3K-6uyb0mGe4rwCv3aM/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/8c40c2ff7a904bfabd83c46436536170/~~/fairy-gate2730911-canvas.jpg?wait=0&attempt=0",
+    page: fairyGateB,
   },
   {
     title: "Blue Macaw",
