@@ -5,7 +5,7 @@ const Gallery = () => {
   const [search, setSearch] = useState("");
 
   let filteredArray = GalleryArray.filter((art) =>
-    art.category.includes(search)
+    art.category.includes(search.toLowerCase())
   );
 
   return (
