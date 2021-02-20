@@ -118,11 +118,26 @@ import orioleOcean from "../images/galleryPics/oriole-over-the-ocean-canvas.webp
 import orioleOceanB from "../images/galleryPics/bigger/oriole-over-the-ocean-canvas.webp";
 import owlLight from "../images/galleryPics/owl4477653-canvas.webp";
 import owlLightB from "../images/galleryPics/bigger/owl4477653-canvas.webp";
-import owlC from "../images/galleryPics/sunsetBranches.jpg";
-import owlCB from "../images/galleryPics/bigger/sunset-branches2895395-canvas.webp";
+import owlC from "../images/galleryPics/owl4478333-canvas.webp";
+import owlCB from "../images/galleryPics/bigger/owl4478333-canvas.webp";
+import whale from "../images/galleryPics/whale4478346-canvas.webp";
+import whaleB from "../images/galleryPics/bigger/whale4478346-canvas.webp";
+import loved from "../images/galleryPics/loved4499238-canvas.webp";
+import lovedB from "../images/galleryPics/bigger/loved4499238-canvas.webp";
 
 
 const GalleryArray = [
+      {
+    title: "Loved",
+    id: 60,
+    category: "loved words encouragement saying you",
+    medium: "canvas acrylic",
+    baseImage: loved,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: lovedB,
+  },
   {
     title: "Splendid Fairy Wren",
     id: 1,
@@ -300,6 +315,17 @@ const GalleryArray = [
     zoomed: magsB,
   },
   {
+  title: "Owl in Tree",
+  id: 60,
+  category: "owl cherry tree flowers blossoms pink moon night sky stars",
+  medium: "canvas acrylic",
+  baseImage: owlLight,
+  size: "",
+  description: "Acrylic paint on canvas.",
+  price: 50,
+  zoomed: owlLightB,
+},
+  {
     title: "Amazon Parrots",
     id: 16,
     category: "birds parrots green landscape amazon tree",
@@ -311,17 +337,6 @@ const GalleryArray = [
     zoomed: amParrB,
   },
   {
-    title: "Night Owl",
-    id: 11,
-    category: "birds night owl blue sky tree stars space",
-    medium: "canvas sheet acrylic",
-    baseImage: nightOwl,
-    size: "small 9 x 12",
-    description: "Acrylic paint on 9x12 inch canvas paper.",
-    price: 50,
-    zoomed: nightOwlB,
-  },
-  {
     title: "Cherry Blossoms",
     id: 17,
     category: "flowers sky flower cherry tree blossom sakura",
@@ -331,17 +346,6 @@ const GalleryArray = [
     description: "Acrylic paint on 8x10 inch canvas pannel.",
     price: 50,
     zoomed: cherry2B,
-  },
-    {
-    title: "Calm Blue",
-    id: 18,
-    category: "ocean seascape water sky blue",
-    medium: "canvas acrylic",
-    baseImage: calm,
-    size: "medium 9 x 12",
-    description: "Acrylic paint on 9x12 inch canvas sheet.",
-    price: 60,
-    zoomed: calmB,
   },
   {
     title: "Blue Jay Almond Blossoms",
@@ -388,17 +392,6 @@ const GalleryArray = [
     zoomed: deernightB,
   },
   {
-    title: "Shine",
-    id: 23,
-    category: "desert rose flowers shine",
-    medium: "canvas acrylic",
-    baseImage: deRose,
-    size: "",
-    description: "Acrylic paint on canvas.",
-    price: 250,
-    zoomed: deRoseB,
-  },
-  {
     title: "Flowering Orange Tree",
     id: 24,
     category: "flowers blossoms tree orange",
@@ -421,15 +414,15 @@ const GalleryArray = [
     zoomed: goldfishB,
   },
   {
-    title: "Healed and Whole",
-    id: 26,
-    category: "flower say purple words",
+    title: "Calm Blue",
+    id: 18,
+    category: "ocean seascape water sky blue",
     medium: "canvas acrylic",
-    baseImage: healed,
-    size: "",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    zoomed: healedB,
+    baseImage: calm,
+    size: "medium 9 x 12",
+    description: "Acrylic paint on 9x12 inch canvas sheet.",
+    price: 60,
+    zoomed: calmB,
   },
   {
     title: "Hidden Hummingbird",
@@ -476,6 +469,28 @@ const GalleryArray = [
     zoomed: bldngHrtB,
   },
   {
+    title: "Healed and Whole",
+    id: 26,
+    category: "flower say purple words",
+    medium: "canvas acrylic",
+    baseImage: healed,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: healedB,
+  },
+  {
+    title: "Thorns",
+    id: 53,
+    category: "thorns every words say roses flowers",
+    medium: "canvas acrylic",
+    baseImage: thorns,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: thornsB,
+  },
+  {
     title: "Magical Summer",
     id: 33,
     category: "magical summer flowers",
@@ -485,6 +500,17 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: magSummB,
+  },
+  {
+    title: "Night Owl",
+    id: 11,
+    category: "birds night owl blue sky tree stars space",
+    medium: "canvas sheet acrylic",
+    baseImage: nightOwl,
+    size: "small 9 x 12",
+    description: "Acrylic paint on 9x12 inch canvas paper.",
+    price: 50,
+    zoomed: nightOwlB,
   },
   {
     title: "Magpie Jay",
@@ -577,6 +603,7 @@ const GalleryArray = [
   {
     title: "Oriole",
     id: 42,
+
     category: "flowers sky flower almond blossoms bird oriole",
     medium: "canvas wrap acrylic",
     baseImage: orioleLong,
@@ -628,6 +655,28 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 60,
     zoomed: simpleB,
+  },
+  {
+    title: "Tsubaki",
+    id: 54,
+    category: "japanese camellia tsubaki flowers blossoms pink",
+    medium: "canvas acrylic",
+    baseImage: tsubaki,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: tsubakiB,
+  },
+  {
+    title: "Shine",
+    id: 23,
+    category: "desert rose flowers shine",
+    medium: "canvas acrylic",
+    baseImage: deRose,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 250,
+    zoomed: deRoseB,
   },
   {
     title: "Solitary Beauty",
@@ -694,28 +743,6 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: wrenB,
-  },
-  {
-    title: "Thorns",
-    id: 53,
-    category: "thorns every words say roses flowers",
-    medium: "canvas acrylic",
-    baseImage: thorns,
-    size: "",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    zoomed: thornsB,
-  },
-  {
-    title: "Tsubaki",
-    id: 54,
-    category: "japanese camellia tsubaki flowers blossoms pink",
-    medium: "canvas acrylic",
-    baseImage: tsubaki,
-    size: "",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    zoomed: tsubakiB,
   },
   // {
   //   title: "Whimsical Tree",
@@ -805,17 +832,6 @@ const GalleryArray = [
     price: 50,
     zoomed: orioleOceanB,
   },
-    {
-    title: "Owl in Tree",
-    id: 60,
-    category: "owl cherry tree flowers blossoms pink moon night sky stars",
-    medium: "canvas acrylic",
-    baseImage: owlLight,
-    size: "",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    zoomed: owlLightB,
-  },
       {
     title: "Owl",
     id: 60,
@@ -826,6 +842,17 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: owlCB,
+  },
+      {
+    title: "Whale",
+    id: 60,
+    category: "",
+    medium: "canvas acrylic",
+    baseImage: whale,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: whaleB,
   },
     // {
   //   title: "",
