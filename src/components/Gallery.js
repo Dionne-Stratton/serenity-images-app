@@ -4,7 +4,7 @@ import GalleryArray from "../components/GalleryArray";
 const Gallery = () => {
   const [search, setSearch] = useState("");
 
-  let filteredArray = GalleryArray.reverse().filter((art) =>
+  let filteredArray = GalleryArray.filter((art) =>
     art.category.includes(search.toLowerCase())
   );
 
