@@ -4,7 +4,7 @@ import GalleryArray from "../components/GalleryArray";
 const Gallery = () => {
   const [search, setSearch] = useState("");
 
-  let filteredArray = GalleryArray.filter((art) =>
+  let filteredArray = GalleryArray.reverse().filter((art) =>
     art.category.includes(search.toLowerCase())
   );
 
@@ -14,7 +14,7 @@ const Gallery = () => {
       <input
         className="search"
         type="text"
-        placeholder="Search Gallery"
+        placeholder="Key Word Search"
         onChange={(e) => setSearch(e.target.value)}
       />
       <div className="gallery">

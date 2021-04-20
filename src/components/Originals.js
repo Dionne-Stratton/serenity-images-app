@@ -2,24 +2,24 @@ import React, { useEffect, useState } from "react";
 import { axiosWithAuth } from "../API/axiosWithAuth";
 
 const Shop = () => {
-  const [mocks, setMocks] = useState([]);
+  // const [mocks, setMocks] = useState([]);
 
-  const getOriginalsMocks = () => {
-    axiosWithAuth()
-      .get("/v1/shops/2251517/products.json?limit=100")
-      .then((res) => {
-        console.log("Canvas Shop", res);
-        setMocks(res.data.data.reverse());
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
+  // const getOriginalsMocks = () => {
+  //   axiosWithAuth()
+  //     .get("/v1/shops/2251517/products.json?limit=100")
+  //     .then((res) => {
+  //       console.log("Canvas Shop", res);
+  //       setMocks(res.data.data.reverse());
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // };
 
-  useEffect(() => {
-    getOriginalsMocks();
-    console.log();
-  }, []);
+  // useEffect(() => {
+  //   getOriginalsMocks();
+  //   console.log();
+  // }, []);
 
   return (
     <div className="shoppage">
