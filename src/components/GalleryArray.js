@@ -226,6 +226,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: sunsoB,
+    s6:
+      "https://society6.com/product/sunset-ocean-view4949541_stretched-canvas?sku=s6-19953070p16a6v28",
   },
   {
     title: "Splendid Fairy Wren",
@@ -259,6 +261,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: mnltRevB,
+    s6:
+      "https://society6.com/product/moonlit-reverie_stretched-canvas?sku=s6-17928524p16a6v28",
   },
   {
     title: "Wolf Moon",
@@ -281,6 +285,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: sunsettreeB,
+    s6:
+      "https://society6.com/product/sunset-branches2895395_stretched-canvas?sku=s6-13970856p16a6v28",
   },
   {
     title: "Night Flight",
@@ -292,6 +298,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: nightFlightB,
+    s6:
+      "https://society6.com/product/night-flight4477694_stretched-canvas?sku=s6-19142657p16a6v28",
   },
   {
     title: "Bamboo Forest",
@@ -303,6 +311,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: bambooB,
+    s6:
+      "https://society6.com/product/bamboo-forest4477598_stretched-canvas?sku=s6-19142524p16a6v28",
   },
   {
     title: "Japanese Cranes",
@@ -314,6 +324,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: jCranesB,
+    s6:
+      "https://society6.com/product/japanese-cranes4477782_stretched-canvas?sku=s6-19142767p16a6v28",
   },
   {
     title: "Scarlet Macaw",
@@ -336,6 +348,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: orioleOceanB,
+    s6:
+      "https://society6.com/product/oriole-over-the-ocean_stretched-canvas?sku=s6-19142693p16a6v28",
   },
   {
     title: "Owl",
@@ -347,6 +361,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: owlCB,
+    s6:
+      "https://society6.com/product/owl4478333_stretched-canvas?sku=s6-19143515p16a6v28",
   },
   {
     title: "Whale",
@@ -358,6 +374,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: whaleB,
+    s6:
+      "https://society6.com/product/whale4478346_stretched-canvas?sku=s6-19143535p16a6v28",
   },
   {
     title: "Sun Parakeet",
@@ -380,6 +398,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: pelicanB,
+    s6:
+      "https://society6.com/product/brown-pelican4805939_stretched-canvas?sku=s6-19709092p16a6v28",
   },
   {
     title: "Male Fairy Wren",
@@ -391,6 +411,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: splendidWrenB,
+    s6:
+      "https://society6.com/product/male-splendid-fairy-wren-early-sunset_stretched-canvas?sku=s6-19583240p16a6v28",
   },
   {
     title: "Great Blue Heron",
@@ -447,6 +469,8 @@ const GalleryArray = [
     description: "Acrylic paint on 9x12 inch canvas sheet.",
     price: 50,
     zoomed: acaiaB,
+    s6:
+      "https://society6.com/product/acaia-tree_stretched-canvas?sku=s6-19130762p16a6v28",
   },
   {
     title: "Celestial Gate",
@@ -525,6 +549,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: lovedB,
+    s6:
+      "https://society6.com/product/loved4499238_stretched-canvas?sku=s6-19174086p16a6v28",
   },
   {
     title: "Jelly Fish",
@@ -580,6 +606,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: owlLightB,
+    s6:
+      "https://society6.com/product/owl4477653_stretched-canvas?sku=s6-19142602p16a6v28",
   },
   {
     title: "Night Owl",
@@ -998,6 +1026,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: winterEndB,
+    s6:
+      "https://society6.com/product/winters-end3829175_stretched-canvas?sku=s6-17928486p16a6v28",
   },
   {
     title: "Pair of Peacocks",
@@ -1163,6 +1193,8 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: texasB,
+    s6:
+      "https://society6.com/product/texas-sea-side_stretched-canvas?sku=s6-14123847p16a6v28",
   },
   {
     title: "Swallowtail Butterfly",

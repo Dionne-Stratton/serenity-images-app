@@ -25,7 +25,7 @@ const HeaderNav = () => {
             Gallery
           </NavLink>
           <NavLink className="main-nav" activeClassName="active" to="/shop">
-            Shop
+            Purchase
           </NavLink>
           <NavLink className="main-nav" activeClassName="active" to="/watch">
             Watch
