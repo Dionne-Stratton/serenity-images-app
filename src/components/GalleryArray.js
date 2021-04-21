@@ -166,10 +166,53 @@ import spiper from "../images/galleryPics/sand-pipers-on-the-beach-canvas.webp";
 // import spiperB from "../images/galleryPics/bigger/sand-pipers-on-the-beach-canvas.webp";
 import sunso from "../images/galleryPics/sunset-ocean-view4949541-canvas.webp";
 import sunsoB from "../images/galleryPics/bigger/sunset-ocean-view4949541-canvas.webp";
+import bluenebula from "../images/galleryPics/blue-nebula.jpg";
+import bluenebulaB from "../images/galleryPics/bigger/blue-nebula1278108-canvas.webp";
+import fantasytree from "../images/galleryPics/fantasy-tree4477878-prints.webp";
+import fantasytreeB from "../images/galleryPics/bigger/fantasy-tree4477878-prints.webp";
+import cardinal from "../images/galleryPics/cardial-on-dogwood-tree.jpg";
+import cardinalB from "../images/galleryPics/bigger/cardial-on-dogwood-tree-canvas.webp";
+import fireneb from "../images/galleryPics/fire-edge-nebula.jpg";
+import firenebB from "../images/galleryPics/bigger/fire-edge-nebula-canvas.webp";
+import giraffe from "../images/galleryPics/giraffe2132847-prints.webp";
+import giraffeB from "../images/galleryPics/bigger/giraffe2132847-prints.webp";
+import ger from "../images/galleryPics/geraniums.jpg";
+import gerB from "../images/galleryPics/bigger/geraniums1100717-canvas.webp";
+import bwpanda from "../images/galleryPics/giant-panda.jpg";
+import bwpandaB from "../images/galleryPics/bigger/giant-panda1151785-canvas.webp";
+import gblu from "../images/galleryPics/golden-blues.jpg";
+import gbluB from "../images/galleryPics/bigger/golden-blues1207399-canvas.webp";
+import morn from "../images/galleryPics/morning-glories1381607-prints.webp";
+import mornB from "../images/galleryPics/bigger/morning-glories1381607-prints.webp";
+import palmbeach from "../images/galleryPics/palm-tree-beach4471863-prints.webp";
+import palmbeachB from "../images/galleryPics/bigger/palm-tree-beach4471863-prints.webp";
+import snowowl from "../images/galleryPics/snow-owl-on-cherry-tree-canvas.webp";
+import snowowlB from "../images/galleryPics/bigger/snow-owl-on-cherry-tree-canvas.webp";
+import pinkaqua from "../images/galleryPics/pink-aqua1252973-canvas.webp";
+import pinkaquaB from "../images/galleryPics/bigger/pink-aqua1252973-canvas.webp";
+import seafoam from "../images/galleryPics/sea-foam1287839-canvas.webp";
+import seafoamB from "../images/galleryPics/bigger/sea-foam1287839-canvas.webp";
+import sunfire from "../images/galleryPics/sun-fire.jpg";
+import sunfireB from "../images/galleryPics/bigger/sun-fire1250862-canvas.webp";
+import solarflare from "../images/galleryPics/solar-flare1345853-canvas.webp";
+import solarflareB from "../images/galleryPics/bigger/solar-flare1345853-canvas.webp";
+import pflwr from "../images/galleryPics/pink-flowers2803848-canvas.webp";
+import pflwrB from "../images/galleryPics/bigger/pink-flowers2803848-canvas.webp";
+import plum from "../images/galleryPics/plumeria-tree1801808-canvas.webp";
+import plumB from "../images/galleryPics/bigger/plumeria-tree1801808-canvas.webp";
+import pur from "../images/galleryPics/purselane-canvas.webp";
+import purB from "../images/galleryPics/bigger/purselane-canvas.webp";
+import seat from "../images/galleryPics/sea-turtle1109065-canvas.webp";
+import seatB from "../images/galleryPics/bigger/sea-turtle1109065-canvas.webp";
+import stuff from "../images/galleryPics/the-stuff-of-life.jpg";
+import stuffB from "../images/galleryPics/bigger/the-stuff-of-life-prints.webp";
 // import giantturtle from "../images/galleryPics/giant-sea-turtle1332531-canvas.webp";
 // import giantturtleB from "../images/galleryPics/bigger/giant-sea-turtle1332531-canvas.webp";
 // import giantturtle from "../images/galleryPics/giant-sea-turtle1332531-canvas.webp";
 // import giantturtleB from "../images/galleryPics/bigger/giant-sea-turtle1332531-canvas.webp";
+// import giantturtle from "../images/galleryPics/giant-sea-turtle1332531-canvas.webp";
+// import giantturtleB from "../images/galleryPics/bigger/giant-sea-turtle1332531-canvas.webp";
+
 
 
 const GalleryArray = [
@@ -273,6 +316,17 @@ const GalleryArray = [
     zoomed: jCranesB,
   },
   {
+    title: "Scarlet Macaw",
+    id: 82,
+    category: "scarlet macaw birds",
+    medium: "canvas acrylic",
+    baseImage: scmacaw,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: scmacawB,
+  },
+  {
     title: "Oriole over the Ocean",
     id: 60,
     category: "oriole bird tree cherry blossoms flowers pink ocean sea water",
@@ -349,6 +403,28 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: bluheronB,
+  },
+  {
+    title: "Palm Tree Beach",
+    id: 94,
+    category: "palm tree beach ocean sea water",
+    medium: "canvas acrylic",
+    baseImage: palmbeach,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: palmbeachB,
+  },
+  {
+    title: "Snow Owl",
+    id: 95,
+    category: "snow owl cherry plumb tree flowers blossoms bird",
+    medium: "canvas acrylic",
+    baseImage: snowowl,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: snowowlB,
   },
   {
     title: "Cannon Ball Flowers",
@@ -471,6 +547,17 @@ const GalleryArray = [
     description: "Acrylic paint on 9x12 inch canvas sheet.",
     price: 21,
     zoomed: magsB,
+  },
+  {
+    title: "Whymsical Tree",
+    id: 86,
+    category: "whymsical tree cherry flowers fantasy abstract",
+    medium: "canvas acrylic",
+    baseImage: fantasytree,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: fantasytreeB,
   },
   {
     title: "King Fisher",
@@ -596,7 +683,7 @@ const GalleryArray = [
   {
     title: "Cresting Wave",
     id: 20,
-    category: "ocean seascape water wave blue abstract",
+    category: "ocean seascape water wave blue abstract pour",
     medium: "canvas acrylic",
     baseImage: crWave,
     size: "medium",
@@ -640,7 +727,7 @@ const GalleryArray = [
   {
     title: "Calm Blue",
     id: 24,
-    category: "ocean seascape water sky blue",
+    category: "ocean seascape water sky blue abstract",
     medium: "canvas acrylic",
     baseImage: calm,
     size: "medium 9 x 12",
@@ -651,7 +738,7 @@ const GalleryArray = [
   {
     title: "Hidden Hummingbird",
     id: 25,
-    category: "hidden humming  bird abstract",
+    category: "hidden humming bird abstract pour",
     medium: "canvas acrylic",
     baseImage: hidhum,
     size: "",
@@ -871,7 +958,7 @@ const GalleryArray = [
   {
     title: "Star Fall",
     id: 51,
-    category: "stars fall abstract blue",
+    category: "stars fall abstract pour blue",
     medium: "canvas acrylic",
     baseImage: starFall,
     size: "",
@@ -935,15 +1022,15 @@ const GalleryArray = [
     zoomed: islandB,
   },
   {
-    title: "Blue Butterfly",
-    id: 68,
-    category: "blue butterfly flowers insect",
+    title: "Cosmic Waters",
+    id: 76,
+    category: "abstract pour water cosmic",
     medium: "canvas acrylic",
-    baseImage: blubutterfly,
+    baseImage: coswat,
     size: "",
     description: "Acrylic paint on canvas.",
     price: 50,
-    zoomed: blubutterflyB,
+    zoomed: coswatB,
   },
   {
     title: "Bright Sunset",
@@ -957,6 +1044,17 @@ const GalleryArray = [
     zoomed: brightabB,
   },
   {
+    title: "Golden Blues",
+    id: 92,
+    category: "gold blue abstract pour",
+    medium: "canvas acrylic",
+    baseImage: gblu,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: gbluB,
+  },
+  {
     title: "Bubbling River",
     id: 71,
     category: "bubbles bubbling river water abstract pour blue",
@@ -966,6 +1064,28 @@ const GalleryArray = [
     description: "Acrylic paint on canvas.",
     price: 50,
     zoomed: bubblingB,
+  },
+  {
+    title: "Fire Edge Nebula",
+    id: 88,
+    category: "fire edge nebula space abstract pour",
+    medium: "canvas acrylic",
+    baseImage: fireneb,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: firenebB,
+  },
+  {
+    title: "Nebula",
+    id: 85,
+    category: "blue nebula space abstract pour",
+    medium: "canvas acrylic",
+    baseImage: bluenebula,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: bluenebulaB,
   },
   {
     title: "Giant Turtle",
@@ -1012,15 +1132,15 @@ const GalleryArray = [
     zoomed: wisteriaB,
   },
   {
-    title: "Cosmic Waters",
-    id: 76,
-    category: "abstract pour water cosmic",
+    title: "Blue Butterfly",
+    id: 68,
+    category: "blue butterfly flowers insect",
     medium: "canvas acrylic",
-    baseImage: coswat,
+    baseImage: blubutterfly,
     size: "",
     description: "Acrylic paint on canvas.",
     price: 50,
-    zoomed: coswatB,
+    zoomed: blubutterflyB,
   },
   {
     title: "Long Tailed Titt",
@@ -1078,17 +1198,6 @@ const GalleryArray = [
     zoomed: seaturtleB,
   },
   {
-    title: "Scarlet Macaw",
-    id: 82,
-    category: "scarlet macaw birds",
-    medium: "canvas acrylic",
-    baseImage: scmacaw,
-    size: "",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    zoomed: scmacawB,
-  },
-  {
     title: "Sand Pipers",
     id: 83,
     category: "",
@@ -1099,9 +1208,163 @@ const GalleryArray = [
     price: 50,
     zoomed: null,
   },
+  {
+    title: "Cardinal and Dogwood",
+    id: 87,
+    category: "cardinal dogwood tree flowers pink snow",
+    medium: "canvas acrylic",
+    baseImage: cardinal,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: cardinalB,
+  },
+  {
+    title: "Giraffes",
+    id: 89,
+    category: "giraffes baby africa plains tree acia",
+    medium: "canvas acrylic",
+    baseImage: giraffe,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: giraffeB,
+  },
+  {
+    title: "Gerainums",
+    id: 90,
+    category: "gerainums red flowers",
+    medium: "canvas acrylic",
+    baseImage: ger,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: gerB,
+  },
+  {
+    title: "Giant Panda",
+    id: 91,
+    category: "giant panda black white",
+    medium: "canvas acrylic",
+    baseImage: bwpanda,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: bwpandaB,
+  },
+  {
+    title: "Morning Glories",
+    id: 93,
+    category: "morning glories flowers blue",
+    medium: "canvas acrylic",
+    baseImage: morn,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: mornB,
+  },
+  {
+    title: "Pink Aqua",
+    id: 96,
+    category: "pink aqua abstract pour",
+    medium: "canvas acrylic",
+    baseImage: pinkaqua,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: pinkaquaB,
+  },
+  {
+    title: "Sea Foam",
+    id: 97,
+    category: "sea foam ocean water abstract pour",
+    medium: "canvas acrylic",
+    baseImage: seafoam,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: seafoamB,
+  },
+  {
+    title: "Sun Fire",
+    id: 98,
+    category: "sun fire abstract pour",
+    medium: "canvas acrylic",
+    baseImage: sunfire,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: sunfireB,
+  },
+  {
+    title: "Solar Flare",
+    id: 99,
+    category: "solar flare abstract pour",
+    medium: "canvas acrylic",
+    baseImage: solarflare,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: solarflareB,
+  },
+  {
+    title: "Pink Flowers",
+    id: 100,
+    category: "pink flowers",
+    medium: "canvas acrylic",
+    baseImage: pflwr,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: pflwrB,
+  },
+  {
+    title: "Plumeria",
+    id: 101,
+    category: "plumeria flowers pink",
+    medium: "canvas acrylic",
+    baseImage: plum,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: plumB,
+  },
+  {
+    title: "Purselane",
+    id: 102,
+    category: "purselane flowers",
+    medium: "canvas acrylic",
+    baseImage: pur,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: purB,
+  },
+  {
+    title: "Sea Turtle",
+    id: 103,
+    category: "sea turtle ocean",
+    medium: "canvas acrylic",
+    baseImage: seat,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: seatB,
+  },
+  {
+    title: "The Stuff of Life",
+    id: 104,
+    category: "stuff the life abstract",
+    medium: "canvas acrylic",
+    baseImage: stuff,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    zoomed: stuffB,
+  },
   // {
   //   title: "",
-  //   id: 85,
+  //   id: 105,
   //   category: "",
   //   medium: "canvas acrylic",
   //   baseImage: null,
@@ -1112,7 +1375,7 @@ const GalleryArray = [
   // },
   // {
   //   title: "",
-  //   id: 86,
+  //   id: 106,
   //   category: "",
   //   medium: "canvas acrylic",
   //   baseImage: null,
@@ -1123,7 +1386,7 @@ const GalleryArray = [
   // },
   // {
   //   title: "",
-  //   id: 87,
+  //   id: 107,
   //   category: "",
   //   medium: "canvas acrylic",
   //   baseImage: null,
@@ -1134,7 +1397,7 @@ const GalleryArray = [
   // },
   // {
   //   title: "",
-  //   id: 88,
+  //   id: 108,
   //   category: "",
   //   medium: "canvas acrylic",
   //   baseImage: null,
@@ -1145,7 +1408,7 @@ const GalleryArray = [
   // },
   // {
   //   title: "",
-  //   id: 89,
+  //   id: 109,
   //   category: "",
   //   medium: "canvas acrylic",
   //   baseImage: null,
@@ -1155,15 +1418,15 @@ const GalleryArray = [
   //   zoomed: null,
   // },
   // {
-  //   title: "Whimsical Tree",
-  //   id: ,
-  //   category: "blossoms whimsical tree pink abstract flowers",
+  //   title: "",
+  //   id: 110,
+  //   category: "",
   //   medium: "canvas acrylic",
-  //   baseImage: whimsy,
+  //   baseImage: null,
   //   size: "",
   //   description: "Acrylic paint on canvas.",
   //   price: 50,
-  //   zoomed: whimsyB,
+  //   zoomed: null,
   // },
 ];
 
