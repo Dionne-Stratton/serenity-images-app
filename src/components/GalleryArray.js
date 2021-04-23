@@ -237,7 +237,7 @@ const GalleryArray = [
     description: "Acrylic paint on 9x12 inch canvas sheet.",
     price: 50,
     zoomed: swrenB,
-    s6: "https://society6.com/product/sunset-fairy-wren-bird_print?sku=s6-11749657p4a1v45",
+    s6: "https://society6.com/product/sunset-fairy-wren-bird_stretched-canvas?sku=s6-11749657p16a6v28",
   },
   {
     title: "Red-rumped Parakeet",
