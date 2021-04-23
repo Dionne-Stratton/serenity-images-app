@@ -24,7 +24,7 @@ const Gallery = () => {
               <img src={item.baseImage} alt="art" />
             </a>
             <caption>{item.title}</caption>
-            <a className="projectsbutton" href={item.s6} target="_blank">
+            <a className="buyPrints" href={item.s6} target="_blank">
               Buy Print
             </a>
           </div>

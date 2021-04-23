@@ -1,7 +1,7 @@
 import React from "react";
-import fbicon from "../images/fbicon.jpg";
-import instaicon from "../images/instaicon.jpg";
-import youtubeicon from "../images/youtubeicon.jpg";
+import fbicon from "../images/fbicon.png";
+import instaicon from "../images/instaicon.png";
+import youtubeicon from "../images/youtubeicon.png";
 
 const Footer = () => {
   return (
