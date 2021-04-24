@@ -56,6 +56,7 @@ h2 {
 
 h3 {
   margin-left: 2%;
+  margin-top: 2%;
 }
 
 .text-box {
@@ -77,8 +78,8 @@ nav {
 .active {
   color: #031d2c;
   text-decoration: none;
-  background-color: #f0d16d;
-  padding: 0 5%;
+  background-color: #ffdd6e;
+  padding: 0 3%;
   font-size: 1.6rem;
   height: 2%;
 }
@@ -87,7 +88,7 @@ nav a {
   color: #000000;
   text-decoration: none;
   background-color: #69c8ff;
-  padding: 0 5%;
+  padding: 0 3%;
   font-size: 1.6rem;
   height: 2%;
 }
@@ -240,8 +241,7 @@ o #pic {
 } */
 
 .pic img {
-  /* height: 20vw; */
-  /* width: 28vw; */
+  height: 20vw;
 }
 
 footer {
@@ -279,10 +279,10 @@ footer {
     width: 80%;
     font-size: 3vw;
   }
-  /* .pic img {
+  .pic img {
     width: 30vw;
     height: 30vw;
-  } */
+  }
 
   .aboutbox {
     font-size: 2vw;
@@ -317,10 +317,10 @@ footer {
     width: 30%;
     text-align: center;
   }
-  /* .pic img {
+  .pic img {
     width: 40vw;
     height: 40vw;
-  } */
+  }
   .section1 {
     display: flex;
     flex-wrap: wrap;
