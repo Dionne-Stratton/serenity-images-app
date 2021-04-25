@@ -18,7 +18,7 @@ import dragon from "../images/salePics/ocean-dragon-framed-prints.webp";
 import hill from "../images/salePics/night-hill-framed-prints.webp";
 import summ from "../images/salePics/magical-summer2631831-framed-prints.webp";
 import fuji from "../images/salePics/japanese-crane-over-mt-fuji-framed-prints.webp";
-// import bpeli from "../images/salePics/brown-pelican4805939-framed-prints.webp";
+import nighto from "../images/salePics/night-owl4994928-framed-prints.webp";
 // import sunp from "../images/salePics/sun-parakeet-mimosa-flowers-framed-prints.webp";
 // import ntflt from "../images/salePics/night-flight4477694-framed-prints.webp";
 // import ensp from "../images/salePics/whimsical-cherry-tree-framed-prints.webp";
@@ -261,28 +261,29 @@ const OriginalsArray = [
     etsy:
       "https://www.etsy.com/listing/993124780/calm-blue-acrylic-painting?ref=shop_home_active_8&frs=1",
   },
-//   {
-//     title: "Mermaid Cove",
-//     id: 20,
-//     category: "mermaid sea ocean water fantasy",
-//     medium: "canvas acrylic",
-//     baseImage: null,
-//     size: "",
-//     description: "Acrylic paint on canvas.",
-//     price: "$60 - 9x12 in.",
-//     etsy: "",
-//   },
-//   {
-//     title: "Night Owl",
-//     id: 21,
-//     category: "birds night owl blue sky tree stars space",
-//     medium: "canvas sheet acrylic",
-//     baseImage: null,
-//     size: "small 9 x 12",
-//     description: "Acrylic paint on 9x12 inch canvas paper.",
-//     price: "$60 - 9x12 in.",
-//     etsy: "",
-//   },
+  //   {
+  //     title: "Mermaid Cove",
+  //     id: 20,
+  //     category: "mermaid sea ocean water fantasy",
+  //     medium: "canvas acrylic",
+  //     baseImage: null,
+  //     size: "",
+  //     description: "Acrylic paint on canvas.",
+  //     price: "$60 - 9x12 in.",
+  //     etsy: "",
+  //   },
+  {
+    title: "Night Owl",
+    id: 21,
+    category: "birds night owl blue sky tree stars space",
+    medium: "canvas sheet acrylic",
+    baseImage: nighto,
+    size: "small 9 x 12",
+    description: "Acrylic paint on 9x12 inch canvas paper.",
+    price: "$60 - 9x12 in.",
+    etsy:
+      "https://www.etsy.com/listing/1008123127/night-owl-acrylic-painting?ref=shop_home_active_1&frs=1",
+  },
 //   {
 //     title: "Owl in Tree",
 //     id: 22,

@@ -11,6 +11,7 @@ const Shop = () => {
   return (
     <div className="gallerypage">
       <h3>Originals for Sale</h3>
+      <h6>Use code "SERENITY10" for 10% off your purchase!</h6>
       <input
         className="search"
         type="text"
