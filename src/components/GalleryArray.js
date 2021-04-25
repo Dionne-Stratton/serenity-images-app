@@ -749,7 +749,7 @@ const GalleryArray = [
     s6: "https://society6.com/product/cresting-wave1201498_stretched-canvas?sku=s6-8919011p16a6v28",
   },
   {
-    title: " at Night",
+    title: "Deer at Night",
     id: 21,
     category: "night deer blue sky purple moon stars space",
     medium: "canvas sheet acrylic",
@@ -919,7 +919,7 @@ const GalleryArray = [
   {
     title: "Ocean Dragon",
     id: 40,
-    category: "water ocean sea dragon fantasy cutye blue",
+    category: "water ocean sea dragon fantasy cute blue",
     medium: "canvas sheet acrylic",
     baseImage: ocDrag,
     size: "small 9 x 12",
