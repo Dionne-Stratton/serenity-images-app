@@ -19,9 +19,9 @@ import hill from "../images/salePics/night-hill-framed-prints.webp";
 import summ from "../images/salePics/magical-summer2631831-framed-prints.webp";
 import fuji from "../images/salePics/japanese-crane-over-mt-fuji-framed-prints.webp";
 import nighto from "../images/salePics/night-owl4994928-framed-prints.webp";
-// import sunp from "../images/salePics/sun-parakeet-mimosa-flowers-framed-prints.webp";
-// import ntflt from "../images/salePics/night-flight4477694-framed-prints.webp";
-// import ensp from "../images/salePics/whimsical-cherry-tree-framed-prints.webp";
+import loved from "../images/salePics/loved4499238-framed-prints.webp";
+import fgate from "../images/salePics/fairy-gate2730911-framed-prints.webp";
+import luna from "../images/salePics/luna-moth2882386-framed-prints.webp";
 // import lake from "../images/salePics/lake-side2681835-framed-prints.webp";
 // import glory from "../images/salePics/the-glory-of-morning1614410-framed-prints.webp";
 // import simple from "../images/salePics/enjoy-the-simple-things1591696-framed-prints.webp";
@@ -284,39 +284,41 @@ const OriginalsArray = [
     etsy:
       "https://www.etsy.com/listing/1008123127/night-owl-acrylic-painting?ref=shop_home_active_1&frs=1",
   },
-//   {
-//     title: "Owl in Tree",
-//     id: 22,
-//     category: "owl cherry tree flowers blossoms pink moon night sky stars",
-//     medium: "canvas acrylic",
-//     baseImage: null,
-//     size: "",
-//     description: "Acrylic paint on canvas.",
-//     price: "$60 - 9x12 in.",
-//     etsy: "",
-//   },
-//   {
-//     title: "Loved",
-//     id: 23,
-//     category: "loved words encouragement saying you",
-//     medium: "canvas acrylic",
-//     baseImage: null,
-//     size: "",
-//     description: "Acrylic paint on canvas.",
-//     price: "$60 - 9x12 in.",
-//     etsy: "",
-//   },
-//   {
-//     title: "Fairy Gate",
-//     id: 24,
-//     category: "fantasy landscape night sunset tree fairy gate",
-//     medium: "canvas sheet acrylic",
-//     baseImage: null,
-//     size: "small 9 x 12",
-//     description: "Acrylic paint on 9x12 inch canvas paper.",
-//     price: "$60 - 9x12 in.",
-//     etsy: "",
-//   },
+  //   {
+  //     title: "Owl in Tree",
+  //     id: 22,
+  //     category: "owl cherry tree flowers blossoms pink moon night sky stars",
+  //     medium: "canvas acrylic",
+  //     baseImage: null,
+  //     size: "",
+  //     description: "Acrylic paint on canvas.",
+  //     price: "$60 - 9x12 in.",
+  //     etsy: "",
+  //   },
+  {
+    title: "You are Loved",
+    id: 23,
+    category: "loved words encouragement saying you",
+    medium: "canvas acrylic",
+    baseImage: loved,
+    size: "",
+    description: "Acrylic paint on canvas.",
+    price: "$60 - 9x12 in.",
+    etsy:
+      "https://www.etsy.com/listing/994182202/you-are-loved-ink-art?ref=shop_home_active_1&frs=1",
+  },
+  {
+    title: "Fairy Gate",
+    id: 24,
+    category: "fantasy landscape night sunset tree fairy gate",
+    medium: "canvas sheet acrylic",
+    baseImage: fgate,
+    size: "small 9 x 12",
+    description: "Acrylic paint on 9x12 inch canvas paper.",
+    price: "$60 - 9x12 in.",
+    etsy:
+      "https://www.etsy.com/listing/994184878/fairy-gate-acrylic-painting?ref=shop_home_active_1&frs=1",
+  },
   {
     title: "Dawn Bringer",
     id: 25,
@@ -329,17 +331,18 @@ const OriginalsArray = [
     etsy:
       "https://www.etsy.com/listing/1007089845/dawn-bringer-blue-macaw-acrylic-painting?ref=shop_home_active_6&frs=1",
   },
-//   {
-//     title: "Luna Moth",
-//     id: 26,
-//     category: "moths night sky tree luna",
-//     medium: "canvas sheet acrylic",
-//     baseImage: null,
-//     size: "small 9 x 12",
-//     description: "Acrylic paint on 9x12 inch canvas paper.",
-//     price: "$60 - 9x12 in.",
-//     etsy: "",
-//   },
+  {
+    title: "Luna Moth",
+    id: 26,
+    category: "moths night sky tree luna",
+    medium: "canvas sheet acrylic",
+    baseImage: luna,
+    size: "small 9 x 12",
+    description: "Acrylic paint on 9x12 inch canvas paper.",
+    price: "$60 - 9x12 in.",
+    etsy:
+      "https://www.etsy.com/listing/1008148725/luna-moth-acrylic-painting?ref=shop_home_active_1&frs=1",
+  },
 ];
 
 export default OriginalsArray;
