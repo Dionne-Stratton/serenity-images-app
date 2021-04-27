@@ -10,7 +10,7 @@ const Gallery = () => {
 
   return (
     <div className="gallerypage">
-      <h3>Gallery</h3>
+      <h3>Prints</h3>
       <input
         className="search"
         type="text"

@@ -72,7 +72,7 @@ const OriginalsArray = [
   {
     title: "Cannon Ball Flowers",
     id: 4,
-    category: "flowers cannon tree sky",
+    category: "flowers cannon tree pink sky",
     medium: "acrylic",
     baseImage: cbflwr,
     size: "small 9x12 in.",
@@ -120,7 +120,7 @@ const OriginalsArray = [
   {
     title: "Night Flight",
     id: 8,
-    category: "night moon owls flight trees",
+    category: "night moon owls flight trees birds",
     medium: "acrylic",
     baseImage: ntflt,
     size: "small 9x12 in.",
@@ -240,7 +240,7 @@ const OriginalsArray = [
   {
     title: "Crane over Mt. Fuji",
     id: 18,
-    category: "japanese crane bird cherry blossoms mountain mt fuji flowers",
+    category: "japanese crane birds cherry blossoms mountain mt fuji flowers",
     medium: "canvas acrylic",
     baseImage: fuji,
     size: "",
@@ -287,7 +287,7 @@ const OriginalsArray = [
   //   {
   //     title: "Owl in Tree",
   //     id: 22,
-  //     category: "owl cherry tree flowers blossoms pink moon night sky stars",
+  //     category: "owl cherry tree birds flowers blossoms pink moon night sky stars",
   //     medium: "canvas acrylic",
   //     baseImage: null,
   //     size: "",

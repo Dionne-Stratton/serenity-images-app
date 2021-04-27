@@ -25,8 +25,9 @@ const Shop = () => {
               <img src={item.baseImage} alt="art" />
             </a>
             <caption>{item.title}</caption>
+            <caption>{item.price}</caption>
             <a className="buyPrints" href={item.etsy} target="_blank">
-              {item.price}
+              Buy Now!
             </a>
           </div>
         ))}

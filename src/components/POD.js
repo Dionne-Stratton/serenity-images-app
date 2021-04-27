@@ -1,39 +1,39 @@
 import React, { useEffect, useState } from "react";
-import { axiosWithAuth } from "../API/axiosWithAuth";
+// import { axiosWithAuth } from "../API/axiosWithAuth";
 
 const POD = () => {
-  const [canvasPrints, setcanvasPrints] = useState([]);
+  // const [canvasPrints, setcanvasPrints] = useState([]);
 
-  const getCanvasPrints = () => {
-    axiosWithAuth()
-      .get("/v1/shops/1700629/products.json?limit=100")
-      .then((res) => {
-        console.log("Canvas Shop", res);
-        setcanvasPrints(res.data.data.reverse());
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
+  // const getCanvasPrints = () => {
+  //   axiosWithAuth()
+  //     .get("/v1/shops/1700629/products.json?limit=100")
+  //     .then((res) => {
+  //       console.log("Canvas Shop", res);
+  //       setcanvasPrints(res.data.data.reverse());
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // };
 
   //
 
-  const getShops = () => {
-    axiosWithAuth()
-      .get("/v1/shops.json")
-      .then((res) => {
-        console.log("Shops:", res);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
+  // const getShops = () => {
+  //   axiosWithAuth()
+  //     .get("/v1/shops.json")
+  //     .then((res) => {
+  //       console.log("Shops:", res);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // };
 
-  useEffect(() => {
-    getCanvasPrints();
-    getShops();
-    console.log();
-  }, []);
+  // useEffect(() => {
+  //   getCanvasPrints();
+  //   getShops();
+  //   console.log();
+  // }, []);
 
   return (
     <div className="shoppage">
@@ -42,7 +42,7 @@ const POD = () => {
         <br></br>
         <p>Comming Soon!</p>
         <br></br>
-        <div className="pod">
+        {/* <div className="pod">
           {canvasPrints.map((item) => (
             <div className="item">
               <p>{item.title.substring(13)}</p>
@@ -50,7 +50,7 @@ const POD = () => {
               <img src={item.images[0].src} alt="art" />
             </div>
           ))}
-        </div>
+        </div> */}
       </section>
     </div>
   );

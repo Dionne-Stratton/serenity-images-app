@@ -22,7 +22,7 @@ const HeaderNav = () => {
             About
           </NavLink>
           <NavLink className="main-nav" activeClassName="active" to="/gallery">
-            Gallery
+            Prints
           </NavLink>
           <NavLink
             className="main-nav"
@@ -31,9 +31,9 @@ const HeaderNav = () => {
           >
             Originals
           </NavLink>
-          <NavLink className="main-nav" activeClassName="active" to="/pod">
+          {/* <NavLink className="main-nav" activeClassName="active" to="/pod">
             POD
-          </NavLink>
+          </NavLink> */}
           <NavLink className="main-nav" activeClassName="active" to="/watch">
             Watch
           </NavLink>
