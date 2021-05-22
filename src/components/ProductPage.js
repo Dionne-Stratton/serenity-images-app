@@ -20,9 +20,25 @@ export default function Item(props) {
 
     const clearStyle = {
       background: "white",
-    //   color: "black",
       textDecoration: "none",
     };
+
+    const hideNoCanvas = {
+        display: item.s6CanvasPrintImg === null ? "none" : "",
+    };
+
+    const hideNoWallHanging = {
+      display: item.s6WallHangingImage === null ? "none" : "",
+    };
+
+    const hideNoTapestry = {
+      display: item.s6TapestryImg === null ? "none" : "",
+    };
+
+    const hideNoPoster = {
+      display: item.s6PosterImage === null ? "none" : "",
+    };
+
 
   return (
     <div className="homepage">
@@ -55,7 +71,7 @@ export default function Item(props) {
             Framed Print
           </a>
         </div>
-        <div className="pic">
+        <div className="pic" style={hideNoCanvas}>
           <a href={item.s6CanvasPrint} target="_blank">
             <img src={item.s6CanvasPrintImg} alt="art" />
           </a>
@@ -71,12 +87,28 @@ export default function Item(props) {
             Art Print
           </a>
         </div>
-        <div className="pic">
+        <div className="pic" style={hideNoPoster}>
+          <a href={item.s6Poster} target="_blank">
+            <img src={item.s6PosterImage} alt="art" />
+          </a>
+          <a style={clearStyle} href={item.s6Poster} target="_blank">
+            Poster
+          </a>
+        </div>
+        <div className="pic" style={hideNoTapestry}>
           <a href={item.s6Tapestry} target="_blank">
             <img src={item.s6TapestryImg} alt="art" />
           </a>
           <a style={clearStyle} href={item.s6Tapestry} target="_blank">
             Tapestry
+          </a>
+        </div>
+        <div className="pic" style={hideNoWallHanging}>
+          <a href={item.s6WallHanging} target="_blank">
+            <img src={item.s6WallHangingImage} alt="art" />
+          </a>
+          <a style={clearStyle} href={item.s6WallHanging} target="_blank">
+            Wall Hanging
           </a>
         </div>
       </div>

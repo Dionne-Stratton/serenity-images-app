@@ -193,7 +193,7 @@ o #pic {
 
 .gallery {
   display: flex;
-  margin-top: 5%;
+  margin-top: 3%;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-evenly;
@@ -235,7 +235,7 @@ o #pic {
   flex-direction: column;
   text-align: center;
   font-size: 1.4rem;
-  margin: 1% 0;
+  margin-bottom: 10%;
 }
 
 /* caption {

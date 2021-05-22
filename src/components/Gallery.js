@@ -10,6 +10,10 @@ export default function Gallery(props) {
     art.keyword.includes(search.toLowerCase())
   );
 
+  const clearStyle = {
+    textDecoration: "none",
+  };
+
 
   return (
     <div className="gallerypage">
@@ -23,12 +27,20 @@ export default function Gallery(props) {
         {filteredArray.map((item) => (
           <div className="item-card" key={item.id}>
             <div className="pic">
-              <a href={item.image} target="_blank">
+              {/* <a href={item.image} target="_blank">
                 <img src={item.image} alt="art" />
               </a>
               <caption>{item.title}</caption>
               <Link to={`${url}/${item.id}`} className="buyPrints">
                 <p>Shop</p>
+              </Link> */}
+              <Link to={`${url}/${item.id}`} style={clearStyle}>
+                <img
+                  className="items-list-image"
+                  src={item.image}
+                  alt={item.title}
+                />
+                <p>{item.title}</p>
               </Link>
             </div>
           </div>
