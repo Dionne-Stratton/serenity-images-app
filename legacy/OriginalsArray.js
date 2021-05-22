@@ -29,13 +29,11 @@ import luna from "../images/salePics/luna-moth2882386-framed-prints.webp";
 // import cblu from "../images/salePics/calm-blue2679832-framed-prints.webp";
 // import dwnbrngr from "../images/salePics/dawn-bringer-framed-prints.webp";
 
-
-
 const OriginalsArray = [
   {
     title: "Winter's End",
     id: 1,
-    category:
+    keyword:
       "winter end cold snow abstract lonely grey gray flower pink spring",
     medium: "acrylic",
     baseImage: winend,
@@ -48,7 +46,7 @@ const OriginalsArray = [
   {
     title: "Splendid Fairy Wren",
     id: 2,
-    category: "birds sky sunset splendid tree wren",
+    keyword: "birds sky sunset splendid tree wren",
     medium: "acrylic",
     baseImage: sfwren,
     size: "small 9x12 in.",
@@ -60,7 +58,7 @@ const OriginalsArray = [
   {
     title: "Red-rumped Parakeet",
     id: 3,
-    category: "birds sunset sky tree leaves red parakeet",
+    keyword: "birds sunset sky tree leaves red parakeet",
     medium: "acrylic",
     baseImage: rrp,
     size: "small 9x12 in.",
@@ -72,7 +70,7 @@ const OriginalsArray = [
   {
     title: "Cannon Ball Flowers",
     id: 4,
-    category: "flowers cannon tree pink sky",
+    keyword: "flowers cannon tree pink sky",
     medium: "acrylic",
     baseImage: cbflwr,
     size: "small 9x12 in.",
@@ -84,7 +82,7 @@ const OriginalsArray = [
   {
     title: "Acaia Tree",
     id: 5,
-    category: "landscape tree acaia africa",
+    keyword: "landscape tree acaia africa",
     medium: "acrylic",
     baseImage: atree,
     size: "small 9x12 in.",
@@ -96,7 +94,7 @@ const OriginalsArray = [
   {
     title: "Brown Pelican",
     id: 6,
-    category: "brown birds pelican ocean sea palm trees beach",
+    keyword: "brown birds pelican ocean sea palm trees beach",
     medium: "acrylic",
     baseImage: bpeli,
     size: "small 9x12 in.",
@@ -108,7 +106,7 @@ const OriginalsArray = [
   {
     title: "Sun Parakeet",
     id: 7,
-    category: "birds flowers mimosa tree sun parakeet",
+    keyword: "birds flowers mimosa tree sun parakeet",
     medium: "acrylic",
     baseImage: sunp,
     size: "small 9x12 in.",
@@ -120,7 +118,7 @@ const OriginalsArray = [
   {
     title: "Night Flight",
     id: 8,
-    category: "night moon owls flight trees birds",
+    keyword: "night moon owls flight trees birds",
     medium: "acrylic",
     baseImage: ntflt,
     size: "small 9x12 in.",
@@ -132,7 +130,7 @@ const OriginalsArray = [
   {
     title: "Enchanted Spring",
     id: 9,
-    category: "enchanted spring tree cherry blossoms flowers pink",
+    keyword: "enchanted spring tree cherry blossoms flowers pink",
     medium: "acrylic",
     baseImage: ensp,
     size: "small 9x12 in.",
@@ -144,7 +142,7 @@ const OriginalsArray = [
   {
     title: "Lake Side",
     id: 10,
-    category: "lake side swamp water abstract",
+    keyword: "lake side swamp water abstract",
     medium: "acrylic",
     baseImage: lake,
     size: "small 9x12 in.",
@@ -156,7 +154,7 @@ const OriginalsArray = [
   {
     title: "The Glory of Morning",
     id: 11,
-    category: "morning glories flowers night sky space stars blue dawn",
+    keyword: "morning glories flowers night sky space stars blue dawn",
     medium: "acrylic",
     baseImage: glory,
     size: "small 9x12 in.",
@@ -168,7 +166,7 @@ const OriginalsArray = [
   {
     title: "Shine",
     id: 12,
-    category: "desert rose flowers shine",
+    keyword: "desert rose flowers shine",
     medium: "acrylic",
     baseImage: shine,
     size: "small 9x12 in.",
@@ -180,7 +178,7 @@ const OriginalsArray = [
   {
     title: "Enjoy the Simple Things",
     id: 13,
-    category: "plumb cherry blossoms flowers simple enjoy",
+    keyword: "plumb cherry blossoms flowers simple enjoy",
     medium: "acrylic",
     baseImage: simple,
     size: "small 9x12 in.",
@@ -192,7 +190,7 @@ const OriginalsArray = [
   {
     title: "Peacock Feather",
     id: 14,
-    category: "birds peacock blue feather",
+    keyword: "birds peacock blue feather",
     medium: "acrylic",
     baseImage: feather,
     size: "small 9x12 in.",
@@ -204,7 +202,7 @@ const OriginalsArray = [
   {
     title: "Ocean Dragon",
     id: 15,
-    category: "water ocean sea dragon fantasy cute blue",
+    keyword: "water ocean sea dragon fantasy cute blue",
     medium: "acrylic",
     baseImage: dragon,
     size: "small 9x12 in.",
@@ -216,7 +214,7 @@ const OriginalsArray = [
   {
     title: "Night Hill",
     id: 16,
-    category: "night sky ocean sea water landscape",
+    keyword: "night sky ocean sea water landscape",
     medium: "acrylic",
     baseImage: hill,
     size: "small 9x12 in.",
@@ -228,7 +226,7 @@ const OriginalsArray = [
   {
     title: "Magical Summer",
     id: 17,
-    category: "magical summer flowers",
+    keyword: "magical summer flowers",
     medium: "acrylic",
     baseImage: summ,
     size: "small 9x12 in.",
@@ -240,7 +238,7 @@ const OriginalsArray = [
   {
     title: "Crane over Mt. Fuji",
     id: 18,
-    category: "japanese crane birds cherry blossoms mountain mt fuji flowers",
+    keyword: "japanese crane birds cherry blossoms mountain mt fuji flowers",
     medium: "canvas acrylic",
     baseImage: fuji,
     size: "",
@@ -252,7 +250,7 @@ const OriginalsArray = [
   {
     title: "Calm Blue",
     id: 19,
-    category: "ocean seascape water sky blue abstract",
+    keyword: "ocean seascape water sky blue abstract",
     medium: "canvas acrylic",
     baseImage: cblu,
     size: "medium 9 x 12",
@@ -264,7 +262,7 @@ const OriginalsArray = [
   //   {
   //     title: "Mermaid Cove",
   //     id: 20,
-  //     category: "mermaid sea ocean water fantasy",
+  //     keyword: "mermaid sea ocean water fantasy",
   //     medium: "canvas acrylic",
   //     baseImage: null,
   //     size: "",
@@ -275,7 +273,7 @@ const OriginalsArray = [
   {
     title: "Night Owl",
     id: 21,
-    category: "birds night owl blue sky tree stars space",
+    keyword: "birds night owl blue sky tree stars space",
     medium: "canvas sheet acrylic",
     baseImage: nighto,
     size: "small 9 x 12",
@@ -287,7 +285,7 @@ const OriginalsArray = [
   //   {
   //     title: "Owl in Tree",
   //     id: 22,
-  //     category: "owl cherry tree birds flowers blossoms pink moon night sky stars",
+  //     keyword: "owl cherry tree birds flowers blossoms pink moon night sky stars",
   //     medium: "canvas acrylic",
   //     baseImage: null,
   //     size: "",
@@ -298,7 +296,7 @@ const OriginalsArray = [
   {
     title: "You are Loved",
     id: 23,
-    category: "loved words encouragement saying you",
+    keyword: "loved words encouragement saying you",
     medium: "canvas acrylic",
     baseImage: loved,
     size: "",
@@ -310,7 +308,7 @@ const OriginalsArray = [
   {
     title: "Fairy Gate",
     id: 24,
-    category: "fantasy landscape night sunset tree fairy gate",
+    keyword: "fantasy landscape night sunset tree fairy gate",
     medium: "canvas sheet acrylic",
     baseImage: fgate,
     size: "small 9 x 12",
@@ -322,7 +320,7 @@ const OriginalsArray = [
   {
     title: "Dawn Bringer",
     id: 25,
-    category: "birds night macaw bird sky stars galgaxy gold blue",
+    keyword: "birds night macaw bird sky stars galgaxy gold blue",
     medium: "canvas sheet acrylic",
     baseImage: dwnbrngr,
     size: "small 9 x 12",
@@ -334,7 +332,7 @@ const OriginalsArray = [
   {
     title: "Luna Moth",
     id: 26,
-    category: "moths night sky tree luna",
+    keyword: "moths night sky tree luna",
     medium: "canvas sheet acrylic",
     baseImage: luna,
     size: "small 9 x 12",

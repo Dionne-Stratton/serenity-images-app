@@ -5,13 +5,13 @@ const Shop = () => {
   const [search, setSearch] = useState("");
 
   let filteredArray = OriginalsArray.filter((art) =>
-    art.category.includes(search.toLowerCase())
+    art.keyword.includes(search.toLowerCase())
   );
 
   return (
     <div className="gallerypage">
       <h3>Originals for Sale</h3>
-      <h6>Use code "SERENITY10" for 10% off your purchase!</h6>
+      {/* <h6>Use code "SERENITY10" for 10% off your purchase!</h6> */}
       <input
         className="search"
         type="text"
@@ -25,7 +25,7 @@ const Shop = () => {
               <img src={item.baseImage} alt="art" />
             </a>
             <caption>{item.title}</caption>
-            <caption>{item.price}</caption>
+            <caption>${item.price}</caption>
             <a className="buyPrints" href={item.etsy} target="_blank">
               Buy Now!
             </a>

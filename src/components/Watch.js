@@ -3,7 +3,6 @@ import React from "react";
 const Watch = () => {
   return (
     <div className="shoppage">
-      <h3>Watch</h3>
       <br></br>
       <div className="gallery">
         <iframe

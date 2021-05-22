@@ -16,6 +16,7 @@ const About = () => {
           </p>
           <br></br>
           <p>~ Dionne Stratton</p>
+          <br></br>
         </div>
       </section>
     </div>

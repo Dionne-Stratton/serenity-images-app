@@ -16,6 +16,7 @@ const Home = () => {
               Because life can be hard, but together we can thrive.
             </p>
             <br></br>
+            <br></br>
           </div>
         </div>
       </section>

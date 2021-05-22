@@ -125,20 +125,18 @@ nav a:hover {
 /* } */
 
 .section1 {
-  margin: 1%;
+  margin: 5%;
   justify-content: center;
 }
 
 .section1 img {
-  width: 35%;
+  width: 45%;
   object-fit: contain;
 }
 
 .aboutbox {
   width: 52%;
   display: inline-block;
-  margin-top: 5%;
-  margin-bottom: 5%;
   padding-left: 5%;
   color: #023e8a;
   font-size: 2vw;
@@ -195,6 +193,7 @@ o #pic {
 
 .gallery {
   display: flex;
+  margin-top: 5%;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-evenly;
