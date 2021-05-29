@@ -11,11 +11,13 @@ export default function Item(props) {
     }) || {};
 
   const style = {
-    background: item.buy === "Buy Now!" ? "lightblue" : "white",
-    color: "black",
+    background: item.buy !== "Buy Now!" ? "white" : "",
+    padding: item.buy !== "Buy Now!" ? "0" : "",
     textDecoration: "none",
-    paddingLeft: "2%",
-    paddingRight: "2%",
+  };
+
+  const productButton = {
+    display: item.buy !== "Shipping Varies:" ? "none" : "",
   };
 
     const clearStyle = {
@@ -52,10 +54,10 @@ export default function Item(props) {
             <p>Size: {item.size}</p>
             <p>{item.description}</p>
             <br></br>
-            <a style={style} href={item.etsyListing} target="_blank">
+            <a style={style}  className="buyPrints" href={item.etsyListing} target="_blank">
               {item.buy}
             </a>
-            <p></p>
+            <div style={productButton}><p>Contact Me</p></div>
             <br></br>
             <br></br>
           </div>
