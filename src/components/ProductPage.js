@@ -17,7 +17,7 @@ export default function Item(props) {
   };
 
   const productButton = {
-    display: item.buy !== "Shipping Varies:" ? "none" : "",
+    display: item.buy !== "Shipping varies:" ? "none" : "",
   };
 
     const clearStyle = {

@@ -3,7 +3,7 @@ import { useRouteMatch, Link } from "react-router-dom";
 
 export default function Gallery(props) {
   const { items } = props;
-  const { url, path } = useRouteMatch();
+  const { url } = useRouteMatch();
   const [search, setSearch] = useState("");
 
   let filteredArray = items.filter((art) =>
@@ -27,13 +27,6 @@ export default function Gallery(props) {
         {filteredArray.map((item) => (
           <div className="item-card" key={item.id}>
             <div className="pic">
-              {/* <a href={item.image} target="_blank">
-                <img src={item.image} alt="art" />
-              </a>
-              <caption>{item.title}</caption>
-              <Link to={`${url}/${item.id}`} className="buyPrints">
-                <p>Shop</p>
-              </Link> */}
               <Link to={`${url}/${item.id}`} style={clearStyle}>
                 <img
                   className="items-list-image"
