@@ -1,16 +1,22 @@
 import React, { useState } from "react";
-import GalleryArray from "../components/GalleryArray";
+import { useRouteMatch, Link } from "react-router-dom";
 
-const Gallery = () => {
+export default function Gallery(props) {
+  const { items } = props;
+  const { url } = useRouteMatch();
   const [search, setSearch] = useState("");
 
-  let filteredArray = GalleryArray.filter((art) =>
-    art.category.includes(search.toLowerCase())
+  let filteredArray = items.filter((art) =>
+    art.keyword.includes(search.toLowerCase())
   );
+
+  const clearStyle = {
+    textDecoration: "none",
+  };
+
 
   return (
     <div className="gallerypage">
-      <h3>Prints</h3>
       <input
         className="search"
         type="text"
@@ -19,14 +25,17 @@ const Gallery = () => {
       />
       <div className="gallery">
         {filteredArray.map((item) => (
-          <div className="pic">
-            <a href={item.zoomed} target="_blank">
-              <img src={item.baseImage} alt="art" />
-            </a>
-            <caption>{item.title}</caption>
-            <a className="buyPrints" href={item.s6} target="_blank">
-              Buy Print
-            </a>
+          <div className="item-card" key={item.id}>
+            <div className="pic">
+              <Link to={`${url}/${item.id}`} style={clearStyle}>
+                <img
+                  className="items-list-image"
+                  src={item.image}
+                  alt={item.title}
+                />
+                <p>{item.title}</p>
+              </Link>
+            </div>
           </div>
         ))}
       </div>
@@ -34,4 +43,3 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;

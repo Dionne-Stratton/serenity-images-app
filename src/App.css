@@ -106,39 +106,19 @@ nav a:hover {
   animation-iteration-count: 10;
 }
 
-/* @keyframes navhover {
-  0% {
-    background-color: #ffffff;
-  }
-  /* 25% {
-    background-color: #b8f2e6;
-  } */
-  /* 50% {
-    background-color: #f0d16d;
-  } */
-  /* 75% {
-    background-color: #b8f2e6;
-  } */
-  /* 100% {
-    background-color: white;
-  } */
-/* } */
-
 .section1 {
-  margin: 1%;
+  margin: 5%;
   justify-content: center;
 }
 
 .section1 img {
-  width: 35%;
+  width: 45%;
   object-fit: contain;
 }
 
 .aboutbox {
   width: 52%;
   display: inline-block;
-  margin-top: 5%;
-  margin-bottom: 5%;
   padding-left: 5%;
   color: #023e8a;
   font-size: 2vw;
@@ -157,18 +137,14 @@ nav a:hover {
 
 .buyPrints {
   background-color: #c6eaff;
-  color: #00080c;
   padding: 1% 3%;
   margin: 3% auto;
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   text-decoration: none;
 }
 
 .buyPrints:hover {
   background-color: #f0d16d;
-  color: #000000;
-  /* color: #685105;
-  text-shadow: 2px 2px #dfc32c; */
 }
 
 .buttons {
@@ -195,6 +171,7 @@ o #pic {
 
 .gallery {
   display: flex;
+  margin-top: 3%;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-evenly;
@@ -236,7 +213,7 @@ o #pic {
   flex-direction: column;
   text-align: center;
   font-size: 1.4rem;
-  margin: 1% 0;
+  margin-bottom: 10%;
 }
 
 /* caption {

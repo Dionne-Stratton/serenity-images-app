@@ -1,33 +1,53 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import HeaderNav from "./views/HeaderNav";
 import Footer from "./views/Footer";
 import Home from "./views/Home";
 import About from "./views/About";
 import Gallery from "./components/Gallery";
-import Originals from "./components/Originals";
-import POD from "./components/POD";
+import ProductPage from "./components/ProductPage";
 import Watch from "./components/Watch";
+import art from "./components/GalleryArray";
 
-function App() {
+function fetchArt() {
+  // fetchStock simulates getting data through axios.get(<URL>)
+  return Promise.resolve({ success: true, art });
+}
+
+export default function App(props) {
+  const [stock, setStock] = useState([]);
+
+  useEffect(() => {
+    fetchArt().then((res) => setStock(res.art));
+  }, []);
+
   return (
     <div className="App">
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lemonada&family=Lobster&family=Satisfy&display=swap');
       </style>
+
       <HeaderNav />
-      <Route exact path="/" component={Home} />
-      <Route path="/home" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/gallery" component={Gallery} />
-      <Route path="/originals" component={Originals} />
-      <Route path="/pod" component={POD} />
-      <Route path="/watch" component={Watch} />
+
+      <Switch>
+        <Route path="/gallery/:id">
+          <ProductPage items={stock} />
+        </Route>
+
+        <Route path="/gallery">
+          <Gallery items={stock} />
+        </Route>
+
+        <Route path="/home" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/watch" component={Watch} />
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
       <Footer />
     </div>
   );
 }
-
-export default App;
