@@ -605,7 +605,7 @@ const GalleryArray = [
     size: "16x20 inches.",
     description: "Acrylic paint on canvas.",
     price: 100,
-    buy: "Shipping Varies:",
+    buy: "Shipping varies:",
     etsyListing: null,
     image:
       "https://ctl.s6img.com/society6/img/x33X65FVbVUFknGc9itNXzoPQy0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/b3ae4b14a65041fbac55b5330816e29a/~~/palm-tree-beach4471863-prints.jpg",

@@ -9,7 +9,17 @@ const Footer = () => {
       <footer>
         <div className="ender">
           <h2>Like what you see?</h2>
-          <p>Email me at: SerentiyImagesStudio@gmail.com</p>
+          <div>
+            {" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="buyPrints"
+              href={`mailto:SerenityImagesStudio@gmail.com`}
+            >
+              Contact Me
+            </a>
+          </div>
           <p>Or look for me on social media!</p>
         </div>
         <div className="icons">
