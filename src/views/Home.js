@@ -4,7 +4,6 @@ import aboutArt from "../images/serenityartadd.mp4";
 const Home = () => {
   return (
     <div className="homepage">
-      {/* <img src={aboutArt} alt="art" /> */}
       <video
         autoPlay
         loop
@@ -12,11 +11,8 @@ const Home = () => {
         style={{
           position: "absolute",
           width: "100%",
-          // left: "50%",
-          // top: "50%",
           height: "100%",
           objectFit: "cover",
-          // transform: "translate(-50%, -50%)",
           zIndex: "-1",
         }}
       >
