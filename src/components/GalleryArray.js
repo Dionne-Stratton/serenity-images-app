@@ -1,4 +1,12 @@
 import lakeb from "../images/galleryPics/lake-side2681835-canvas.webp";
+import splnWren from "../images/ProductImage/splendidfairywren.jpg";
+import splnWrenMob from "../images/ProductImage/splendidfairywrenMobile.jpg";
+import sunParMiMob from "../images/ProductImage/sunparakeetmimobile.jpg";
+import sunParMi from "../images/ProductImage/sunparakeetmi.jpg";
+
+
+
+
 const GalleryArray = [
   {
     title: "Sunset Ocean View",
@@ -39,6 +47,8 @@ const GalleryArray = [
   },
   {
     title: "Splendid Fairy Wren",
+    titleImage: splnWren,
+    titleImageMobile: splnWrenMob,
     id: 2,
     keyword: "birds sky sunset splendid tree wren",
     medium: "acrylic canvas",
@@ -115,6 +125,8 @@ const GalleryArray = [
   },
   {
     title: "Moonlit Reverie",
+    titleImage: null,
+    titleImageMobile: null,
     id: 37,
     keyword: "moonlight moon tree landscape seascape night stars ocean water",
     medium: "canvas acrylic",
@@ -460,6 +472,8 @@ const GalleryArray = [
   },
   {
     title: "Sun Parakeet",
+    titleImage: sunParMi,
+    titleImageMobile: sunParMiMob,
     id: 63,
     keyword: "birds flowers mimosa tree sun parakeet",
     medium: "canvas sheet acrylic",
@@ -2944,8 +2958,7 @@ const GalleryArray = [
     buy: "Buy Now!",
     etsyListing:
       "https://www.etsy.com/listing/994019502/lake-side-acrylic-painting?ref=shop_home_active_1&frs=1",
-    image:
-      lakeb,
+    image: lakeb,
     s6CanvasPrintImg: null,
     s6CanvasPrint:
       "https://society6.com/product/lake-side2681835_stretched-canvas?sku=s6-13523120p16a6v28",
