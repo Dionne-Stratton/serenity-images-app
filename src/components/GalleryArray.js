@@ -1,15 +1,63 @@
 import lakeb from "../images/galleryPics/lake-side2681835-canvas.webp";
+
 import splnWren from "../images/ProductImage/splendidfairywren.jpg";
 import splnWrenMob from "../images/ProductImage/splendidfairywrenMobile.jpg";
-import sunParMiMob from "../images/ProductImage/sunparakeetmimobile.jpg";
 import sunParMi from "../images/ProductImage/sunparakeetmi.jpg";
+import sunParMiMob from "../images/ProductImage/sunparakeetmimobile.jpg";
+import sunsetTree from "../images/ProductImage/sunsetTree.jpg";
+// import sunsetTreeMob from "../images/ProductImage/sunsetTreeMobile.jpg";
+import sunsetView from "../images/ProductImage/sunsetView.jpg";
+// import sunsetViewMob from "../images/ProductImage/sunsetViewMobile.jpg";
+import dawnBringer from "../images/ProductImage/dawnBringer.jpg";
+import dawnBringerMobile from "../images/ProductImage/dawnBringerMobile.jpg";
+import magnolias from "../images/ProductImage/magnolias.jpg";
+import magnoliasMob from "../images/ProductImage/magnoliasMobile.jpg";
+import mermaidRock from "../images/ProductImage/mermaidRock.jpg";
+import mermaidRockMob from "../images/ProductImage/mermaidRockMobile.jpg";
+import wintersEnd from "../images/ProductImage/wintersEnd.jpg";
+import wintersEndMob from "../images/ProductImage/wintersEndMobile.jpg";
+import wolfMoon from "../images/ProductImage/wolfMoon.jpg";
+import wolfMoonMob from "../images/ProductImage/wolfMoonMobile.jpg";
+import celestialGate from "../images/ProductImage/celestialGate.jpg";
+import celestialGateMob from "../images/ProductImage/celestialGateMobile.jpg";
+import craneOverFuji from "../images/ProductImage/craneOverFuji.jpg";
+import craneOverFujiMob from "../images/ProductImage/craneOverFujiMobile.jpg";
+import fairyGate from "../images/ProductImage/fairyGate.jpg";
+import fairyGateMob from "../images/ProductImage/fairyGateMobile.jpg";
+import hummingbirdMorning from "../images/ProductImage/hummingbirdMorning.jpg";
+import hummingbirdMorningMob from "../images/ProductImage/hummingbirdMorningMobile2.jpg";
+import kingFisherSunset from "../images/ProductImage/kingFisherSunset.jpg";
+import kingFisherSunsetMob from "../images/ProductImage/kingFisherSunsetMobile.jpg";
+import lunaNight from "../images/ProductImage/lunaNight.jpg";
+import lunaNightMob from "../images/ProductImage/lunaNightMobile.jpg";
+import moonlitReverie from "../images/ProductImage/moonlitReverie.jpg";
+import moonlitReverieMob from "../images/ProductImage/moonlitReverieMobile.jpg";
+import nightHill from "../images/ProductImage/nightHill.jpg";
+import nightHillMob from "../images/ProductImage/nightHillMobile.jpg";
+import owlInTree from "../images/ProductImage/owlInTree.jpg";
+import owlInTreeMob from "../images/ProductImage/owlInTreeMobile.jpg";
+
+// import wintersEnd from "../images/ProductImage/wintersEnd.jpg";
+// import wintersEndMob from "../images/ProductImage/wintersEndMobile.jpg";
+
+// import wolfMoon from "../images/ProductImage/wolfMoon.jpg";
+// import wolfMoonMob from "../images/ProductImage/wolfMoonMobile.jpg";
+
+// import celestialGate from "../images/ProductImage/celestialGate.jpg";
+// import celestialGateMob from "../images/ProductImage/celestialGateMobile.jpg";
+
+// import craneOverFuji from "../images/ProductImage/craneOverFuji.jpg";
+// import craneOverFujiMob from "../images/ProductImage/craneOverFujiMobile.jpg";
+
 
 
 
 
 const GalleryArray = [
   {
-    title: "Sunset Ocean View",
+    title: "Sunset View",
+    titleImage: sunsetView,
+    titleImageMobile: null,
     id: 84,
     keyword: "sunset ocean view tree landscape sea water",
     medium: "acrylic canvas",
@@ -125,8 +173,8 @@ const GalleryArray = [
   },
   {
     title: "Moonlit Reverie",
-    titleImage: null,
-    titleImageMobile: null,
+    titleImage: moonlitReverie,
+    titleImageMobile: moonlitReverieMob,
     id: 37,
     keyword: "moonlight moon tree landscape seascape night stars ocean water",
     medium: "canvas acrylic",
@@ -162,13 +210,15 @@ const GalleryArray = [
   },
   {
     title: "Wolf Moon",
+    titleImage: wolfMoon,
+    titleImageMobile: wolfMoonMob,
     id: 55,
     keyword: "wolf moon hill night sky stars space",
     medium: "canvas acrylic",
     size: "4x4 inches.",
     description: "Acrylic paint on canvas.",
     price: 30,
-    buy: "Comming soon.",
+    buy: "Coming soon.",
     etsyListing: null,
     image:
       "https://ctl.s6img.com/society6/img/AnbWDJB1wIogzjOcSx5zvunfM7o/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/ae67ea50231e44e1b3aef1eacc3beef3/~~/wolf-moon2516241-canvas.jpg",
@@ -197,6 +247,8 @@ const GalleryArray = [
   },
   {
     title: "Sunset Tree",
+    titleImage: sunsetTree,
+    titleImageMobile: null,
     id: 56,
     keyword: "tree sunset sea ocean water",
     medium: "canvas acrylic",
@@ -755,6 +807,8 @@ const GalleryArray = [
   },
   {
     title: "Celestial Gate",
+    titleImage: celestialGate,
+    titleImageMobile: celestialGateMob,
     id: 6,
     keyword:
       "fantasy landscape sunset night ocean sea water lake celestial gates tori",
@@ -826,6 +880,8 @@ const GalleryArray = [
   },
   {
     title: "Fairy Gate",
+    titleImage: fairyGate,
+    titleImageMobile: fairyGateMob,
     id: 8,
     keyword: "fantasy landscape night sunset tree fairy gate",
     medium: "canvas sheet acrylic",
@@ -864,6 +920,8 @@ const GalleryArray = [
   },
   {
     title: "Dawn Bringer",
+    titleImage: dawnBringer,
+    titleImageMobile: dawnBringerMobile,
     id: 9,
     keyword: "birds night macaw bird sky stars galgaxy gold blue",
     medium: "canvas sheet acrylic",
@@ -940,6 +998,8 @@ const GalleryArray = [
   },
   {
     title: "King Fisher Sunset",
+    titleImage: kingFisherSunset,
+    titleImageMobile: kingFisherSunsetMob,
     id: 11,
     keyword: "birds flowers sunset king blossoms cherry pink tree fisher",
     medium: "canvas wrap acrylic",
@@ -1048,6 +1108,8 @@ const GalleryArray = [
   },
   {
     title: "Magnolias",
+    titleImage: magnolias,
+    titleImageMobile: magnoliasMob,
     id: 14,
     keyword: "flowers magnolia pink abstract",
     medium: "canvas sheet acrylic",
@@ -1151,6 +1213,8 @@ const GalleryArray = [
   },
   {
     title: "Owl in Tree",
+    titleImage: owlInTree,
+    titleImageMobile: owlInTreeMob,
     id: 15,
     keyword: "owl cherry tree flowers blossoms pink moon night sky stars",
     medium: "canvas acrylic",
@@ -1297,6 +1361,8 @@ const GalleryArray = [
   },
   {
     title: "Mermaid Rock",
+    titleImage: mermaidRock,
+    titleImageMobile: mermaidRockMob,
     id: 35,
     keyword: "magical mermaid rock sun water ocean sea seascape fantasy",
     medium: "canvas acrylic",
@@ -1724,6 +1790,8 @@ const GalleryArray = [
   },
   {
     title: "Hummingbird Morning Glories",
+    titleImage: hummingbirdMorning,
+    titleImageMobile: hummingbirdMorningMob,
     id: 26,
     keyword: "humming  bird morning glories flowers",
     medium: "canvas acrylic",
@@ -1757,6 +1825,9 @@ const GalleryArray = [
   },
   {
     title: "Crane over Mt. Fuji",
+    titleImage: craneOverFuji,
+    titleImageMobile: craneOverFujiMob
+    ,
     id: 27,
     keyword: "japanese crane bird cherry blossoms mountain mt fuji flowers",
     medium: "canvas acrylic",
@@ -2017,6 +2088,8 @@ const GalleryArray = [
   },
   {
     title: "Night Hill",
+    titleImage: nightHill,
+    titleImageMobile: nightHillMob,
     id: 39,
     keyword: "night sky ocean sea water landscape",
     medium: "canvas acrylic",
@@ -2564,6 +2637,8 @@ const GalleryArray = [
   },
   {
     title: "Winter's End",
+    titleImage: wintersEnd,
+    titleImageMobile: wintersEndMob,
     id: 54,
     keyword: "magical winter spring grey flowers",
     medium: "canvas acrylic",
@@ -3185,30 +3260,37 @@ const GalleryArray = [
     s6Poster:
       "https://society6.com/product/rose-vine1184342_poster?sku=s6-8877080p66a213v756",
   },
-  // {
-  //   title: "Sea Turtle",
-  //   id: 81,
-  //   keyword: "sea turtle reef ocean water",
-  //   medium: "canvas acrylic",
-  //   size: "",
-  //   description: "Acrylic paint on canvas.",
-  //   price: 50,
-  //   buy: "Not Available",
-  //   etsyListing: null,
-  //   image: seaturtleB,
-  //   s6CanvasPrintImg: null,
-  //   s6CanvasPrint: "",
-  //   s6PrintImg: "",
-  //   s6Print: "",
-  //   s6FramedImg: "",
-  //   s6Framed: "",
-  //   s6TapestryImg: null,
-  //   s6Tapestry: "",
-  //   s6WallHangingImage: null,
-  //   s6WallHanging: "",
-  //   s6PosterImage: "",
-  //   s6Poster: "",
-  // },
+  {
+    title: "Luna Night",
+    titleImage: lunaNight,
+    titleImageMobile: lunaNightMob,
+    id: 81,
+    keyword: "luna moth night sky insssect bugs tree landscape moon stars",
+    medium: "canvas acrylic",
+    size: "16x20 inches.",
+    description: "Acrylic paint on canvas.",
+    price: 100,
+    buy: "Not Available",
+    etsyListing: null,
+    image:
+      "https://ctl.s6img.com/society6/img/LM2b8tRJpMNa-SmwQ08xDSymoSs/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/79800c49a2c24c6d889e692a40b899a8/~~/lunar-moth5247601-prints.jpg",
+    s6CanvasPrintImg: null,
+    s6CanvasPrint: "",
+    s6PrintImg:
+      "https://ctl.s6img.com/society6/img/LM2b8tRJpMNa-SmwQ08xDSymoSs/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/79800c49a2c24c6d889e692a40b899a8/~~/lunar-moth5247601-prints.jpg",
+    s6Print:
+      "https://society6.com/product/lunar-moth5247601_print?sku=s6-20514438p4a1v45",
+    s6FramedImg:
+      "https://ctl.s6img.com/society6/img/Txip80cmYdHgMNQ0Tmx19f5b2X8/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/79800c49a2c24c6d889e692a40b899a8/~~/lunar-moth5247601-framed-prints.jpg",
+    s6Framed:
+      "https://society6.com/product/lunar-moth5247601_framed-print?sku=s6-20514438p21a12v63a13v54",
+    s6TapestryImg: null,
+    s6Tapestry: "",
+    s6WallHangingImage: null,
+    s6WallHanging: "",
+    s6PosterImage: null,
+    s6Poster: "",
+  },
   {
     title: "Sand Pipers",
     id: 83,
