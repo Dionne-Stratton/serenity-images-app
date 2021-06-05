@@ -1,54 +1,55 @@
 import lakeb from "../images/galleryPics/lake-side2681835-canvas.webp";
 
-import splnWren from "../images/ProductImage/splendidfairywren.jpg";
-import splnWrenMob from "../images/ProductImage/splendidfairywrenMobile.jpg";
-import sunParMi from "../images/ProductImage/sunparakeetmi.jpg";
-import sunParMiMob from "../images/ProductImage/sunparakeetmimobile.jpg";
-import sunsetTree from "../images/ProductImage/sunsetTree.jpg";
-import sunsetTreeMob from "../images/ProductImage/sunsetTreeMobile.jpg";
-import sunsetView from "../images/ProductImage/sunsetView.jpg";
-import sunsetViewMob from "../images/ProductImage/sunsetViewMobile.jpg";
-import dawnBringer from "../images/ProductImage/dawnBringer.jpg";
-import dawnBringerMobile from "../images/ProductImage/dawnBringerMobile.jpg";
-import magnolias from "../images/ProductImage/magnolias.jpg";
-import magnoliasMob from "../images/ProductImage/magnoliasMobile.jpg";
-import mermaidRock from "../images/ProductImage/mermaidRock.jpg";
-import mermaidRockMob from "../images/ProductImage/mermaidRockMobile.jpg";
-import wintersEnd from "../images/ProductImage/wintersEnd.jpg";
-import wintersEndMob from "../images/ProductImage/wintersEndMobile.jpg";
-import wolfMoon from "../images/ProductImage/wolfMoon.jpg";
-import wolfMoonMob from "../images/ProductImage/wolfMoonMobile.jpg";
-import celestialGate from "../images/ProductImage/celestialGate.jpg";
-import celestialGateMob from "../images/ProductImage/celestialGateMobile.jpg";
-import craneOverFuji from "../images/ProductImage/craneOverFuji.jpg";
-import craneOverFujiMob from "../images/ProductImage/craneOverFujiMobile.jpg";
-import fairyGate from "../images/ProductImage/fairyGate.jpg";
-import fairyGateMob from "../images/ProductImage/fairyGateMobile.jpg";
-import hummingbirdMorning from "../images/ProductImage/hummingbirdMorning.jpg";
-import hummingbirdMorningMob from "../images/ProductImage/hummingbirdMorningMobile2.jpg";
-import kingFisherSunset from "../images/ProductImage/kingFisherSunset.jpg";
-import kingFisherSunsetMob from "../images/ProductImage/kingFisherSunsetMobile.jpg";
-import lunaNight from "../images/ProductImage/lunaNight.jpg";
-import lunaNightMob from "../images/ProductImage/lunaNightMobile.jpg";
-import moonlitReverie from "../images/ProductImage/moonlitReverie.jpg";
-import moonlitReverieMob from "../images/ProductImage/moonlitReverieMobile.jpg";
-import nightHill from "../images/ProductImage/nightHill.jpg";
-import nightHillMob from "../images/ProductImage/nightHillMobile.jpg";
-import owlInTree from "../images/ProductImage/owlInTree.jpg";
-import owlInTreeMob from "../images/ProductImage/owlInTreeMobile.jpg";
-
-// import wintersEnd from "../images/ProductImage/wintersEnd.jpg";
-// import wintersEndMob from "../images/ProductImage/wintersEndMobile.jpg";
-
-// import wolfMoon from "../images/ProductImage/wolfMoon.jpg";
-// import wolfMoonMob from "../images/ProductImage/wolfMoonMobile.jpg";
-
-// import celestialGate from "../images/ProductImage/celestialGate.jpg";
-// import celestialGateMob from "../images/ProductImage/celestialGateMobile.jpg";
-
-// import craneOverFuji from "../images/ProductImage/craneOverFuji.jpg";
-// import craneOverFujiMob from "../images/ProductImage/craneOverFujiMobile.jpg";
-
+import splnWren from "../images/ProductImage/desktop/splendidfairywren.jpg";
+import splnWrenMob from "../images/ProductImage/mobile/splendidfairywrenMobile.jpg";
+import sunParMi from "../images/ProductImage/desktop/sunparakeetmi.jpg";
+import sunParMiMob from "../images/ProductImage/mobile/sunparakeetmimobile.jpg";
+import sunsetTree from "../images/ProductImage/desktop/sunsetTree.jpg";
+import sunsetTreeMob from "../images/ProductImage/mobile/sunsetTreeMobile.jpg";
+import sunsetView from "../images/ProductImage/desktop/sunsetView.jpg";
+import sunsetViewMob from "../images/ProductImage/mobile/sunsetViewMobile.jpg";
+import dawnBringer from "../images/ProductImage/desktop/dawnBringer.jpg";
+import dawnBringerMobile from "../images/ProductImage/mobile/dawnBringerMobile.jpg";
+import magnolias from "../images/ProductImage/desktop/magnolias.jpg";
+import magnoliasMob from "../images/ProductImage/mobile/magnoliasMobile.jpg";
+import mermaidRock from "../images/ProductImage/desktop/mermaidRock.jpg";
+import mermaidRockMob from "../images/ProductImage/mobile/mermaidRockMobile.jpg";
+import wintersEnd from "../images/ProductImage/desktop/wintersEnd.jpg";
+import wintersEndMob from "../images/ProductImage/mobile/wintersEndMobile.jpg";
+import wolfMoon from "../images/ProductImage/desktop/wolfMoon.jpg";
+import wolfMoonMob from "../images/ProductImage/mobile/wolfMoonMobile.jpg";
+import celestialGate from "../images/ProductImage/desktop/celestialGate.jpg";
+import celestialGateMob from "../images/ProductImage/mobile/celestialGateMobile.jpg";
+import craneOverFuji from "../images/ProductImage/desktop/craneOverFuji.jpg";
+import craneOverFujiMob from "../images/ProductImage/mobile/craneOverFujiMobile.jpg";
+import fairyGate from "../images/ProductImage/desktop/fairyGate.jpg";
+import fairyGateMob from "../images/ProductImage/mobile/fairyGateMobile.jpg";
+import hummingbirdMorning from "../images/ProductImage/desktop/hummingbirdMorning.jpg";
+import hummingbirdMorningMob from "../images/ProductImage/mobile/hummingbirdMorningMobile2.jpg";
+import kingFisherSunset from "../images/ProductImage/desktop/kingFisherSunset.jpg";
+import kingFisherSunsetMob from "../images/ProductImage/mobile/kingFisherSunsetMobile.jpg";
+import lunaNight from "../images/ProductImage/desktop/lunaNight.jpg";
+import lunaNightMob from "../images/ProductImage/mobile/lunaNightMobile.jpg";
+import moonlitReverie from "../images/ProductImage/desktop/moonlitReverie.jpg";
+import moonlitReverieMob from "../images/ProductImage/mobile/moonlitReverieMobile.jpg";
+import nightHill from "../images/ProductImage/desktop/nightHill.jpg";
+import nightHillMob from "../images/ProductImage/mobile/nightHillMobile.jpg";
+import owlInTree from "../images/ProductImage/desktop/owlInTree.jpg";
+import owlInTreeMob from "../images/ProductImage/mobile/owlInTreeMobile.jpg";
+import cherryBlossoms7 from "../images/ProductImage/desktop/cherryBlossoms.jpg";
+import cherryBlossoms7Mobile from "../images/ProductImage/mobile/cherryBlossomsMobile.jpg";
+import bambooForest from "../images/ProductImage/desktop/bambooForest.jpg";
+import bambooForestMob from "../images/ProductImage/mobile/bambooForestMobile.jpg";
+import gloryOfMorning from "../images/ProductImage/desktop/gloryOfMorning.jpg";
+import gloryOfMorningMob from "../images/ProductImage/mobile/gloryOfMorningMobile.jpg";
+import japaneseCranes from "../images/ProductImage/desktop/japaneseCranes.jpg";
+import japaneseCranesMob from "../images/ProductImage/mobile/japaneseCranesMobile.jpg";
+import maleFairyWren from "../images/ProductImage/desktop/japaneseCranes.jpg";
+import maleFairyWrenMob from "../images/ProductImage/mobile/japaneseCranesMobile.jpg";
+import nightFlight from "../images/ProductImage/desktop/nightFlight.jpg";
+import nightFlightMob from "../images/ProductImage/mobile/nightFlightMobile.jpg";
+import redrumpedParakeet from "../images/ProductImage/desktop/red-rumpedParakeet.jpg";
+import redrumpedParakeetMob from "../images/ProductImage/mobile/red-rumpedParakeetMobile.jpg";
 
 
 
@@ -135,6 +136,8 @@ const GalleryArray = [
   },
   {
     title: "Red-rumped Parakeet",
+    titleImage: redrumpedParakeet,
+    titleImageMobile: redrumpedParakeetMob,
     id: 3,
     keyword: "birds sunset sky tree leaves red parakeet",
     medium: "acrylic canvas",
@@ -286,6 +289,8 @@ const GalleryArray = [
   },
   {
     title: "Night Flight",
+    titleImage: nightFlight,
+    titleImageMobile: nightFlightMob,
     id: 57,
     keyword: "night moon owls flight trees",
     medium: "canvas acrylic",
@@ -324,6 +329,8 @@ const GalleryArray = [
   },
   {
     title: "Bamboo Forest",
+    titleImage: bambooForest,
+    titleImageMobile: bambooForestMob,
     id: 58,
     keyword: "giant panda bamboo sun yellow",
     medium: "canvas acrylic",
@@ -359,6 +366,8 @@ const GalleryArray = [
   },
   {
     title: "Japanese Cranes",
+    titleImage: japaneseCranes,
+    titleImageMobile: japaneseCranesMob,
     id: 59,
     keyword: "japanese cranes sky sunrise sunset tree landscape birds",
     medium: "canvas acrylic",
@@ -602,6 +611,8 @@ const GalleryArray = [
   },
   {
     title: "Male Fairy Wren",
+    titleImage: maleFairyWren,
+    titleImageMobile: maleFairyWrenMob,
     id: 65,
     keyword: "birds sunset sunrise trees leaves splendid fairy wren male",
     medium: "canvas acrylic",
@@ -633,102 +644,102 @@ const GalleryArray = [
     s6Poster:
       "https://society6.com/product/male-splendid-fairy-wren-early-sunset_poster?sku=s6-19583240p66a213v756",
   },
-  {
-    title: "Great Blue Heron",
-    id: 69,
-    keyword:
-      "blue great heron birds landscape lake water lily lilies flowers cattails",
-    medium: "canvas acrylic",
-    size: "3x2 feet.",
-    description: "Acrylic paint on canvas.",
-    price: 300,
-    buy: "Not Available",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/_0WYmGmPA-O_fmy-KbrbIOg1AOM/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/82eda1775dbd4ed387014d2eba230f57/~~/blue-heron4477792-prints.jpg",
-    s6CanvasPrintImg: null,
-    s6CanvasPrint: "",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/_0WYmGmPA-O_fmy-KbrbIOg1AOM/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/82eda1775dbd4ed387014d2eba230f57/~~/blue-heron4477792-prints.jpg",
-    s6Print:
-      "https://society6.com/product/blue-heron4477792_print?sku=s6-19142780p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/OHAO_Ex_NEeJmb6M24Mvd32u9f0/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/82eda1775dbd4ed387014d2eba230f57/~~/blue-heron4477792-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/blue-heron4477792_framed-print?sku=s6-19142780p21a12v63a13v54",
-    s6TapestryImg: null,
-    s6Tapestry: "",
-    s6WallHangingImage: null,
-    s6WallHanging: "",
-    s6PosterImage: null,
-    s6Poster: "",
-  },
-  {
-    title: "Palm Tree Beach",
-    id: 94,
-    keyword: "palm tree beach ocean sea water",
-    medium: "canvas acrylic",
-    size: "16x20 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 100,
-    buy: "Shipping varies:",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/x33X65FVbVUFknGc9itNXzoPQy0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/b3ae4b14a65041fbac55b5330816e29a/~~/palm-tree-beach4471863-prints.jpg",
-    s6CanvasPrintImg: null,
-    s6CanvasPrint: "",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/x33X65FVbVUFknGc9itNXzoPQy0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/b3ae4b14a65041fbac55b5330816e29a/~~/palm-tree-beach4471863-prints.jpg",
-    s6Print:
-      "https://society6.com/product/palm-tree-beach4471863_print?sku=s6-19131093p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/ZoETAtOg3i90shUv4E9RIhzv7fo/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/b3ae4b14a65041fbac55b5330816e29a/~~/palm-tree-beach4471863-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/palm-tree-beach4471863_framed-print?sku=s6-19131093p21a12v63a13v54",
-    s6TapestryImg: null,
-    s6Tapestry: "",
-    s6WallHangingImage: null,
-    s6WallHanging: "",
-    s6PosterImage: null,
-    s6Poster: "",
-  },
-  {
-    title: "Snow Owl",
-    id: 95,
-    keyword: "snow owl cherry plumb tree flowers blossoms bird",
-    medium: "canvas acrylic",
-    size: "9x12 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 60,
-    buy: "Coming soon.",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/MDe_MslqMLML2ljwKJYS17j64rw/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/6baecd4efdaa4a7f9c6e2d2206335d5f/~~/snow-owl-on-cherry-tree-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/MDe_MslqMLML2ljwKJYS17j64rw/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/6baecd4efdaa4a7f9c6e2d2206335d5f/~~/snow-owl-on-cherry-tree-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/snow-owl-on-cherry-tree_stretched-canvas?sku=s6-8402376p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/ST31yT9Gd6tCjHXeZjUgHz1gBDE/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/6baecd4efdaa4a7f9c6e2d2206335d5f/~~/snow-owl-on-cherry-tree-prints.jpg",
-    s6Print:
-      "https://society6.com/product/snow-owl-on-cherry-tree_print?sku=s6-8402376p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/04_qS4kv07cdoAXFSfKuWnLUtIA/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/6baecd4efdaa4a7f9c6e2d2206335d5f/~~/snow-owl-on-cherry-tree-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/snow-owl-on-cherry-tree_framed-print?sku=s6-8402376p21a12v63a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/X1TWREsTARFwIJQqYUFLD1kerWk/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_4,fy_7,iw_6492,ih_8951/s6-original-art-uploads/society6/uploads/misc/bfbe7c2be09f45b7b7c4469a4ff6aebc/~~/snow-owl-on-cherry-tree-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/snow-owl-on-cherry-tree_tapestry?sku=s6-8402376p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/Nv5aBDWYNJXNoiUPiXOQYFDPtfs/w_700/wall-hangings/small/front/~artwork,fw_4062,fh_5687,fx_-93,fy_468,iw_4249,ih_5678/s6-original-art-uploads/society6/uploads/misc/7b11ea7fdd5a4aeea2ebea83b0a2b075/~~/snow-owl-on-cherry-tree-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/snow-owl-on-cherry-tree_wall-hanging",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/eQm6Shhm6-AyKQnCf2jyJYizyfI/w_700/posters/top/~artwork,fw_2718,fh_3618,fy_-7,iw_2718,ih_3631/s6-original-art-uploads/society6/uploads/misc/7b11ea7fdd5a4aeea2ebea83b0a2b075/~~/snow-owl-on-cherry-tree-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/snow-owl-on-cherry-tree_poster?sku=s6-8402376p66a213v756",
-  },
+  // {
+  //   title: "Great Blue Heron",
+  //   id: 69,
+  //   keyword:
+  //     "blue great heron birds landscape lake water lily lilies flowers cattails",
+  //   medium: "canvas acrylic",
+  //   size: "3x2 feet.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 300,
+  //   buy: "Not Available",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/_0WYmGmPA-O_fmy-KbrbIOg1AOM/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/82eda1775dbd4ed387014d2eba230f57/~~/blue-heron4477792-prints.jpg",
+  //   s6CanvasPrintImg: null,
+  //   s6CanvasPrint: "",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/_0WYmGmPA-O_fmy-KbrbIOg1AOM/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/82eda1775dbd4ed387014d2eba230f57/~~/blue-heron4477792-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/blue-heron4477792_print?sku=s6-19142780p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/OHAO_Ex_NEeJmb6M24Mvd32u9f0/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/82eda1775dbd4ed387014d2eba230f57/~~/blue-heron4477792-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/blue-heron4477792_framed-print?sku=s6-19142780p21a12v63a13v54",
+  //   s6TapestryImg: null,
+  //   s6Tapestry: "",
+  //   s6WallHangingImage: null,
+  //   s6WallHanging: "",
+  //   s6PosterImage: null,
+  //   s6Poster: "",
+  // },
+  // {
+  //   title: "Palm Tree Beach",
+  //   id: 94,
+  //   keyword: "palm tree beach ocean sea water",
+  //   medium: "canvas acrylic",
+  //   size: "16x20 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 100,
+  //   buy: "Shipping varies:",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/x33X65FVbVUFknGc9itNXzoPQy0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/b3ae4b14a65041fbac55b5330816e29a/~~/palm-tree-beach4471863-prints.jpg",
+  //   s6CanvasPrintImg: null,
+  //   s6CanvasPrint: "",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/x33X65FVbVUFknGc9itNXzoPQy0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/b3ae4b14a65041fbac55b5330816e29a/~~/palm-tree-beach4471863-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/palm-tree-beach4471863_print?sku=s6-19131093p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/ZoETAtOg3i90shUv4E9RIhzv7fo/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/b3ae4b14a65041fbac55b5330816e29a/~~/palm-tree-beach4471863-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/palm-tree-beach4471863_framed-print?sku=s6-19131093p21a12v63a13v54",
+  //   s6TapestryImg: null,
+  //   s6Tapestry: "",
+  //   s6WallHangingImage: null,
+  //   s6WallHanging: "",
+  //   s6PosterImage: null,
+  //   s6Poster: "",
+  // },
+  // {
+  //   title: "Snow Owl",
+  //   id: 95,
+  //   keyword: "snow owl cherry plumb tree flowers blossoms bird",
+  //   medium: "canvas acrylic",
+  //   size: "9x12 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 60,
+  //   buy: "Coming soon.",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/MDe_MslqMLML2ljwKJYS17j64rw/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/6baecd4efdaa4a7f9c6e2d2206335d5f/~~/snow-owl-on-cherry-tree-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/MDe_MslqMLML2ljwKJYS17j64rw/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/6baecd4efdaa4a7f9c6e2d2206335d5f/~~/snow-owl-on-cherry-tree-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/snow-owl-on-cherry-tree_stretched-canvas?sku=s6-8402376p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/ST31yT9Gd6tCjHXeZjUgHz1gBDE/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/6baecd4efdaa4a7f9c6e2d2206335d5f/~~/snow-owl-on-cherry-tree-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/snow-owl-on-cherry-tree_print?sku=s6-8402376p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/04_qS4kv07cdoAXFSfKuWnLUtIA/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/6baecd4efdaa4a7f9c6e2d2206335d5f/~~/snow-owl-on-cherry-tree-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/snow-owl-on-cherry-tree_framed-print?sku=s6-8402376p21a12v63a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/X1TWREsTARFwIJQqYUFLD1kerWk/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_4,fy_7,iw_6492,ih_8951/s6-original-art-uploads/society6/uploads/misc/bfbe7c2be09f45b7b7c4469a4ff6aebc/~~/snow-owl-on-cherry-tree-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/snow-owl-on-cherry-tree_tapestry?sku=s6-8402376p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/Nv5aBDWYNJXNoiUPiXOQYFDPtfs/w_700/wall-hangings/small/front/~artwork,fw_4062,fh_5687,fx_-93,fy_468,iw_4249,ih_5678/s6-original-art-uploads/society6/uploads/misc/7b11ea7fdd5a4aeea2ebea83b0a2b075/~~/snow-owl-on-cherry-tree-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/snow-owl-on-cherry-tree_wall-hanging",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/eQm6Shhm6-AyKQnCf2jyJYizyfI/w_700/posters/top/~artwork,fw_2718,fh_3618,fy_-7,iw_2718,ih_3631/s6-original-art-uploads/society6/uploads/misc/7b11ea7fdd5a4aeea2ebea83b0a2b075/~~/snow-owl-on-cherry-tree-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/snow-owl-on-cherry-tree_poster?sku=s6-8402376p66a213v756",
+  // },
   {
     title: "Cannon Ball Flowers",
     id: 4,
@@ -844,7 +855,9 @@ const GalleryArray = [
   {
     title: "Cherry Blossoms",
     id: 7,
-    keyword: "flowers sky flower cherry treeblossom sakura",
+    titleImage: cherryBlossoms7,
+    titleImageMobile: cherryBlossoms7Mobile,
+    keyword: "flowers sky flower cherry tree blossom sakura",
     medium: "canvas wrap acrylic",
     size: "8x10 inches.",
     description: "Acrylic paint on wrapped canvas.",
@@ -877,6 +890,43 @@ const GalleryArray = [
       "https://ctl.s6img.com/society6/img/JWnp5zPv4JYTmy5e-Zco_x5dBOc/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-1053,iw_4823,ih_3618/s6-original-art-uploads/society6/uploads/misc/03b222d76415429fa28396bf45f2c5fb/~~/cherry-blossom-branch1273986-posters.jpg",
     s6Poster:
       "https://society6.com/product/cherry-blossom-branch1273986_poster?sku=s6-9085372p66a213v756",
+  },
+  {
+    title: "Pink Flowers",
+    id: 100,
+    keyword: "pink flowers",
+    medium: "canvas acrylic",
+    size: "9x12 inches.",
+    description: "Ink on cardstock.",
+    price: 60,
+    buy: "Coming soon.",
+    etsyListing: null,
+    image:
+      "https://ctl.s6img.com/society6/img/F6_2VYZCQDJRSG9ioBFhJi2mz-E/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-canvas.jpg",
+    s6CanvasPrintImg:
+      "https://ctl.s6img.com/society6/img/F6_2VYZCQDJRSG9ioBFhJi2mz-E/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-canvas.jpg",
+    s6CanvasPrint:
+      "https://society6.com/product/pink-flowers2803848_stretched-canvas?sku=s6-13786125p16a6v28",
+    s6PrintImg:
+      "https://ctl.s6img.com/society6/img/Klw1zBcL7uMhGxZPeEy7ofK6aW8/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-prints.jpg",
+    s6Print:
+      "https://society6.com/product/pink-flowers2803848_print?sku=s6-13786125p4a1v45",
+    s6FramedImg:
+      "https://ctl.s6img.com/society6/img/WAtz7nhywI5urfxmSgY71K0B6mw/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-framed-prints.jpg",
+    s6Framed:
+      "https://society6.com/product/pink-flowers2803848_framed-print?sku=s6-13786125p21a12v63a13v54",
+    s6TapestryImg:
+      "https://ctl.s6img.com/society6/img/yafjlhvdCrNUjYMeUPyAky-Do2g/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fy_-552,iw_5525,ih_7604/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-tapestries.jpg",
+    s6Tapestry:
+      "https://society6.com/product/pink-flowers2803848_tapestry?sku=s6-13786125p42a55v412",
+    s6WallHangingImage:
+      "https://ctl.s6img.com/society6/img/EMGEJwBz9QIKXaMiKzlrWxKiWCc/w_700/wall-hangings/small/front/~artwork,fw_4058,fh_5678,fx_-34,iw_4125,ih_5678/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-wall-hangings.jpg",
+    s6WallHanging:
+      "https://society6.com/product/pink-flowers2803848_wall-hanging?sku=s6-13786125p74a221v774",
+    s6PosterImage:
+      "https://ctl.s6img.com/society6/img/9ADu2zlHEBAyP9v0qTzYVBbyS-8/w_700/posters/top/~artwork,fw_2718,fh_3618,fy_-61,iw_2718,ih_3740/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-posters.jpg",
+    s6Poster:
+      "https://society6.com/product/pink-flowers2803848_poster?sku=s6-13786125p66a213v756",
   },
   {
     title: "Fairy Gate",
@@ -1033,79 +1083,79 @@ const GalleryArray = [
     s6PosterImage: null,
     s6Poster: "",
   },
-  {
-    title: "Loved",
-    id: 1,
-    keyword: "loved words encouragement saying you",
-    medium: "ink paper",
-    size: "9x12 inches.",
-    description: "Ink on paper.",
-    price: 30,
-    buy: "Buy Now!",
-    etsyListing:
-      "https://www.etsy.com/listing/994182202/you-are-loved-ink-art?ref=shop_home_active_1&frs=1",
-    image:
-      "https://ctl.s6img.com/society6/img/2nJjr2l5OrS2w1BvZ4hGUz3AhE8/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/2nJjr2l5OrS2w1BvZ4hGUz3AhE8/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/loved4499238_stretched-canvas?sku=s6-19174086p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/u33LXr5MXWHXxV83-O_lesERKOc/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-prints.jpg",
-    s6Print:
-      "https://society6.com/product/loved4499238_print?sku=s6-19174086p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/jbYbVjYfjuljhCn0r9I02KEiRFE/w_700/framed-prints/10x12/scoop-black/~artwork/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/loved4499238_framed-print?sku=s6-19174086p21a12v52a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/yLTKxwGQLFu11lNo9PS0g9PrtBw/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-552,iw_7604,ih_5525/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/loved4499238_tapestry?sku=s6-19174086p42a55v412",
-    s6WallHanging:
-      "https://society6.com/product/loved4499238_wall-hanging?sku=s6-19174086p74a221v771",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/MKWKkKSW-javrjfmom2C1-TzZUU/w_700/wall-hangings/large/front/~artwork,fw_5678,fh_4058,fy_-34,iw_5678,ih_4125/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-wall-hangings.jpg",
-    s6PosterImage: null,
-    s6Poster: "",
-  },
-  {
-    title: "Jelly Fish",
-    id: 13,
-    keyword: "jelly fish orange ocean water",
-    medium: "canvas acrylic",
-    size: "16x20 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 100,
-    buy: "Not Available",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/C2srq8Vh9p8TIt2LIZv8_a42it0/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/806de1e75ce04499b75d2f39d313b368/~~/jelly-fish1112432-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/C2srq8Vh9p8TIt2LIZv8_a42it0/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/806de1e75ce04499b75d2f39d313b368/~~/jelly-fish1112432-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/jelly-fish1112432_tapestry?sku=s6-8707191p42a55v412",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/qfL_lVdJmZuJB1kZBFzN1PvqwGI/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/7bfd4a43eaee427782c936261dfa0e21/~~/jelly-fish1112432-prints.jpg",
-    s6Print:
-      "https://society6.com/product/jelly-fish1112432_print?sku=s6-8707191p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/kkV0dyPbGoVdXsdpJrQ-1Qa9QEI/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/cfab684f2deb4e079d71254cede528b6/~~/jelly-fish1112432-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/jelly-fish1112432_framed-print?sku=s6-8707191p21a12v63a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/uX72QS79TjvWRvKwiaPl1B35jAY/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-582,iw_7664,ih_5525/s6-original-art-uploads/society6/uploads/misc/3cb3ae78ba3a47a788a11f2a900dcc91/~~/jelly-fish1112432-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/jelly-fish1112432_tapestry?sku=s6-8707191p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/XJVUkcH4xWMUa36zHSW7Qv86jRo/w_700/wall-hangings/large/front/~artwork,fw_5678,fh_4058,fy_-17,iw_5678,ih_4092/s6-original-art-uploads/society6/uploads/misc/3cb3ae78ba3a47a788a11f2a900dcc91/~~/jelly-fish1112432-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/jelly-fish1112432_wall-hanging?sku=s6-8707191p74a221v771",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/4CkgzxuE9n4UQz-1vosrmLysBK4/w_700/posters/top/~artwork,fw_2718,fh_3619,fx_-266,iw_5019,ih_3618/s6-original-art-uploads/society6/uploads/misc/3cb3ae78ba3a47a788a11f2a900dcc91/~~/jelly-fish1112432-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/jelly-fish1112432_poster?sku=s6-8707191p66a213v756",
-  },
+  // {
+  //   title: "Loved",
+  //   id: 1,
+  //   keyword: "loved words encouragement saying you",
+  //   medium: "ink paper",
+  //   size: "9x12 inches.",
+  //   description: "Ink on paper.",
+  //   price: 30,
+  //   buy: "Buy Now!",
+  //   etsyListing:
+  //     "https://www.etsy.com/listing/994182202/you-are-loved-ink-art?ref=shop_home_active_1&frs=1",
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/2nJjr2l5OrS2w1BvZ4hGUz3AhE8/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/2nJjr2l5OrS2w1BvZ4hGUz3AhE8/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/loved4499238_stretched-canvas?sku=s6-19174086p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/u33LXr5MXWHXxV83-O_lesERKOc/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/loved4499238_print?sku=s6-19174086p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/jbYbVjYfjuljhCn0r9I02KEiRFE/w_700/framed-prints/10x12/scoop-black/~artwork/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/loved4499238_framed-print?sku=s6-19174086p21a12v52a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/yLTKxwGQLFu11lNo9PS0g9PrtBw/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-552,iw_7604,ih_5525/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/loved4499238_tapestry?sku=s6-19174086p42a55v412",
+  //   s6WallHanging:
+  //     "https://society6.com/product/loved4499238_wall-hanging?sku=s6-19174086p74a221v771",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/MKWKkKSW-javrjfmom2C1-TzZUU/w_700/wall-hangings/large/front/~artwork,fw_5678,fh_4058,fy_-34,iw_5678,ih_4125/s6-original-art-uploads/society6/uploads/misc/d0108124824b442ea441b05cbd7cb539/~~/loved4499238-wall-hangings.jpg",
+  //   s6PosterImage: null,
+  //   s6Poster: "",
+  // },
+  // {
+  //   title: "Jelly Fish",
+  //   id: 13,
+  //   keyword: "jelly fish orange ocean water",
+  //   medium: "canvas acrylic",
+  //   size: "16x20 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 100,
+  //   buy: "Not Available",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/C2srq8Vh9p8TIt2LIZv8_a42it0/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/806de1e75ce04499b75d2f39d313b368/~~/jelly-fish1112432-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/C2srq8Vh9p8TIt2LIZv8_a42it0/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/806de1e75ce04499b75d2f39d313b368/~~/jelly-fish1112432-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/jelly-fish1112432_tapestry?sku=s6-8707191p42a55v412",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/qfL_lVdJmZuJB1kZBFzN1PvqwGI/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/7bfd4a43eaee427782c936261dfa0e21/~~/jelly-fish1112432-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/jelly-fish1112432_print?sku=s6-8707191p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/kkV0dyPbGoVdXsdpJrQ-1Qa9QEI/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/cfab684f2deb4e079d71254cede528b6/~~/jelly-fish1112432-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/jelly-fish1112432_framed-print?sku=s6-8707191p21a12v63a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/uX72QS79TjvWRvKwiaPl1B35jAY/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-582,iw_7664,ih_5525/s6-original-art-uploads/society6/uploads/misc/3cb3ae78ba3a47a788a11f2a900dcc91/~~/jelly-fish1112432-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/jelly-fish1112432_tapestry?sku=s6-8707191p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/XJVUkcH4xWMUa36zHSW7Qv86jRo/w_700/wall-hangings/large/front/~artwork,fw_5678,fh_4058,fy_-17,iw_5678,ih_4092/s6-original-art-uploads/society6/uploads/misc/3cb3ae78ba3a47a788a11f2a900dcc91/~~/jelly-fish1112432-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/jelly-fish1112432_wall-hanging?sku=s6-8707191p74a221v771",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/4CkgzxuE9n4UQz-1vosrmLysBK4/w_700/posters/top/~artwork,fw_2718,fh_3619,fx_-266,iw_5019,ih_3618/s6-original-art-uploads/society6/uploads/misc/3cb3ae78ba3a47a788a11f2a900dcc91/~~/jelly-fish1112432-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/jelly-fish1112432_poster?sku=s6-8707191p66a213v756",
+  // },
   {
     title: "Magnolias",
     titleImage: magnolias,
@@ -1507,70 +1557,70 @@ const GalleryArray = [
     s6Poster:
       "https://society6.com/product/cherry-blossoms1108697_poster?sku=s6-8699497p66a213v756",
   },
-  {
-    title: "Blue Jay Almond Blossoms",
-    id: 18,
-    keyword: "birds jay blue almond blossoms flowers tree",
-    medium: "canvas acrylic",
-    size: "12x24 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 100,
-    buy: "Shipping varies:",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/ZnLD4UEFYRbJKcZ1C4CcOdPHTQk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/8758e7c0b0b04f2c967e38051cdf2c2e/~~/blue-jay-on-almond-blossom-tree-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/ZnLD4UEFYRbJKcZ1C4CcOdPHTQk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/8758e7c0b0b04f2c967e38051cdf2c2e/~~/blue-jay-on-almond-blossom-tree-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/blue-jay-on-almond-blossom-tree_stretched-canvas?sku=s6-8681576p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/q2LELQP8HHb8m_2WYIMk77R4u-Q/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/8758e7c0b0b04f2c967e38051cdf2c2e/~~/blue-jay-on-almond-blossom-tree-prints.jpg",
-    s6Print:
-      "https://society6.com/product/blue-jay-on-almond-blossom-tree_print?sku=s6-8681576p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/QEpBrYXRdtbdccxJLJ3MQG_8aaE/w_700/framed-prints/15x21/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/8758e7c0b0b04f2c967e38051cdf2c2e/~~/blue-jay-on-almond-blossom-tree-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/blue-jay-on-almond-blossom-tree_framed-print?sku=s6-8681576p21a12v63a13v56",
-    s6TapestryImg: null,
-    s6Tapestry: "",
-    s6WallHangingImage: null,
-    s6WallHanging: "",
-    s6PosterImage: null,
-    s6Poster: "",
-  },
-  {
-    title: "Chickadee on Cherry Tree",
-    id: 19,
-    keyword: "birds cherry blossoms flowers tree chickadee",
-    medium: "canvas acrylic",
-    size: "12x16 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 80,
-    buy: "Shipping varies:",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/zReZXFnzWd7VAa8D_jaltNgL64w/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/764468c80714416e8195fc89ce577bed/~~/chickadee-on-cherry-tree-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/zReZXFnzWd7VAa8D_jaltNgL64w/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/764468c80714416e8195fc89ce577bed/~~/chickadee-on-cherry-tree-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/chickadee-on-cherry-tree_stretched-canvas?sku=s6-8386951p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/m9-HeuANG1Z0CzFk8OQUA9-fNQE/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/764468c80714416e8195fc89ce577bed/~~/chickadee-on-cherry-tree-prints.jpg",
-    s6Print:
-      "https://society6.com/product/chickadee-on-cherry-tree_print?sku=s6-8386951p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/lDolIKNSrCUUg6rJfj6AtwuSCSE/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/764468c80714416e8195fc89ce577bed/~~/chickadee-on-cherry-tree-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/chickadee-on-cherry-tree_framed-print?sku=s6-8386951p21a12v63a13v54",
-    s6TapestryImg: null,
-    s6Tapestry: "",
-    s6WallHangingImage: null,
-    s6WallHanging: "",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/BDFnlZ9DkjfY3lG4GucpnxjTHew/w_700/posters/top/~artwork,fw_2718,fh_3621,fx_-2141,fy_1,iw_4877,ih_3618/s6-original-art-uploads/society6/uploads/misc/77cd87aaf13c4ea59f4a1eb9569c7b37/~~/chickadee-on-cherry-tree-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/chickadee-on-cherry-tree_poster?sku=s6-8386951p66a213v756",
-  },
+  // {
+  //   title: "Blue Jay Almond Blossoms",
+  //   id: 18,
+  //   keyword: "birds jay blue almond blossoms flowers tree",
+  //   medium: "canvas acrylic",
+  //   size: "12x24 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 100,
+  //   buy: "Shipping varies:",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/ZnLD4UEFYRbJKcZ1C4CcOdPHTQk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/8758e7c0b0b04f2c967e38051cdf2c2e/~~/blue-jay-on-almond-blossom-tree-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/ZnLD4UEFYRbJKcZ1C4CcOdPHTQk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/8758e7c0b0b04f2c967e38051cdf2c2e/~~/blue-jay-on-almond-blossom-tree-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/blue-jay-on-almond-blossom-tree_stretched-canvas?sku=s6-8681576p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/q2LELQP8HHb8m_2WYIMk77R4u-Q/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/8758e7c0b0b04f2c967e38051cdf2c2e/~~/blue-jay-on-almond-blossom-tree-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/blue-jay-on-almond-blossom-tree_print?sku=s6-8681576p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/QEpBrYXRdtbdccxJLJ3MQG_8aaE/w_700/framed-prints/15x21/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/8758e7c0b0b04f2c967e38051cdf2c2e/~~/blue-jay-on-almond-blossom-tree-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/blue-jay-on-almond-blossom-tree_framed-print?sku=s6-8681576p21a12v63a13v56",
+  //   s6TapestryImg: null,
+  //   s6Tapestry: "",
+  //   s6WallHangingImage: null,
+  //   s6WallHanging: "",
+  //   s6PosterImage: null,
+  //   s6Poster: "",
+  // },
+  // {
+  //   title: "Chickadee on Cherry Tree",
+  //   id: 19,
+  //   keyword: "birds cherry blossoms flowers tree chickadee",
+  //   medium: "canvas acrylic",
+  //   size: "12x16 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 80,
+  //   buy: "Shipping varies:",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/zReZXFnzWd7VAa8D_jaltNgL64w/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/764468c80714416e8195fc89ce577bed/~~/chickadee-on-cherry-tree-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/zReZXFnzWd7VAa8D_jaltNgL64w/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/764468c80714416e8195fc89ce577bed/~~/chickadee-on-cherry-tree-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/chickadee-on-cherry-tree_stretched-canvas?sku=s6-8386951p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/m9-HeuANG1Z0CzFk8OQUA9-fNQE/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/764468c80714416e8195fc89ce577bed/~~/chickadee-on-cherry-tree-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/chickadee-on-cherry-tree_print?sku=s6-8386951p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/lDolIKNSrCUUg6rJfj6AtwuSCSE/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/764468c80714416e8195fc89ce577bed/~~/chickadee-on-cherry-tree-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/chickadee-on-cherry-tree_framed-print?sku=s6-8386951p21a12v63a13v54",
+  //   s6TapestryImg: null,
+  //   s6Tapestry: "",
+  //   s6WallHangingImage: null,
+  //   s6WallHanging: "",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/BDFnlZ9DkjfY3lG4GucpnxjTHew/w_700/posters/top/~artwork,fw_2718,fh_3621,fx_-2141,fy_1,iw_4877,ih_3618/s6-original-art-uploads/society6/uploads/misc/77cd87aaf13c4ea59f4a1eb9569c7b37/~~/chickadee-on-cherry-tree-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/chickadee-on-cherry-tree_poster?sku=s6-8386951p66a213v756",
+  // },
   {
     title: "Cresting Wave",
     id: 20,
@@ -2601,6 +2651,8 @@ const GalleryArray = [
   },
   {
     title: "The Glory of Morning",
+    titleImage: gloryOfMorning,
+    titleImageMobile: gloryOfMorningMob,
     id: 53,
     keyword: "morning glories flowers night sky space stars blue dawn",
     medium: "canvas acrylic",
@@ -2634,6 +2686,37 @@ const GalleryArray = [
       "https://ctl.s6img.com/society6/img/I7gT3C_q9zbyQHRpLWieOsHH3SI/w_700/posters/top/~artwork,fw_2718,fh_3618,fy_-80,iw_2718,ih_3777/s6-original-art-uploads/society6/uploads/misc/06a02159a722471d85dc6808de00e71e/~~/the-glory-of-morning1614410-posters.jpg",
     s6Poster:
       "https://society6.com/product/the-glory-of-morning1614410_poster?sku=s6-9848218p66a213v756",
+  },
+  {
+    title: "Luna Night",
+    titleImage: lunaNight,
+    titleImageMobile: lunaNightMob,
+    id: 81,
+    keyword: "luna moth night sky insssect bugs tree landscape moon stars",
+    medium: "canvas acrylic",
+    size: "16x20 inches.",
+    description: "Acrylic paint on canvas.",
+    price: 100,
+    buy: "Not Available",
+    etsyListing: null,
+    image:
+      "https://ctl.s6img.com/society6/img/LM2b8tRJpMNa-SmwQ08xDSymoSs/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/79800c49a2c24c6d889e692a40b899a8/~~/lunar-moth5247601-prints.jpg",
+    s6CanvasPrintImg: null,
+    s6CanvasPrint: "",
+    s6PrintImg:
+      "https://ctl.s6img.com/society6/img/LM2b8tRJpMNa-SmwQ08xDSymoSs/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/79800c49a2c24c6d889e692a40b899a8/~~/lunar-moth5247601-prints.jpg",
+    s6Print:
+      "https://society6.com/product/lunar-moth5247601_print?sku=s6-20514438p4a1v45",
+    s6FramedImg:
+      "https://ctl.s6img.com/society6/img/Txip80cmYdHgMNQ0Tmx19f5b2X8/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/79800c49a2c24c6d889e692a40b899a8/~~/lunar-moth5247601-framed-prints.jpg",
+    s6Framed:
+      "https://society6.com/product/lunar-moth5247601_framed-print?sku=s6-20514438p21a12v63a13v54",
+    s6TapestryImg: null,
+    s6Tapestry: "",
+    s6WallHangingImage: null,
+    s6WallHanging: "",
+    s6PosterImage: null,
+    s6Poster: "",
   },
   {
     title: "Winter's End",
@@ -3260,136 +3343,105 @@ const GalleryArray = [
     s6Poster:
       "https://society6.com/product/rose-vine1184342_poster?sku=s6-8877080p66a213v756",
   },
-  {
-    title: "Luna Night",
-    titleImage: lunaNight,
-    titleImageMobile: lunaNightMob,
-    id: 81,
-    keyword: "luna moth night sky insssect bugs tree landscape moon stars",
-    medium: "canvas acrylic",
-    size: "16x20 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 100,
-    buy: "Not Available",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/LM2b8tRJpMNa-SmwQ08xDSymoSs/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/79800c49a2c24c6d889e692a40b899a8/~~/lunar-moth5247601-prints.jpg",
-    s6CanvasPrintImg: null,
-    s6CanvasPrint: "",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/LM2b8tRJpMNa-SmwQ08xDSymoSs/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/79800c49a2c24c6d889e692a40b899a8/~~/lunar-moth5247601-prints.jpg",
-    s6Print:
-      "https://society6.com/product/lunar-moth5247601_print?sku=s6-20514438p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/Txip80cmYdHgMNQ0Tmx19f5b2X8/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/79800c49a2c24c6d889e692a40b899a8/~~/lunar-moth5247601-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/lunar-moth5247601_framed-print?sku=s6-20514438p21a12v63a13v54",
-    s6TapestryImg: null,
-    s6Tapestry: "",
-    s6WallHangingImage: null,
-    s6WallHanging: "",
-    s6PosterImage: null,
-    s6Poster: "",
-  },
-  {
-    title: "Sand Pipers",
-    id: 83,
-    keyword: "sand pipers birds beach ocean water sea",
-    medium: "canvas acrylic",
-    size: "3x2 feet.",
-    description: "Acrylic paint on canvas.",
-    price: 250,
-    buy: "Shipping varies:",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/e06-QZRJCcVq6mP0_QP61Zwe8ks/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/c5863e6a32cc47e080ae61fd4192740d/~~/sand-pipers-on-the-beach-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/e06-QZRJCcVq6mP0_QP61Zwe8ks/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/c5863e6a32cc47e080ae61fd4192740d/~~/sand-pipers-on-the-beach-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/sand-pipers-on-the-beach_stretched-canvas?sku=s6-8402500p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/ghnb0eAv1_cNoN6WZnCHZOhwzi8/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/e50789eca64b46368cb5d7343b40b2fd/~~/sand-pipers-on-the-beach-prints.jpg",
-    s6Print:
-      "https://society6.com/product/sand-pipers-on-the-beach_print?sku=s6-8402500p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/Tz6YWF8HJ1V7BTrm7_mCJxObBvs/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/028b44a904614ef2a62674e678f800cd/~~/sand-pipers-on-the-beach-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/sand-pipers-on-the-beach_framed-print?sku=s6-8402500p21a12v63a13v54",
-    s6TapestryImg: null,
-    s6Tapestry: "",
-    s6WallHangingImage: null,
-    s6WallHanging: "",
-    s6PosterImage: null,
-    s6Poster: "",
-  },
-  {
-    title: "Cardinal and Dogwood",
-    id: 87,
-    keyword: "cardinal dogwood tree flowers pink snow",
-    medium: "canvas acrylic",
-    size: "8x10 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    buy: "Sold",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/pXHyTIKYCwPxLf3QrGylyI5nwqI/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/pXHyTIKYCwPxLf3QrGylyI5nwqI/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/cardial-on-dogwood-tree_stretched-canvas?sku=s6-9169767p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/bJB-3VzbreumhmdcMtOO16CwNzE/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-prints.jpg",
-    s6Print:
-      "https://society6.com/product/cardial-on-dogwood-tree_print?sku=s6-9169767p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/NSc-raSevePNq0Sfms3lnRvXZ-s/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/cardial-on-dogwood-tree_framed-print?sku=s6-9169767p21a12v63a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/XNRg3X54zXSAHzZdB407KjHWoS0/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fy_-392,iw_5525,ih_7284/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/cardial-on-dogwood-tree_tapestry?sku=s6-9169767p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/bKVEv7vWvXQidib57kxxEOegE-8/w_700/wall-hangings/small/front/~artwork,fw_4056,fh_5680,fx_-348,fy_1,iw_4306,ih_5678/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/cardial-on-dogwood-tree_wall-hanging?sku=s6-9169767p74a221v774",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/gUNZobgYeg8YaueDOYmGyQDBtKs/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-13,iw_2744,ih_3618/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/cardial-on-dogwood-tree_poster?sku=s6-9169767p66a213v756",
-  },
-  {
-    title: "Giraffes",
-    id: 89,
-    keyword: "giraffes baby africa plains tree acia",
-    medium: "canvas acrylic",
-    size: "16x20 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 100,
-    buy: "Shipping varies:",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/9hhbrTJ0OcO53MpdxuWY73mrI84/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/53bef88059a9447e99146fb252826f12/~~/giraffe2132847-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/9hhbrTJ0OcO53MpdxuWY73mrI84/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/53bef88059a9447e99146fb252826f12/~~/giraffe2132847-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/giraffe2132847_stretched-canvas?sku=s6-11131320p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/GYG5B0BxMAc_vDSpjjN9RUF_RCE/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/58e1280db7a54a61a56544cf632bc951/~~/giraffe2132847-prints.jpg",
-    s6Print:
-      "https://society6.com/product/giraffe2132847_print?sku=s6-11131320p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/rGvw4Qfwfou2zxzNw_3-D47pbPw/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/58e1280db7a54a61a56544cf632bc951/~~/giraffe2132847-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/giraffe2132847_framed-print?sku=s6-11131320p21a12v63a13v54",
-    s6TapestryImg: null,
-    s6Tapestry: "",
-    s6WallHangingImage: null,
-    s6WallHanging: "",
-    s6PosterImage: null,
-    s6Poster: "",
-  },
+  // {
+  //   title: "Sand Pipers",
+  //   id: 83,
+  //   keyword: "sand pipers birds beach ocean water sea",
+  //   medium: "canvas acrylic",
+  //   size: "3x2 feet.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 250,
+  //   buy: "Shipping varies:",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/e06-QZRJCcVq6mP0_QP61Zwe8ks/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/c5863e6a32cc47e080ae61fd4192740d/~~/sand-pipers-on-the-beach-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/e06-QZRJCcVq6mP0_QP61Zwe8ks/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/c5863e6a32cc47e080ae61fd4192740d/~~/sand-pipers-on-the-beach-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/sand-pipers-on-the-beach_stretched-canvas?sku=s6-8402500p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/ghnb0eAv1_cNoN6WZnCHZOhwzi8/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/e50789eca64b46368cb5d7343b40b2fd/~~/sand-pipers-on-the-beach-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/sand-pipers-on-the-beach_print?sku=s6-8402500p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/Tz6YWF8HJ1V7BTrm7_mCJxObBvs/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/028b44a904614ef2a62674e678f800cd/~~/sand-pipers-on-the-beach-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/sand-pipers-on-the-beach_framed-print?sku=s6-8402500p21a12v63a13v54",
+  //   s6TapestryImg: null,
+  //   s6Tapestry: "",
+  //   s6WallHangingImage: null,
+  //   s6WallHanging: "",
+  //   s6PosterImage: null,
+  //   s6Poster: "",
+  // },
+  // {
+  //   title: "Cardinal and Dogwood",
+  //   id: 87,
+  //   keyword: "cardinal dogwood tree flowers pink snow",
+  //   medium: "canvas acrylic",
+  //   size: "8x10 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 50,
+  //   buy: "Sold",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/pXHyTIKYCwPxLf3QrGylyI5nwqI/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/pXHyTIKYCwPxLf3QrGylyI5nwqI/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/cardial-on-dogwood-tree_stretched-canvas?sku=s6-9169767p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/bJB-3VzbreumhmdcMtOO16CwNzE/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/cardial-on-dogwood-tree_print?sku=s6-9169767p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/NSc-raSevePNq0Sfms3lnRvXZ-s/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/cardial-on-dogwood-tree_framed-print?sku=s6-9169767p21a12v63a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/XNRg3X54zXSAHzZdB407KjHWoS0/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fy_-392,iw_5525,ih_7284/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/cardial-on-dogwood-tree_tapestry?sku=s6-9169767p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/bKVEv7vWvXQidib57kxxEOegE-8/w_700/wall-hangings/small/front/~artwork,fw_4056,fh_5680,fx_-348,fy_1,iw_4306,ih_5678/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/cardial-on-dogwood-tree_wall-hanging?sku=s6-9169767p74a221v774",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/gUNZobgYeg8YaueDOYmGyQDBtKs/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-13,iw_2744,ih_3618/s6-original-art-uploads/society6/uploads/misc/745beedc6fc648e8ba8c7642dd020b82/~~/cardial-on-dogwood-tree-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/cardial-on-dogwood-tree_poster?sku=s6-9169767p66a213v756",
+  // },
+  // {
+  //   title: "Giraffes",
+  //   id: 89,
+  //   keyword: "giraffes baby africa plains tree acia",
+  //   medium: "canvas acrylic",
+  //   size: "16x20 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 100,
+  //   buy: "Shipping varies:",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/9hhbrTJ0OcO53MpdxuWY73mrI84/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/53bef88059a9447e99146fb252826f12/~~/giraffe2132847-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/9hhbrTJ0OcO53MpdxuWY73mrI84/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/53bef88059a9447e99146fb252826f12/~~/giraffe2132847-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/giraffe2132847_stretched-canvas?sku=s6-11131320p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/GYG5B0BxMAc_vDSpjjN9RUF_RCE/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/58e1280db7a54a61a56544cf632bc951/~~/giraffe2132847-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/giraffe2132847_print?sku=s6-11131320p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/rGvw4Qfwfou2zxzNw_3-D47pbPw/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/58e1280db7a54a61a56544cf632bc951/~~/giraffe2132847-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/giraffe2132847_framed-print?sku=s6-11131320p21a12v63a13v54",
+  //   s6TapestryImg: null,
+  //   s6Tapestry: "",
+  //   s6WallHangingImage: null,
+  //   s6WallHanging: "",
+  //   s6PosterImage: null,
+  //   s6Poster: "",
+  // },
   // {
   //   title: "Gerainums",
   //   id: 90,
@@ -3414,439 +3466,402 @@ const GalleryArray = [
   //   s6PosterImage: "",
   //   s6Poster: "",
   // },
-  {
-    title: "Giant Panda",
-    id: 91,
-    keyword: "giant panda black white",
-    medium: "canvas acrylic",
-    size: "8x10 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    buy: "Coming soon.",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/3dtqPPZJYD-T2VBzyIlePLEUhcg/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/3dtqPPZJYD-T2VBzyIlePLEUhcg/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/giant-panda1151785_stretched-canvas?sku=s6-8800099p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/nXuSrIb2GvFOAlOThkPLomEGVdk/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-prints.jpg",
-    s6Print:
-      "https://society6.com/product/giant-panda1151785_print?sku=s6-8800099p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/WuTOvGzHF6OCeR63j3HjQjjIYuc/w_700/framed-prints/10x12/scoop-black/~artwork/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/giant-panda1151785_framed-print?sku=s6-8800099p21a12v52a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/Vkup6Z3E9aJjsSDX33DuzVJ7mVo/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-37,iw_6574,ih_5525/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/giant-panda1151785_tapestry?sku=s6-8800099p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/WPYLYJsP99TSQ8wz0ajWPUvMDWY/w_700/wall-hangings/large/front/~artwork,fw_6550,fh_4674,fx_-278,fy_36,iw_6756,ih_5678/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/giant-panda1151785_wall-hanging?sku=s6-8800099p74a221v771",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/FKHNUCusFh9ydeZZfe26WGQ4Olk/w_700/posters/top/~artwork,fw_2718,fh_3619,fx_-1153,iw_4305,ih_3618/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/giant-panda1151785_poster?sku=s6-8800099p66a213v756",
-  },
-  {
-    title: "Morning Glories",
-    id: 93,
-    keyword: "morning glories flowers blue",
-    medium: "canvas acrylic",
-    size: "12x24",
-    description: "Acrylic paint on canvas.",
-    price: 100,
-    buy: "Shipping varies:",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/BNLx80php3OF-GNpYDnKZNAmQtY/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/9abe0739f9dc4fae99fb2427699cbbed/~~/morning-glories1381607-prints.jpg",
-    s6CanvasPrintImg: null,
-    s6CanvasPrint: "",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/BNLx80php3OF-GNpYDnKZNAmQtY/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/9abe0739f9dc4fae99fb2427699cbbed/~~/morning-glories1381607-prints.jpg",
-    s6Print:
-      "https://society6.com/product/morning-glories1381607_print?sku=s6-9318673p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/LwA9dcXSKANfnVkqDuo0I-xh4Hw/w_700/framed-prints/15x21/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/9abe0739f9dc4fae99fb2427699cbbed/~~/morning-glories1381607-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/morning-glories1381607_framed-print?sku=s6-9318673p21a12v65a13v56",
-    s6TapestryImg: null,
-    s6Tapestry: "",
-    s6WallHangingImage: null,
-    s6WallHanging: "",
-    s6PosterImage: null,
-    s6Poster: "",
-  },
-  {
-    title: "Pink Aqua",
-    id: 96,
-    keyword: "pink aqua abstract pour",
-    medium: "canvas acrylic",
-    size: "6x6 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    buy: "Coming soon.",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/gDACheQ0aX6c8VmT-8ecAE6cEVk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/gDACheQ0aX6c8VmT-8ecAE6cEVk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/pink-aqua1252973_stretched-canvas?sku=s6-9036789p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/wmEh9HAqZUD9AXKchvIOcpbhQ6U/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-prints.jpg",
-    s6Print:
-      "https://society6.com/product/pink-aqua1252973_print?sku=s6-9036789p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/w0cG79b-eY1bULoDGS14tHtMkDQ/w_700/framed-prints/12x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/pink-aqua1252973_framed-print?sku=s6-9036789p21a12v63a13v55",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/mrzx6YQwC8-IE2MO76yE4Ok0yBI/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fx_-487,iw_6499,ih_6500/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/pink-aqua1252973_tapestry?sku=s6-9036789p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/QMlKHY8jXqYW3GYZPUWOvxxoSUs/w_700/wall-hangings/small/front/~artwork,fw_4058,fh_5678,fx_-810,iw_5677,ih_5678/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/pink-aqua1252973_wall-hanging?sku=s6-9036789p74a221v774",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/K9kBoF1g06XUi4oJeRi4R7pFWUA/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-450,iw_3617,ih_3618/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/pink-aqua1252973_poster?sku=s6-9036789p66a213v756",
-  },
-  {
-    title: "Sea Foam",
-    id: 97,
-    keyword: "sea foam ocean water abstract pour",
-    medium: "canvas acrylic",
-    size: "9x12 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    buy: "Coming soon.",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/d3Xs9xFA7ZDXFmkkJf75o6mxwzQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/d3Xs9xFA7ZDXFmkkJf75o6mxwzQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/sea-foam1287839_stretched-canvas?sku=s6-9111873p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/UW6Er82eX6VVAIepqYMp7wgOPe8/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-prints.jpg",
-    s6Print:
-      "https://society6.com/product/sea-foam1287839_print?sku=s6-9111873p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/qME1YOM8V8BhkAfEO17djQ1zuDU/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/sea-foam1287839_framed-print?sku=s6-9111873p21a12v63a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/0iC1d1tdLhfRvNQBd9ANN-_MxaI/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-433,iw_7365,ih_5525/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/sea-foam1287839_tapestry?sku=s6-9111873p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/feUNXKRrHYNNMwcwd9k3DejJPrk/w_700/wall-hangings/large/front/~artwork,fw_5678,fh_4058,fy_-101,iw_5678,ih_4259/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/sea-foam1287839_wall-hanging?sku=s6-9111873p74a221v771",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/Sp1_PXekEDEuvvh7OeMaD3WD3qA/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-1053,iw_4823,ih_3618/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/sea-foam1287839_poster?sku=s6-9111873p66a213v756",
-  },
-  {
-    title: "Sun Fire",
-    id: 98,
-    keyword: "sun fire abstract pour",
-    medium: "canvas acrylic",
-    size: "8x8 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    buy: "Not Available",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/deyXcZU-eOg8eAUzXAqloqeuBe8/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/deyXcZU-eOg8eAUzXAqloqeuBe8/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/sun-fire1250862_stretched-canvas?sku=s6-9031518p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/AlcRV3WxQJb4GESg1NUrkMQ59Aw/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-prints.jpg",
-    s6Print:
-      "https://society6.com/product/sun-fire1250862_print?sku=s6-9031518p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/2cWzl4-TGit9KT1HtwMVzkv0Tmg/w_700/framed-prints/12x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/sun-fire1250862_framed-print?sku=s6-9031518p21a12v63a13v55",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/IBOG0s8m01lc3B25HZVSSY9n8eQ/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fx_-487,iw_6499,ih_6500/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/sun-fire1250862_tapestry?sku=s6-9031518p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/33HozM3wWKtEHAkMmU89WSndX5g/w_700/wall-hangings/small/front/~artwork,fw_4058,fh_5678,fx_-810,iw_5677,ih_5678/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/sun-fire1250862_wall-hanging?sku=s6-9031518p74a221v774",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/q-lmfNIOhJ1bTM4Y1nDwL5ijlzc/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-450,iw_3617,ih_3618/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/sun-fire1250862_poster?sku=s6-9031518p66a213v756",
-  },
-  {
-    title: "Solar Flare",
-    id: 99,
-    keyword: "solar flare abstract pour",
-    medium: "canvas acrylic",
-    size: "4x12 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    buy: "Not Available",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/ppgKxRuucRdhAOtRGjEaHmuYb0w/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/ppgKxRuucRdhAOtRGjEaHmuYb0w/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/solar-flare1345853_stretched-canvas?sku=s6-9242410p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/jnSbggE02PO49PRt_GdbAMxl3V0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-prints.jpg",
-    s6Print:
-      "https://society6.com/product/solar-flare1345853_print?sku=s6-9242410p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/PMpCk2mWKGlSGme10jd13zY4MEg/w_700/framed-prints/15x21/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/solar-flare1345853_framed-print?sku=s6-9242410p21a12v65a13v56",
-    s6TapestryImg: null,
-    s6Tapestry: "",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/FZWPlMNm0_fEE00jzzN7C-bNqE8/w_700/wall-hangings/small/front/~artwork,fw_4063,fh_5681,fx_24,fy_20,iw_4057,ih_12767/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/solar-flare1345853_wall-hanging?sku=s6-9242410p74a221v774",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/53al3KG5nT8VKO9zlgOPMf1J6ts/w_700/posters/top/~artwork,fw_2717,fh_3619,fx_7,fy_-2,iw_2717,ih_8551/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/solar-flare1345853_poster?sku=s6-9242410p66a213v756",
-  },
-  {
-    title: "Pink Flowers",
-    id: 100,
-    keyword: "pink flowers",
-    medium: "canvas acrylic",
-    size: "9x12 inches.",
-    description: "Ink on cardstock.",
-    price: 60,
-    buy: "Coming soon.",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/F6_2VYZCQDJRSG9ioBFhJi2mz-E/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/F6_2VYZCQDJRSG9ioBFhJi2mz-E/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/pink-flowers2803848_stretched-canvas?sku=s6-13786125p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/Klw1zBcL7uMhGxZPeEy7ofK6aW8/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-prints.jpg",
-    s6Print:
-      "https://society6.com/product/pink-flowers2803848_print?sku=s6-13786125p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/WAtz7nhywI5urfxmSgY71K0B6mw/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/pink-flowers2803848_framed-print?sku=s6-13786125p21a12v63a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/yafjlhvdCrNUjYMeUPyAky-Do2g/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fy_-552,iw_5525,ih_7604/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/pink-flowers2803848_tapestry?sku=s6-13786125p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/EMGEJwBz9QIKXaMiKzlrWxKiWCc/w_700/wall-hangings/small/front/~artwork,fw_4058,fh_5678,fx_-34,iw_4125,ih_5678/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/pink-flowers2803848_wall-hanging?sku=s6-13786125p74a221v774",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/9ADu2zlHEBAyP9v0qTzYVBbyS-8/w_700/posters/top/~artwork,fw_2718,fh_3618,fy_-61,iw_2718,ih_3740/s6-original-art-uploads/society6/uploads/misc/3b819e88a8f54b4a9c8e8de0706f7bb7/~~/pink-flowers2803848-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/pink-flowers2803848_poster?sku=s6-13786125p66a213v756",
-  },
-  {
-    title: "Plumeria",
-    id: 101,
-    keyword: "plumeria flowers pink",
-    medium: "canvas acrylic",
-    size: "6x6 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    buy: "Coming soon.",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/-BvAePTY4jdGcCSLq2McZMKY9HU/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/-BvAePTY4jdGcCSLq2McZMKY9HU/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/plumeria-tree1801808_stretched-canvas?sku=s6-10326627p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/q4FPhl4FdJY9J_xReJMI93m1wTc/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-prints.jpg",
-    s6Print:
-      "https://society6.com/product/plumeria-tree1801808_print?sku=s6-10326627p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/PB6aClLQCORBi_q0G4k9k07xYYA/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/plumeria-tree1801808_framed-print?sku=s6-10326627p21a12v63a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/gxzw8khRIiVbxUIyMRJo4aCYV_k/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-504,iw_7508,ih_5525/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/plumeria-tree1801808_tapestry?sku=s6-10326627p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/3pDn4XYx6HXKwtsdl5fW4syJJzg/w_700/wall-hangings/large/front/~artwork,fw_5678,fh_4058,fy_-60,iw_5678,ih_4177/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/plumeria-tree1801808_wall-hanging?sku=s6-10326627p74a221v771",
-    s6PosterImage: null,
-    s6Poster: "",
-  },
-  {
-    title: "Purselane",
-    id: 102,
-    keyword: "purselane pink flowers",
-    medium: "canvas acrylic",
-    size: "6x6",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    buy: "Coming soon.",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/w3kT5iWfYAPX2Z1uQxZHPbXm1XQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/w3kT5iWfYAPX2Z1uQxZHPbXm1XQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/purselane_stretched-canvas?sku=s6-8708420p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/-UA0ChBP10gys-kC_bb3_3S0D7Q/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-prints.jpg",
-    s6Print:
-      "https://society6.com/product/purselane_print?sku=s6-8708420p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/m3LJW2GBNHo_jqNuHP3zvHbEeOU/w_700/framed-prints/12x12/conservation-pecan/~artwork/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/purselane_framed-print?sku=s6-8708420p21a12v64a13v55",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/LzxkQU5CUssktXHT2SF_g5E3OFo/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fx_-419,iw_6362,ih_6500/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/purselane_tapestry?sku=s6-8708420p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/oIaSFuoe-gWvoK8ZUNMOjYNfhYM/w_700/wall-hangings/small/front/~artwork,fw_4058,fh_5678,fx_-750,iw_5558,ih_5678/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/purselane_wall-hanging?sku=s6-8708420p74a221v774",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/DgWP9sIv7FOtGgcjRUZ2MwVVJkM/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-412,iw_3541,ih_3618/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/purselane_poster?sku=s6-8708420p66a213v756",
-  },
-  {
-    title: "Sea Turtle",
-    id: 103,
-    keyword: "sea turtle ocean",
-    medium: "canvas acrylic",
-    size: "9x12 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 60,
-    buy: "Coming soon.",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/ljlQ-MxI1cEOi8zb_XT_9m1JIEk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/ljlQ-MxI1cEOi8zb_XT_9m1JIEk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/sea-turtle1109065_stretched-canvas?sku=s6-8700398p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/coC-rLsjTp9PWyvh3cMT_lmpWW0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-prints.jpg",
-    s6Print:
-      "https://society6.com/product/sea-turtle1109065_print?sku=s6-8700398p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/ye9xKlI4I1HSo1GC94NUmaonevg/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/sea-turtle1109065_framed-print?sku=s6-8700398p21a12v63a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/9WVe3icBu2kft_vE7AMIQTJQpVo/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-586,iw_7672,ih_5525/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/sea-turtle1109065_tapestry?sku=s6-8700398p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/grZFiKa8j0ZHiC1XuftEBi0yook/w_700/wall-hangings/large/front/~artwork,fw_6545,fh_4673,fx_-745,fy_-36,iw_7885,ih_5678/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/sea-turtle1109065_wall-hanging?sku=s6-8700398p74a221v771",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/eI0B339Ecar-nPat7bemlqO5iz8/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-1153,iw_5024,ih_3618/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/sea-turtle1109065_poster?sku=s6-8700398p66a213v756",
-  },
-  {
-    title: "The Stuff of Life",
-    id: 104,
-    keyword: "stuff the life abstract",
-    medium: "Acrylic paint on canvas.",
-    size: "9x12 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 60,
-    buy: "Coming soon.",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/m6rb3oQbJs0z6iC_AhmWWnOY1bk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/m6rb3oQbJs0z6iC_AhmWWnOY1bk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/the-stuff-of-life_stretched-canvas?sku=s6-9663420p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/fbb64NARNp9TNpUngdH3RV_kJvA/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-prints.jpg",
-    s6Print:
-      "https://society6.com/product/the-stuff-of-life_print?sku=s6-9663420p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/0qZY8EVOr7VdmL-G_gi17wxsbdk/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/the-stuff-of-life_framed-print?sku=s6-9663420p21a12v63a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/3l8eQmx48_rkD2hKRmJKgre9yUw/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-590,iw_7679,ih_5525/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/the-stuff-of-life_tapestry?sku=s6-9663420p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/SMY5-ikghBzypKSaljs6i-Jzd2s/w_700/wall-hangings/large/front/~artwork,fw_5678,fh_4058,fy_-13,iw_5678,ih_4084/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/the-stuff-of-life_wall-hanging?sku=s6-9663420p74a221v771",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/D501w1tf01tpajlNIXEHteRcEL4/w_700/posters/top/~artwork,fw_2718,fh_3620,fy_-80,iw_2717,ih_3777/s6-original-art-uploads/society6/uploads/misc/64cdfa9d3c9d4a26bab64691dcaf5b45/~~/the-stuff-of-life-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/the-stuff-of-life_poster?sku=s6-9663420p66a213v756",
-  },
-  {
-    title: "Enchanted Spring",
-    id: 105,
-    keyword: "enchanted spring tree cherry blossoms flowers pink",
-    medium: "Acrylic paint on canvas.",
-    size: "9x12 inches.",
-    description: "Ink on cardstock.",
-    price: 60,
-    buy: "Buy Now!",
-    etsyListing:
-      "https://www.etsy.com/listing/1007635893/enchanted-spring-acrylic-painting?ref=shop_home_active_1&frs=1",
-    image:
-      "https://ctl.s6img.com/society6/img/CKX8Pgw3QYYQ5KeCkMG9ViL6gZg/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/CKX8Pgw3QYYQ5KeCkMG9ViL6gZg/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/whimsical-cherry-tree_stretched-canvas?sku=s6-13410277p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/DbyiElmp3VF62-c7ld6YgMxTQYU/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-prints.jpg",
-    s6Print:
-      "https://society6.com/product/whimsical-cherry-tree_print?sku=s6-13410277p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/pL35VW23Qwo4vg5k8BfYhpGCCMY/w_700/framed-prints/10x12/conservation-pecan/~artwork/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/whimsical-cherry-tree_framed-print?sku=s6-13410277p21a12v64a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/KXRlgHNsW8L9kM4htLHHoxwsdVk/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fy_-552,iw_5525,ih_7603/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/whimsical-cherry-tree_tapestry?sku=s6-13410277p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/_KW96SGxS4PUPPI6cAwPRepU4xQ/w_700/wall-hangings/large/front/~artwork,fw_4058,fh_5678,fx_-34,iw_4125,ih_5678/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/whimsical-cherry-tree_wall-hanging?sku=s6-13410277p74a221v773",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/j1JU5ARX0lvW5QmdkO2QX2u0aXY/w_700/posters/top/~artwork,fw_2718,fh_3618,fy_-61,iw_2718,ih_3740/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-poste,rs.jpg",
-    s6Poster:
-      "https://society6.com/product/whimsical-cherry-tree_poster?sku=s6-13410277p66a213v756",
-  },
+  // {
+  //   title: "Giant Panda",
+  //   id: 91,
+  //   keyword: "giant panda black white",
+  //   medium: "canvas acrylic",
+  //   size: "8x10 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 50,
+  //   buy: "Coming soon.",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/3dtqPPZJYD-T2VBzyIlePLEUhcg/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/3dtqPPZJYD-T2VBzyIlePLEUhcg/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/giant-panda1151785_stretched-canvas?sku=s6-8800099p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/nXuSrIb2GvFOAlOThkPLomEGVdk/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/giant-panda1151785_print?sku=s6-8800099p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/WuTOvGzHF6OCeR63j3HjQjjIYuc/w_700/framed-prints/10x12/scoop-black/~artwork/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/giant-panda1151785_framed-print?sku=s6-8800099p21a12v52a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/Vkup6Z3E9aJjsSDX33DuzVJ7mVo/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-37,iw_6574,ih_5525/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/giant-panda1151785_tapestry?sku=s6-8800099p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/WPYLYJsP99TSQ8wz0ajWPUvMDWY/w_700/wall-hangings/large/front/~artwork,fw_6550,fh_4674,fx_-278,fy_36,iw_6756,ih_5678/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/giant-panda1151785_wall-hanging?sku=s6-8800099p74a221v771",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/FKHNUCusFh9ydeZZfe26WGQ4Olk/w_700/posters/top/~artwork,fw_2718,fh_3619,fx_-1153,iw_4305,ih_3618/s6-original-art-uploads/society6/uploads/misc/017a541243f644d59f9cad29154383e5/~~/giant-panda1151785-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/giant-panda1151785_poster?sku=s6-8800099p66a213v756",
+  // },
+  // {
+  //   title: "Morning Glories",
+  //   id: 93,
+  //   keyword: "morning glories flowers blue",
+  //   medium: "canvas acrylic",
+  //   size: "12x24",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 100,
+  //   buy: "Shipping varies:",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/BNLx80php3OF-GNpYDnKZNAmQtY/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/9abe0739f9dc4fae99fb2427699cbbed/~~/morning-glories1381607-prints.jpg",
+  //   s6CanvasPrintImg: null,
+  //   s6CanvasPrint: "",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/BNLx80php3OF-GNpYDnKZNAmQtY/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/9abe0739f9dc4fae99fb2427699cbbed/~~/morning-glories1381607-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/morning-glories1381607_print?sku=s6-9318673p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/LwA9dcXSKANfnVkqDuo0I-xh4Hw/w_700/framed-prints/15x21/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/9abe0739f9dc4fae99fb2427699cbbed/~~/morning-glories1381607-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/morning-glories1381607_framed-print?sku=s6-9318673p21a12v65a13v56",
+  //   s6TapestryImg: null,
+  //   s6Tapestry: "",
+  //   s6WallHangingImage: null,
+  //   s6WallHanging: "",
+  //   s6PosterImage: null,
+  //   s6Poster: "",
+  // },
+  // {
+  //   title: "Pink Aqua",
+  //   id: 96,
+  //   keyword: "pink aqua abstract pour",
+  //   medium: "canvas acrylic",
+  //   size: "6x6 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 50,
+  //   buy: "Coming soon.",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/gDACheQ0aX6c8VmT-8ecAE6cEVk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/gDACheQ0aX6c8VmT-8ecAE6cEVk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/pink-aqua1252973_stretched-canvas?sku=s6-9036789p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/wmEh9HAqZUD9AXKchvIOcpbhQ6U/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/pink-aqua1252973_print?sku=s6-9036789p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/w0cG79b-eY1bULoDGS14tHtMkDQ/w_700/framed-prints/12x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/pink-aqua1252973_framed-print?sku=s6-9036789p21a12v63a13v55",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/mrzx6YQwC8-IE2MO76yE4Ok0yBI/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fx_-487,iw_6499,ih_6500/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/pink-aqua1252973_tapestry?sku=s6-9036789p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/QMlKHY8jXqYW3GYZPUWOvxxoSUs/w_700/wall-hangings/small/front/~artwork,fw_4058,fh_5678,fx_-810,iw_5677,ih_5678/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/pink-aqua1252973_wall-hanging?sku=s6-9036789p74a221v774",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/K9kBoF1g06XUi4oJeRi4R7pFWUA/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-450,iw_3617,ih_3618/s6-original-art-uploads/society6/uploads/misc/1f2d78114f114fbaa3591696e42ccae5/~~/pink-aqua1252973-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/pink-aqua1252973_poster?sku=s6-9036789p66a213v756",
+  // },
+  // {
+  //   title: "Sea Foam",
+  //   id: 97,
+  //   keyword: "sea foam ocean water abstract pour",
+  //   medium: "canvas acrylic",
+  //   size: "9x12 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 50,
+  //   buy: "Coming soon.",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/d3Xs9xFA7ZDXFmkkJf75o6mxwzQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/d3Xs9xFA7ZDXFmkkJf75o6mxwzQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/sea-foam1287839_stretched-canvas?sku=s6-9111873p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/UW6Er82eX6VVAIepqYMp7wgOPe8/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/sea-foam1287839_print?sku=s6-9111873p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/qME1YOM8V8BhkAfEO17djQ1zuDU/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/sea-foam1287839_framed-print?sku=s6-9111873p21a12v63a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/0iC1d1tdLhfRvNQBd9ANN-_MxaI/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-433,iw_7365,ih_5525/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/sea-foam1287839_tapestry?sku=s6-9111873p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/feUNXKRrHYNNMwcwd9k3DejJPrk/w_700/wall-hangings/large/front/~artwork,fw_5678,fh_4058,fy_-101,iw_5678,ih_4259/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/sea-foam1287839_wall-hanging?sku=s6-9111873p74a221v771",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/Sp1_PXekEDEuvvh7OeMaD3WD3qA/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-1053,iw_4823,ih_3618/s6-original-art-uploads/society6/uploads/misc/ef9097bfcbe44779b37890e4e8a68dd7/~~/sea-foam1287839-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/sea-foam1287839_poster?sku=s6-9111873p66a213v756",
+  // },
+  // {
+  //   title: "Sun Fire",
+  //   id: 98,
+  //   keyword: "sun fire abstract pour",
+  //   medium: "canvas acrylic",
+  //   size: "8x8 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 50,
+  //   buy: "Not Available",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/deyXcZU-eOg8eAUzXAqloqeuBe8/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/deyXcZU-eOg8eAUzXAqloqeuBe8/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/sun-fire1250862_stretched-canvas?sku=s6-9031518p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/AlcRV3WxQJb4GESg1NUrkMQ59Aw/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/sun-fire1250862_print?sku=s6-9031518p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/2cWzl4-TGit9KT1HtwMVzkv0Tmg/w_700/framed-prints/12x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/sun-fire1250862_framed-print?sku=s6-9031518p21a12v63a13v55",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/IBOG0s8m01lc3B25HZVSSY9n8eQ/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fx_-487,iw_6499,ih_6500/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/sun-fire1250862_tapestry?sku=s6-9031518p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/33HozM3wWKtEHAkMmU89WSndX5g/w_700/wall-hangings/small/front/~artwork,fw_4058,fh_5678,fx_-810,iw_5677,ih_5678/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/sun-fire1250862_wall-hanging?sku=s6-9031518p74a221v774",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/q-lmfNIOhJ1bTM4Y1nDwL5ijlzc/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-450,iw_3617,ih_3618/s6-original-art-uploads/society6/uploads/misc/09a6441d2c694805bad686fe51ada12a/~~/sun-fire1250862-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/sun-fire1250862_poster?sku=s6-9031518p66a213v756",
+  // },
+  // {
+  //   title: "Solar Flare",
+  //   id: 99,
+  //   keyword: "solar flare abstract pour",
+  //   medium: "canvas acrylic",
+  //   size: "4x12 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 50,
+  //   buy: "Not Available",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/ppgKxRuucRdhAOtRGjEaHmuYb0w/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/ppgKxRuucRdhAOtRGjEaHmuYb0w/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/solar-flare1345853_stretched-canvas?sku=s6-9242410p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/jnSbggE02PO49PRt_GdbAMxl3V0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/solar-flare1345853_print?sku=s6-9242410p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/PMpCk2mWKGlSGme10jd13zY4MEg/w_700/framed-prints/15x21/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/solar-flare1345853_framed-print?sku=s6-9242410p21a12v65a13v56",
+  //   s6TapestryImg: null,
+  //   s6Tapestry: "",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/FZWPlMNm0_fEE00jzzN7C-bNqE8/w_700/wall-hangings/small/front/~artwork,fw_4063,fh_5681,fx_24,fy_20,iw_4057,ih_12767/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/solar-flare1345853_wall-hanging?sku=s6-9242410p74a221v774",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/53al3KG5nT8VKO9zlgOPMf1J6ts/w_700/posters/top/~artwork,fw_2717,fh_3619,fx_7,fy_-2,iw_2717,ih_8551/s6-original-art-uploads/society6/uploads/misc/ff9003456c5b48afa7bb2a1806b38e05/~~/solar-flare1345853-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/solar-flare1345853_poster?sku=s6-9242410p66a213v756",
+  // },
+  // {
+  //   title: "Plumeria",
+  //   id: 101,
+  //   keyword: "plumeria flowers pink",
+  //   medium: "canvas acrylic",
+  //   size: "6x6 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 50,
+  //   buy: "Coming soon.",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/-BvAePTY4jdGcCSLq2McZMKY9HU/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/-BvAePTY4jdGcCSLq2McZMKY9HU/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/plumeria-tree1801808_stretched-canvas?sku=s6-10326627p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/q4FPhl4FdJY9J_xReJMI93m1wTc/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/plumeria-tree1801808_print?sku=s6-10326627p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/PB6aClLQCORBi_q0G4k9k07xYYA/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/plumeria-tree1801808_framed-print?sku=s6-10326627p21a12v63a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/gxzw8khRIiVbxUIyMRJo4aCYV_k/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-504,iw_7508,ih_5525/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/plumeria-tree1801808_tapestry?sku=s6-10326627p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/3pDn4XYx6HXKwtsdl5fW4syJJzg/w_700/wall-hangings/large/front/~artwork,fw_5678,fh_4058,fy_-60,iw_5678,ih_4177/s6-original-art-uploads/society6/uploads/misc/e172e679a4b04dc7aa214b9e07f43e82/~~/plumeria-tree1801808-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/plumeria-tree1801808_wall-hanging?sku=s6-10326627p74a221v771",
+  //   s6PosterImage: null,
+  //   s6Poster: "",
+  // },
+  // {
+  //   title: "Purselane",
+  //   id: 102,
+  //   keyword: "purselane pink flowers",
+  //   medium: "canvas acrylic",
+  //   size: "6x6",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 50,
+  //   buy: "Coming soon.",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/w3kT5iWfYAPX2Z1uQxZHPbXm1XQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/w3kT5iWfYAPX2Z1uQxZHPbXm1XQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/purselane_stretched-canvas?sku=s6-8708420p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/-UA0ChBP10gys-kC_bb3_3S0D7Q/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/purselane_print?sku=s6-8708420p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/m3LJW2GBNHo_jqNuHP3zvHbEeOU/w_700/framed-prints/12x12/conservation-pecan/~artwork/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/purselane_framed-print?sku=s6-8708420p21a12v64a13v55",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/LzxkQU5CUssktXHT2SF_g5E3OFo/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fx_-419,iw_6362,ih_6500/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/purselane_tapestry?sku=s6-8708420p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/oIaSFuoe-gWvoK8ZUNMOjYNfhYM/w_700/wall-hangings/small/front/~artwork,fw_4058,fh_5678,fx_-750,iw_5558,ih_5678/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/purselane_wall-hanging?sku=s6-8708420p74a221v774",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/DgWP9sIv7FOtGgcjRUZ2MwVVJkM/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-412,iw_3541,ih_3618/s6-original-art-uploads/society6/uploads/misc/99f65e1b263644b38da0a4c216007068/~~/purselane-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/purselane_poster?sku=s6-8708420p66a213v756",
+  // },
+  // {
+  //   title: "Sea Turtle",
+  //   id: 103,
+  //   keyword: "sea turtle ocean",
+  //   medium: "canvas acrylic",
+  //   size: "9x12 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 60,
+  //   buy: "Coming soon.",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/ljlQ-MxI1cEOi8zb_XT_9m1JIEk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/ljlQ-MxI1cEOi8zb_XT_9m1JIEk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/sea-turtle1109065_stretched-canvas?sku=s6-8700398p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/coC-rLsjTp9PWyvh3cMT_lmpWW0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/sea-turtle1109065_print?sku=s6-8700398p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/ye9xKlI4I1HSo1GC94NUmaonevg/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/sea-turtle1109065_framed-print?sku=s6-8700398p21a12v63a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/9WVe3icBu2kft_vE7AMIQTJQpVo/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-586,iw_7672,ih_5525/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/sea-turtle1109065_tapestry?sku=s6-8700398p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/grZFiKa8j0ZHiC1XuftEBi0yook/w_700/wall-hangings/large/front/~artwork,fw_6545,fh_4673,fx_-745,fy_-36,iw_7885,ih_5678/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/sea-turtle1109065_wall-hanging?sku=s6-8700398p74a221v771",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/eI0B339Ecar-nPat7bemlqO5iz8/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-1153,iw_5024,ih_3618/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/sea-turtle1109065_poster?sku=s6-8700398p66a213v756",
+  // },
+  // {
+  //   title: "The Stuff of Life",
+  //   id: 104,
+  //   keyword: "stuff the life abstract",
+  //   medium: "Acrylic paint on canvas.",
+  //   size: "9x12 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 60,
+  //   buy: "Coming soon.",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/m6rb3oQbJs0z6iC_AhmWWnOY1bk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/m6rb3oQbJs0z6iC_AhmWWnOY1bk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/the-stuff-of-life_stretched-canvas?sku=s6-9663420p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/fbb64NARNp9TNpUngdH3RV_kJvA/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/the-stuff-of-life_print?sku=s6-9663420p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/0qZY8EVOr7VdmL-G_gi17wxsbdk/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/the-stuff-of-life_framed-print?sku=s6-9663420p21a12v63a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/3l8eQmx48_rkD2hKRmJKgre9yUw/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-590,iw_7679,ih_5525/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/the-stuff-of-life_tapestry?sku=s6-9663420p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/SMY5-ikghBzypKSaljs6i-Jzd2s/w_700/wall-hangings/large/front/~artwork,fw_5678,fh_4058,fy_-13,iw_5678,ih_4084/s6-original-art-uploads/society6/uploads/misc/68387be39ffb45198a36cfc4072d9b7b/~~/the-stuff-of-life-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/the-stuff-of-life_wall-hanging?sku=s6-9663420p74a221v771",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/D501w1tf01tpajlNIXEHteRcEL4/w_700/posters/top/~artwork,fw_2718,fh_3620,fy_-80,iw_2717,ih_3777/s6-original-art-uploads/society6/uploads/misc/64cdfa9d3c9d4a26bab64691dcaf5b45/~~/the-stuff-of-life-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/the-stuff-of-life_poster?sku=s6-9663420p66a213v756",
+  // },
+  // {
+  //   title: "Enchanted Spring",
+  //   id: 105,
+  //   keyword: "enchanted spring tree cherry blossoms flowers pink",
+  //   medium: "Acrylic paint on canvas.",
+  //   size: "9x12 inches.",
+  //   description: "Ink on cardstock.",
+  //   price: 60,
+  //   buy: "Buy Now!",
+  //   etsyListing:
+  //     "https://www.etsy.com/listing/1007635893/enchanted-spring-acrylic-painting?ref=shop_home_active_1&frs=1",
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/CKX8Pgw3QYYQ5KeCkMG9ViL6gZg/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/CKX8Pgw3QYYQ5KeCkMG9ViL6gZg/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/whimsical-cherry-tree_stretched-canvas?sku=s6-13410277p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/DbyiElmp3VF62-c7ld6YgMxTQYU/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/whimsical-cherry-tree_print?sku=s6-13410277p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/pL35VW23Qwo4vg5k8BfYhpGCCMY/w_700/framed-prints/10x12/conservation-pecan/~artwork/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/whimsical-cherry-tree_framed-print?sku=s6-13410277p21a12v64a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/KXRlgHNsW8L9kM4htLHHoxwsdVk/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fy_-552,iw_5525,ih_7603/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/whimsical-cherry-tree_tapestry?sku=s6-13410277p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/_KW96SGxS4PUPPI6cAwPRepU4xQ/w_700/wall-hangings/large/front/~artwork,fw_4058,fh_5678,fx_-34,iw_4125,ih_5678/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/whimsical-cherry-tree_wall-hanging?sku=s6-13410277p74a221v773",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/j1JU5ARX0lvW5QmdkO2QX2u0aXY/w_700/posters/top/~artwork,fw_2718,fh_3618,fy_-61,iw_2718,ih_3740/s6-original-art-uploads/society6/uploads/misc/5ca860761a7945bf88a875c1c97eed04/~~/whimsical-cherry-tree-poste,rs.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/whimsical-cherry-tree_poster?sku=s6-13410277p66a213v756",
+  // },
   {
     title: "Rose Fairy",
     id: 107,
@@ -3885,26 +3900,43 @@ const GalleryArray = [
       "https://society6.com/product/rose-fairy1375854_poster?sku=s6-9305520p66a213v756",
   },
   // {
-  //   title: "",
-  //   id: 108,
-  //   keyword: "",
-  //   medium: "canvas acrylic",
-  //   size: "",
-  //   description: "Acrylic paint on canvas.",
-  //   price: 50,
-  //   image: null,
-  //   s6CanvasPrintImg: null,
-  // s6CanvasPrint: "",
-  // s6PrintImg: "",
-  // s6Print: "",
-  // s6FramedImg: "",
-  // s6Framed: "",
-  // s6TapestryImg: null,
-  // s6Tapestry: "",
-  // s6WallHangingImage: null,
-  // s6WallHanging: "",
-  //   buy: "Not Available",
+  //   title: "Sunset Ocean",
+  //   titleImage: null,
+  //   titleImageMobile: null,
+  //   id: 84,
+  //   keyword: "sunset ocean view tree landscape sea water",
+  //   medium: "acrylic canvas",
+  //   size: "6x4 inches.",
+  //   description: "Acrylic paint on wrapped canvas.",
+  //   price: 108,
+  //   buy: "Coming soon.",
   //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/HDeUvQp37W1bL0Z3rxI_QdqbbzI/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/7d535eeb0b2c447aadf3e39cf0b6a5e0/~~/sunset-ocean-view4949541-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/HDeUvQp37W1bL0Z3rxI_QdqbbzI/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/7d535eeb0b2c447aadf3e39cf0b6a5e0/~~/sunset-ocean-view4949541-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/sunset-ocean-view4949541_stretched-canvas?sku=s6-19953070p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/eW0ktbyXNK0ubSJMDWXnwyJM9jc/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/7d535eeb0b2c447aadf3e39cf0b6a5e0/~~/sunset-ocean-view4949541-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/sunset-ocean-view4949541_print?sku=s6-19953070p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/iXCGRmobwc8fiIjpuSFJu0Lq3ZE/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/7d535eeb0b2c447aadf3e39cf0b6a5e0/~~/sunset-ocean-view4949541-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/sunset-ocean-view4949541_framed-print?sku=s6-19953070p21a12v63a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/7mS92Br6D6rU6hk1n9vU2qpgDoI/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fy_-874,iw_5525,ih_8248/s6-original-art-uploads/society6/uploads/misc/7d535eeb0b2c447aadf3e39cf0b6a5e0/~~/sunset-ocean-view4949541-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/sunset-ocean-view4949541_tapestry?sku=s6-19953070p42a55v412",
+  //   s6WallHanging:
+  //     "https://society6.com/product/sunset-ocean-view4949541_wall-hanging?sku=s6-19953070p74a221v774",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/u2ru-gbiKxuzjd3dRQ_FSU7XdAY/w_700/wall-hangings/small/front/~artwork,fw_4058,fh_5678,fy_-190,iw_4058,ih_6058/s6-original-art-uploads/society6/uploads/misc/7d535eeb0b2c447aadf3e39cf0b6a5e0/~~/sunset-ocean-view4949541-wall-hangings.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/sunset-ocean-view4949541_poster?sku=s6-19953070p66a213v756",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/ZhNXMjDCzYzvDa3CuINKNs1BYMg/w_700/posters/top/~artwork,fw_2718,fh_3618,fy_-220,iw_2718,ih_4057/s6-original-art-uploads/society6/uploads/misc/7d535eeb0b2c447aadf3e39cf0b6a5e0/~~/sunset-ocean-view4949541-posters.jpg",
   // },
   // {
   //   title: "",
@@ -3949,6 +3981,28 @@ const GalleryArray = [
   //     s6WallHanging: "",
   // buy: "Not Available",
   // etsyListing: null,
+  // },
+   // {
+  //   title: "",
+  //   id: 111,
+  //   keyword: "",
+  //   medium: "canvas acrylic",
+  //   size: "",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 50,
+  //   image: null,
+  //   s6CanvasPrintImg: null,
+  // s6CanvasPrint: "",
+  // s6PrintImg: "",
+  // s6Print: "",
+  // s6FramedImg: "",
+  // s6Framed: "",
+  // s6TapestryImg: null,
+  // s6Tapestry: "",
+  // s6WallHangingImage: null,
+  // s6WallHanging: "",
+  //   buy: "Not Available",
+  //   etsyListing: null,
   // },
 ];
 
