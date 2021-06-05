@@ -5,9 +5,9 @@ import splnWrenMob from "../images/ProductImage/splendidfairywrenMobile.jpg";
 import sunParMi from "../images/ProductImage/sunparakeetmi.jpg";
 import sunParMiMob from "../images/ProductImage/sunparakeetmimobile.jpg";
 import sunsetTree from "../images/ProductImage/sunsetTree.jpg";
-// import sunsetTreeMob from "../images/ProductImage/sunsetTreeMobile.jpg";
+import sunsetTreeMob from "../images/ProductImage/sunsetTreeMobile.jpg";
 import sunsetView from "../images/ProductImage/sunsetView.jpg";
-// import sunsetViewMob from "../images/ProductImage/sunsetViewMobile.jpg";
+import sunsetViewMob from "../images/ProductImage/sunsetViewMobile.jpg";
 import dawnBringer from "../images/ProductImage/dawnBringer.jpg";
 import dawnBringerMobile from "../images/ProductImage/dawnBringerMobile.jpg";
 import magnolias from "../images/ProductImage/magnolias.jpg";
@@ -57,7 +57,7 @@ const GalleryArray = [
   {
     title: "Sunset View",
     titleImage: sunsetView,
-    titleImageMobile: null,
+    titleImageMobile: sunsetViewMob,
     id: 84,
     keyword: "sunset ocean view tree landscape sea water",
     medium: "acrylic canvas",
@@ -248,7 +248,7 @@ const GalleryArray = [
   {
     title: "Sunset Tree",
     titleImage: sunsetTree,
-    titleImageMobile: null,
+    titleImageMobile: sunsetTreeMob,
     id: 56,
     keyword: "tree sunset sea ocean water",
     medium: "canvas acrylic",
