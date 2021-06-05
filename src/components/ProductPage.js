@@ -46,15 +46,17 @@ export default function Item(props) {
   return (
     <div className="homepage">
       <section className="section1">
-        <img src={item.image} alt="art" />
+        {/* <img src={item.image} alt="art" /> */}
+        <img className="title-image" src={item.titleImage} alt={item.title} />
+        <img className="title-image-mobile" src={item.titleImageMobile} alt={item.title} />
         <div className="aboutbox">
           <div className="textbox">
-            <h3>{item.title}</h3>
+            {/* <h3>{item.title}</h3>
             <br></br>
             <p>Price: ${item.price}</p>
             <p>Size: {item.size}</p>
             <p>{item.description}</p>
-            <br></br>
+            <br></br> */}
             <a
               style={style}
               className="buyPrints"

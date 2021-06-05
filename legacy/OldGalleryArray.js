@@ -104,8 +104,8 @@ import tsubaki from "../images/galleryPics/tsubaki.jpg";
 import tsubakiB from "../images/galleryPics/bigger/tsubaki1258216-canvas.webp";
 import winterEnd from "../images/galleryPics/wintersEnd.jpg";
 import winterEndB from "../images/galleryPics/bigger/winters-end3829175-canvas.webp";
-import wolfMoon from "../images/galleryPics/wolfMoon.jpg";
-import wolfMoonB from "../images/galleryPics/bigger/wolf-moon2516241-canvas.webp";
+import Moon from "../images/galleryPics/Moon.jpg";
+import MoonB from "../images/galleryPics/bigger/-moon2516241-canvas.webp";
 import sunsettree from "../images/galleryPics/sunsetBranches.jpg";
 import sunsettreeB from "../images/galleryPics/bigger/sunset-branches2895395-canvas.webp";
 import nightFlight from "../images/galleryPics/night-flight4477694-canvas.webp";
@@ -261,16 +261,16 @@ const OldGalleryArray = [
     s6: "https://society6.com/product/moonlit-reverie_stretched-canvas?sku=s6-17928524p16a6v28",
   },
   {
-    title: "Wolf Moon",
+    title: " Moon",
     id: 55,
-    keyword: "wolf moon hill night sky stars space",
+    keyword: " moon hill night sky stars space",
     medium: "canvas acrylic",
-    baseImage: wolfMoon,
+    baseImage: Moon,
     size: "",
     description: "Acrylic paint on canvas.",
     price: 50,
-    zoomed: wolfMoonB,
-    s6: "https://society6.com/product/wolf-moon2516241_stretched-canvas?sku=s6-13121452p16a6v28",
+    zoomed: MoonB,
+    s6: "https://society6.com/product/-moon2516241_stretched-canvas?sku=s6-13121452p16a6v28",
   },
   {
     title: "Sunset Tree",

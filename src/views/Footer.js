@@ -19,8 +19,8 @@ const Footer = () => {
             >
               Contact Me
             </a>
+            <br></br>
           </div>
-          <p>Or look for me on social media!</p>
         </div>
         <div className="icons">
           <a
