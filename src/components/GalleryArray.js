@@ -54,12 +54,24 @@ import orioleOverOcean from "../images/ProductImage/desktop/orioleOverOcean.jpg"
 import orioleOverOceanMob from "../images/ProductImage/mobile/orioleOverOceanMobile.jpg";
 import scarletMacaw from "../images/ProductImage/desktop/scarletMacaw.jpg";
 import scarletMacawMob from "../images/ProductImage/mobile/scarletMacawMobile.jpg";
-import kingfisher from "../images/ProductImage/desktop/kingfisher.jpg";
-import kingfisherMob from "../images/ProductImage/mobile/kingfisherMobile.jpg";
+import kingfisher from "../images/ProductImage/desktop/kingFisher.jpg";
+import kingfisherMob from "../images/ProductImage/mobile/kingFisherMobile.jpg";
 import owl from "../images/ProductImage/desktop/owl.jpg";
 import owlMob from "../images/ProductImage/mobile/owlMobile.jpg";
 import whale from "../images/ProductImage/desktop/whale.jpg";
 import whaleMob from "../images/ProductImage/mobile/whaleMobile.jpg";
+import brownPelican from "../images/ProductImage/desktop/brownPelican.jpg";
+import brownPelicanMobile from "../images/ProductImage/mobile/brownPelicanMobile.jpg";
+import orangeTree from "../images/ProductImage/desktop/orangeTree.jpg";
+import orangeTreeMobile from "../images/ProductImage/mobile/orangeTreeMobile.jpg";
+import acaiaTree from "../images/ProductImage/desktop/acaiaTree.jpg";
+import acaiaTreeMobile from "../images/ProductImage/mobile/acaiaTreeMobile.jpg";
+import tsubaki from "../images/ProductImage/desktop/tsubaki.jpg";
+import tsubakiMobile from "../images/ProductImage/mobile/tsubakiMobile.jpg";
+// import whale from "../images/ProductImage/desktop/whale.jpg";
+// import whaleMob from "../images/ProductImage/mobile/whaleMobile.jpg";
+// import brownPelican from "../images/ProductImage/desktop/brownPelican.jpg";
+// import brownPelicanMobile from "../images/ProductImage/mobile/brownPelicanMobile.jpg";
 
 
 
@@ -475,6 +487,8 @@ const GalleryArray = [
   },
   {
     title: "Owl",
+    titleImage: owl,
+    titleImageMobile: owlMob,
     id: 61,
     keyword: "owl bird moon sky night cherry blossoms flowers plumb tree",
     medium: "canvas acrylic",
@@ -510,6 +524,8 @@ const GalleryArray = [
   },
   {
     title: "Whale",
+    titleImage: whale,
+    titleImageMobile: whaleMob,
     id: 62,
     keyword: "whale sea ocean mini",
     medium: "canvas acrylic",
@@ -587,6 +603,8 @@ const GalleryArray = [
   },
   {
     title: "Brown Pelican",
+    titleImage: brownPelican,
+    titleImageMobile: brownPelicanMobile,
     id: 64,
     keyword: "brown birds pelican ocean sea palm trees beach",
     medium: "canvas acrylic",
@@ -794,6 +812,8 @@ const GalleryArray = [
   },
   {
     title: "Acaia Tree",
+    titleImage: acaiaTree,
+    titleImageMobile: acaiaTreeMobile,
     id: 5,
     keyword: "landscape tree acaia africa",
     medium: "canvas sheet acrylic",
@@ -1240,6 +1260,8 @@ const GalleryArray = [
   },
   {
     title: "King Fisher",
+    titleImage: kingfisher,
+    titleImageMobile: kingfisherMob,
     id: 12,
     keyword: "birds flowers king tree blossoms pink fisher",
     medium: "canvas wrap acrylic",
@@ -1705,7 +1727,9 @@ const GalleryArray = [
       "https://society6.com/product/deer-at-night_poster?sku=s6-13653018p66a213v756",
   },
   {
-    title: "Flowering Orange Tree",
+    title: "Orange Tree",
+    titleImage: orangeTree,
+    titleImageMobile: orangeTreeMobile,
     id: 22,
     keyword: "flowers blossoms tree orange",
     medium: "canvas acrylic",
@@ -2408,6 +2432,8 @@ const GalleryArray = [
   },
   {
     title: "Tsubaki",
+    titleImage: tsubaki,
+    titleImageMobile: tsubakiMobile,
     id: 46,
     keyword: "japanese camellia tsubaki flowers blossoms pink",
     medium: "canvas acrylic",
