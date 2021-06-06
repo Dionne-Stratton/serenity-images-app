@@ -50,6 +50,16 @@ import nightFlight from "../images/ProductImage/desktop/nightFlight.jpg";
 import nightFlightMob from "../images/ProductImage/mobile/nightFlightMobile.jpg";
 import redrumpedParakeet from "../images/ProductImage/desktop/red-rumpedParakeet.jpg";
 import redrumpedParakeetMob from "../images/ProductImage/mobile/red-rumpedParakeetMobile.jpg";
+import orioleOverOcean from "../images/ProductImage/desktop/orioleOverOcean.jpg";
+import orioleOverOceanMob from "../images/ProductImage/mobile/orioleOverOceanMobile.jpg";
+import scarletMacaw from "../images/ProductImage/desktop/scarletMacaw.jpg";
+import scarletMacawMob from "../images/ProductImage/mobile/scarletMacawMobile.jpg";
+import kingfisher from "../images/ProductImage/desktop/kingfisher.jpg";
+import kingfisherMob from "../images/ProductImage/mobile/kingfisherMobile.jpg";
+import owl from "../images/ProductImage/desktop/owl.jpg";
+import owlMob from "../images/ProductImage/mobile/owlMobile.jpg";
+import whale from "../images/ProductImage/desktop/whale.jpg";
+import whaleMob from "../images/ProductImage/mobile/whaleMobile.jpg";
 
 
 
@@ -399,6 +409,8 @@ const GalleryArray = [
   },
   {
     title: "Scarlet Macaw",
+    titleImage: scarletMacaw,
+    titleImageMobile: scarletMacawMob,
     id: 82,
     keyword: "scarlet macaw birds",
     medium: "canvas acrylic",
@@ -428,6 +440,8 @@ const GalleryArray = [
   },
   {
     title: "Oriole over the Ocean",
+    titleImage: orioleOverOcean,
+    titleImageMobile: orioleOverOceanMob,
     id: 60,
     keyword: "oriole bird tree cherry blossoms flowers pink ocean sea water",
     medium: "canvas acrylic",
