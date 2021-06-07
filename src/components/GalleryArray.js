@@ -68,11 +68,34 @@ import acaiaTree from "../images/ProductImage/desktop/acaiaTree.jpg";
 import acaiaTreeMobile from "../images/ProductImage/mobile/acaiaTreeMobile.jpg";
 import tsubaki from "../images/ProductImage/desktop/tsubaki.jpg";
 import tsubakiMobile from "../images/ProductImage/mobile/tsubakiMobile.jpg";
-// import whale from "../images/ProductImage/desktop/whale.jpg";
-// import whaleMob from "../images/ProductImage/mobile/whaleMobile.jpg";
-// import brownPelican from "../images/ProductImage/desktop/brownPelican.jpg";
-// import brownPelicanMobile from "../images/ProductImage/mobile/brownPelicanMobile.jpg";
-
+import cannonballFlower from "../images/ProductImage/desktop/cannonballFlower.jpg";
+import cannonballFlowerMobile from "../images/ProductImage/mobile/cannonballFlowerMobile.jpg";
+import lunaMoth from "../images/ProductImage/desktop/lunaMoth.jpg";
+import lunaMothMobile from "../images/ProductImage/mobile/lunaMothMobile.jpg";
+import amazonParrots from "../images/ProductImage/desktop/amazonParrots.jpg";
+import amazonParrotsMobile from "../images/ProductImage/mobile/amazonParrotsMobile.jpg";
+import cherryBlossomsV from "../images/ProductImage/desktop/cherryBlossomsV.jpg";
+import cherryBlossomsVMobile from "../images/ProductImage/mobile/cherryBlossomsVMobile.jpg";
+import crestingWave from "../images/ProductImage/desktop/crestingWave.jpg";
+import crestingWaveMobile from "../images/ProductImage/mobile/crestingWaveMobile.jpg";
+import deerNight from "../images/ProductImage/desktop/deerNight.jpg";
+import deerNightMobile from "../images/ProductImage/mobile/deerNightMobile.jpg";
+import magpieJay from "../images/ProductImage/desktop/magpieJay.jpg";
+import magpieJayMobile from "../images/ProductImage/mobile/magpieJayMobile.jpg";
+import monarchButterfly from "../images/ProductImage/desktop/monarchButterfly.jpg";
+import monarchButterflyMobile from "../images/ProductImage/mobile/monarchButterflyMobile.jpg";
+import pinkFlowers from "../images/ProductImage/desktop/pinkFlowers.jpg";
+import pinkFlowersMobile from "../images/ProductImage/mobile/pinkFlowersMobile.jpg";
+import whymsicalTree from "../images/ProductImage/desktop/whymsicalTree.jpg";
+import whymsicalTreeMobile from "../images/ProductImage/mobile/whymsicalTreeMobile.jpg";
+import mermaidCove from "../images/ProductImage/desktop/mermaidCove.jpg";
+import mermaidCoveMobile from "../images/ProductImage/mobile/mermaidCoveMobile.jpg";
+import nightOwl from "../images/ProductImage/desktop/nightOwl.jpg";
+import nightOwlMobile from "../images/ProductImage/mobile/nightOwlMobile.jpg";
+// import magpieJay from "../images/ProductImage/desktop/whale.jpg";
+// import magpieJayMobile from "../images/ProductImage/mobile/whaleMobile.jpg";
+// import monarchButterfly from "../images/ProductImage/desktop/brownPelican.jpg";
+// import monarchButterflyMobile from "../images/ProductImage/mobile/brownPelicanMobile.jpg";
 
 
 
@@ -714,7 +737,7 @@ const GalleryArray = [
   //   size: "16x20 inches.",
   //   description: "Acrylic paint on canvas.",
   //   price: 100,
-  //   buy: "Shipping varies:",
+  //   buy: "Contact Me",
   //   etsyListing: null,
   //   image:
   //     "https://ctl.s6img.com/society6/img/x33X65FVbVUFknGc9itNXzoPQy0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/b3ae4b14a65041fbac55b5330816e29a/~~/palm-tree-beach4471863-prints.jpg",
@@ -774,6 +797,8 @@ const GalleryArray = [
   // },
   {
     title: "Cannon Ball Flowers",
+    titleImage: cannonballFlower,
+    titleImageMobile: cannonballFlowerMobile,
     id: 4,
     keyword: "flowers cannon tree sky",
     medium: "canvas sheet acrylic",
@@ -927,6 +952,8 @@ const GalleryArray = [
   },
   {
     title: "Pink Flowers",
+    titleImage: pinkFlowers,
+    titleImageMobile: pinkFlowersMobile,
     id: 100,
     keyword: "pink flowers",
     medium: "canvas acrylic",
@@ -1044,6 +1071,8 @@ const GalleryArray = [
   },
   {
     title: "Luna Moth",
+    titleImage: lunaMoth,
+    titleImageMobile: lunaMothMobile,
     id: 10,
     keyword: "moths night sky tree luna",
     medium: "canvas sheet acrylic",
@@ -1231,6 +1260,8 @@ const GalleryArray = [
   },
   {
     title: "Whymsical Tree",
+    titleImage: whymsicalTree,
+    titleImageMobile: whymsicalTreeMobile,
     id: 86,
     keyword: "whymsical tree cherry flowers fantasy abstract",
     medium: "canvas acrylic",
@@ -1336,6 +1367,8 @@ const GalleryArray = [
   },
   {
     title: "Night Owl",
+    titleImage: nightOwl,
+    titleImageMobile: nightOwlMobile,
     id: 32,
     keyword: "birds night owl blue sky tree stars space",
     medium: "canvas sheet acrylic",
@@ -1374,6 +1407,8 @@ const GalleryArray = [
   },
   {
     title: "Magpie Jay",
+    titleImage: magpieJay,
+    titleImageMobile: magpieJayMobile,
     id: 33,
     keyword: "magpie jay bird blue",
     medium: "canvas acrylic",
@@ -1411,6 +1446,8 @@ const GalleryArray = [
   },
   {
     title: "Mermaid Cove",
+    titleImage: mermaidCove,
+    titleImageMobile: mermaidCoveMobile,
     id: 34,
     keyword: "mermaid sea ocean water fantasy",
     medium: "canvas acrylic",
@@ -1484,6 +1521,8 @@ const GalleryArray = [
   },
   {
     title: "Monarch Butterfly",
+    titleImage: monarchButterfly,
+    titleImageMobile: monarchButterflyMobile,
     id: 36,
     keyword: "monarch butterfly sky flowers orange",
     medium: "canvas acrylic",
@@ -1521,13 +1560,15 @@ const GalleryArray = [
   },
   {
     title: "Amazon Parrots",
+    titleImage: amazonParrots,
+    titleImageMobile: amazonParrotsMobile,
     id: 16,
     keyword: "birds parrots green landscape amazon tree",
     medium: "canvas wrap acrylic",
     size: "16x20 inches.",
     description: "Acrylic paint on wrapped canvas.",
     price: 100,
-    buy: "Shipping varies:",
+    buy: "Contact Me",
     etsyListing: null,
     image:
       "https://ctl.s6img.com/society6/img/bkYls8rjnX7v30IUVPRsrHt2gZI/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/7a8241ef6c6e44508517c9854874c0fa/~~/amazon-parrots1610420-canvas.jpg",
@@ -1558,6 +1599,8 @@ const GalleryArray = [
   },
   {
     title: "Cherry Blossoms",
+    titleImage: cherryBlossomsV,
+    titleImageMobile: cherryBlossomsVMobile,
     id: 17,
     keyword: "flowers sky flower pink cherry tree blossom sakura",
     medium: "canvas wrap acrylic",
@@ -1601,7 +1644,7 @@ const GalleryArray = [
   //   size: "12x24 inches.",
   //   description: "Acrylic paint on canvas.",
   //   price: 100,
-  //   buy: "Shipping varies:",
+  //   buy: "Contact Me",
   //   etsyListing: null,
   //   image:
   //     "https://ctl.s6img.com/society6/img/ZnLD4UEFYRbJKcZ1C4CcOdPHTQk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/8758e7c0b0b04f2c967e38051cdf2c2e/~~/blue-jay-on-almond-blossom-tree-canvas.jpg",
@@ -1632,7 +1675,7 @@ const GalleryArray = [
   //   size: "12x16 inches.",
   //   description: "Acrylic paint on canvas.",
   //   price: 80,
-  //   buy: "Shipping varies:",
+  //   buy: "Contact Me",
   //   etsyListing: null,
   //   image:
   //     "https://ctl.s6img.com/society6/img/zReZXFnzWd7VAa8D_jaltNgL64w/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/764468c80714416e8195fc89ce577bed/~~/chickadee-on-cherry-tree-canvas.jpg",
@@ -1659,10 +1702,12 @@ const GalleryArray = [
   // },
   {
     title: "Cresting Wave",
+    titleImage: crestingWave,
+    titleImageMobile: crestingWaveMobile,
     id: 20,
     keyword: "ocean seascape water wave blue abstract pour",
     medium: "canvas acrylic",
-    size: "12x12 inches",
+    size: "12x12 inches", 
     description: "Acrylic paint on canvas.",
     price: 75,
     buy: "Coming soon.",
@@ -1691,6 +1736,8 @@ const GalleryArray = [
   },
   {
     title: "Deer at Night",
+    titleImage: deerNight,
+    titleImageMobile: deerNightMobile,
     id: 21,
     keyword: "night deer blue sky purple moon stars space",
     medium: "canvas sheet acrylic",
@@ -2260,7 +2307,7 @@ const GalleryArray = [
     size: "12x24 inches.",
     description: "Acrylic paint on canvas.",
     price: 100,
-    buy: "Shipping varies:",
+    buy: "Contact Me",
     etsyListing: null,
     image:
       "https://ctl.s6img.com/society6/img/JQ2mUitPKrvRh2au7qYiDLe8sFM/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/f59bb13c052f40bb8cc88f10b4cbf6c0/~~/oriole-at-sunset-canvas.jpg",
@@ -2293,7 +2340,7 @@ const GalleryArray = [
     size: "12x16 inches.",
     description: "Acrylic paint on canvas.",
     price: 75,
-    buy: "Shipping varies:",
+    buy: "Contact Me",
     etsyListing: null,
     image:
       "https://ctl.s6img.com/society6/img/5XhwzlaWuR9H6mUnsubz-ynu-G0/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/dd6a3f25e2e240c18756ec8d0079ad7b/~~/pair-of-lunar-moths-canvas.jpg",
@@ -3391,7 +3438,7 @@ const GalleryArray = [
   //   size: "3x2 feet.",
   //   description: "Acrylic paint on canvas.",
   //   price: 250,
-  //   buy: "Shipping varies:",
+  //   buy: "Contact Me",
   //   etsyListing: null,
   //   image:
   //     "https://ctl.s6img.com/society6/img/e06-QZRJCcVq6mP0_QP61Zwe8ks/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/c5863e6a32cc47e080ae61fd4192740d/~~/sand-pipers-on-the-beach-canvas.jpg",
@@ -3459,7 +3506,7 @@ const GalleryArray = [
   //   size: "16x20 inches.",
   //   description: "Acrylic paint on canvas.",
   //   price: 100,
-  //   buy: "Shipping varies:",
+  //   buy: "Contact Me",
   //   etsyListing: null,
   //   image:
   //     "https://ctl.s6img.com/society6/img/9hhbrTJ0OcO53MpdxuWY73mrI84/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/53bef88059a9447e99146fb252826f12/~~/giraffe2132847-canvas.jpg",
@@ -3551,7 +3598,7 @@ const GalleryArray = [
   //   size: "12x24",
   //   description: "Acrylic paint on canvas.",
   //   price: 100,
-  //   buy: "Shipping varies:",
+  //   buy: "Contact Me",
   //   etsyListing: null,
   //   image:
   //     "https://ctl.s6img.com/society6/img/BNLx80php3OF-GNpYDnKZNAmQtY/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/9abe0739f9dc4fae99fb2427699cbbed/~~/morning-glories1381607-prints.jpg",

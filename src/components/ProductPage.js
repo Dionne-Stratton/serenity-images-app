@@ -18,7 +18,7 @@ export default function Item(props) {
   };
 
   const productButton = {
-    display: item.buy !== "Shipping varies:" ? "none" : "",
+    display: item.buy !== "Contact Me" ? "none" : "",
   };
 
     const clearStyle = {
@@ -74,7 +74,7 @@ export default function Item(props) {
                 className="buyPrints"
                 href={`mailto:SerenityImagesStudio@gmail.com`}
               >
-                Contact Me
+                {item.buy}
               </a>
             </div>
             <br></br>
