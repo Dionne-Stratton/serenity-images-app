@@ -13,6 +13,7 @@ export default function Item(props) {
 
   const style = {
     background: item.buy !== "Buy Now!" ? "white" : "",
+    display: item.buy === "Contact Me" ? "none" : "",
     padding: item.buy !== "Buy Now!" ? "0" : "",
     textDecoration: "none",
   };
@@ -74,7 +75,7 @@ export default function Item(props) {
                 className="buyPrints"
                 href={`mailto:SerenityImagesStudio@gmail.com`}
               >
-                {item.buy}
+                Contact Me
               </a>
             </div>
             <br></br>
