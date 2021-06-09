@@ -364,5 +364,78 @@ footer {
   .title-image-mobile {
   display: flex;
   }
+}
 
+@media (max-width: 400px) {
+  .logo {
+    width: 30vw;
+  }
+  .text-box {
+    width: 80%;
+    font-size: 3.5vw;
+  }
+  header {
+    height: 45vh;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 2%;
+  }
+
+  nav a {
+    width: 30%;
+    text-align: center;
+  }
+
+  .pic {
+    font-size: 1.4rem;
+  }
+
+  .pic img {
+    width: 40vw;
+    height: 40vw;
+  }
+  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    margin: 0;
+  }
+  .section1 img {
+    width: 100%;
+  }
+
+  .buyPrints {
+    font-size: 2.6rem;
+  }
+
+  .textbox {
+    margin-left: 0;
+  }
+
+  .aboutbox {
+    width: 80%;
+    font-size: 4vw;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .artist {
+    width: 80%;
+    font-size: 4vw;
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  .title-image {
+  display: none;
+  }
+
+  .title-image-mobile {
+  display: flex;
+  }
 }

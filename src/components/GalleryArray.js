@@ -92,10 +92,50 @@ import mermaidCove from "../images/ProductImage/desktop/mermaidCove.jpg";
 import mermaidCoveMobile from "../images/ProductImage/mobile/mermaidCoveMobile.jpg";
 import nightOwl from "../images/ProductImage/desktop/nightOwl.jpg";
 import nightOwlMobile from "../images/ProductImage/mobile/nightOwlMobile.jpg";
-// import magpieJay from "../images/ProductImage/desktop/whale.jpg";
-// import magpieJayMobile from "../images/ProductImage/mobile/whaleMobile.jpg";
-// import monarchButterfly from "../images/ProductImage/desktop/brownPelican.jpg";
-// import monarchButterflyMobile from "../images/ProductImage/mobile/brownPelicanMobile.jpg";
+import barnOwl from "../images/ProductImage/desktop/barnOwl.jpg";
+import barnOwlMobile from "../images/ProductImage/mobile/barnOwl.jpg";
+import calmBlue from "../images/ProductImage/desktop/calmBlue.jpg";
+import calmBlueMobile from "../images/ProductImage/mobile/calmBlue.jpg";
+import goldfish from "../images/ProductImage/desktop/goldfish.jpg";
+import goldfishMobile from "../images/ProductImage/mobile/goldfish.jpg";
+import healedAndWhole from "../images/ProductImage/desktop/healedAndWhole.jpg";
+import healedAndWholeMobile from "../images/ProductImage/mobile/healedAndWhole.jpg";
+import hiddenHummingbird from "../images/ProductImage/desktop/hiddenHummingbird.jpg";
+import hiddenHummingbirdMobile from "../images/ProductImage/mobile/hiddenHummingbird.jpg";
+import loveBleeds from "../images/ProductImage/desktop/loveBleeds.jpg";
+import loveBleedsMobile from "../images/ProductImage/mobile/loveBleeds.jpg";
+import magicalSummer from "../images/ProductImage/desktop/magicalSummer.jpg";
+import magicalSummerMobile from "../images/ProductImage/mobile/magicalSummer.jpg";
+import oceanDragon from "../images/ProductImage/desktop/oceanDragon.jpg";
+import oceanDragonMobile from "../images/ProductImage/mobile/oceanDragon.jpg";
+import orioleSunset from "../images/ProductImage/desktop/orioleSunset.jpg";
+import orioleSunsetMobile from "../images/ProductImage/mobile/orioleSunset.jpg";
+import pairOfMoths from "../images/ProductImage/desktop/pairOfMoths.jpg";
+import pairOfMothsMobile from "../images/ProductImage/mobile/pairOfMoths.jpg";
+import riseAndShine from "../images/ProductImage/desktop/riseAndShine.jpg";
+import riseAndShineMobile from "../images/ProductImage/mobile/riseAndShine.jpg";
+import thorns from "../images/ProductImage/desktop/thorns.jpg";
+import thornsMobile from "../images/ProductImage/mobile/thorns.jpg";
+import pinkFlowers6 from "../images/ProductImage/desktop/pinkFlowers6.jpg";
+import pinkFlowers6Mobile from "../images/ProductImage/mobile/pinkFlowers6.jpg";
+import pairOfPeacocks from "../images/ProductImage/desktop/pairOfPeacocks.jpg";
+import pairOfPeacocksMobile from "../images/ProductImage/mobile/pairOfPeacocks.jpg";
+import peacockFeather from "../images/ProductImage/desktop/peacockFeather.jpg";
+import peacockFeatherMobile from "../images/ProductImage/mobile/peacockFeather.jpg";
+import shine from "../images/ProductImage/desktop/shine.jpg";
+import shineMobile from "../images/ProductImage/mobile/shine.jpg";
+import simpleThings from "../images/ProductImage/desktop/simpleThings.jpg";
+import simpleThingsMobile from "../images/ProductImage/mobile/simpleThings.jpg";
+import solitaryBeauty from "../images/ProductImage/desktop/solitaryBeauty.jpg";
+import solitaryBeautyMobile from "../images/ProductImage/mobile/solitaryBeauty.jpg";
+import theWren from "../images/ProductImage/desktop/theWren.jpg";
+import theWrenMobile from "../images/ProductImage/mobile/theWren.jpg";
+import wingsOfNight from "../images/ProductImage/desktop/wingsOfNight.jpg";
+import wingsOfNightMobile from "../images/ProductImage/mobile/wingsOfNight.jpg";
+import starFall from "../images/ProductImage/desktop/starFall.jpg";
+import starFallMobile from "../images/ProductImage/mobile/starFall.jpg";
+import sunDragon from "../images/ProductImage/desktop/sunDragon.jpg";
+import sunDragonMobile from "../images/ProductImage/mobile/sunDragon.jpg";
 
 
 
@@ -1814,6 +1854,8 @@ const GalleryArray = [
   },
   {
     title: "Gold Fish",
+    titleImage: goldfish,
+    titleImageMobile: goldfishMobile,
     id: 23,
     keyword: "gold fish orange water lilly",
     medium: "canvas acrylic",
@@ -1851,6 +1893,8 @@ const GalleryArray = [
   },
   {
     title: "Calm Blue",
+    titleImage: calmBlue,
+    titleImageMobile: calmBlueMobile,
     id: 24,
     keyword: "ocean seascape water sky blue abstract",
     medium: "canvas acrylic",
@@ -1888,6 +1932,8 @@ const GalleryArray = [
   },
   {
     title: "Hidden Hummingbird",
+    titleImage: hiddenHummingbird,
+    titleImageMobile: hiddenHummingbirdMobile,
     id: 25,
     keyword: "hidden humming bird abstract pour",
     medium: "canvas acrylic",
@@ -2001,6 +2047,8 @@ const GalleryArray = [
   },
   {
     title: "Love Bleeds",
+    titleImage: loveBleeds,
+    titleImageMobile: loveBleedsMobile,
     id: 28,
     keyword: "bleeding heart love flowers words saying",
     medium: "canvas acrylic",
@@ -2038,6 +2086,8 @@ const GalleryArray = [
   },
   {
     title: "Healed and Whole",
+    titleImage: healedAndWhole,
+    titleImageMobile: healedAndWholeMobile,
     id: 29,
     keyword: "flower say purple words saying healed whole",
     medium: "canvas acrylic",
@@ -2074,6 +2124,8 @@ const GalleryArray = [
   },
   {
     title: "Rise and Shine",
+    titleImage: riseAndShine,
+    titleImageMobile: riseAndShineMobile,
     id: 106,
     keyword: "rise and shine morning glory saying flower blue",
     medium: "canvas acrylic",
@@ -2111,6 +2163,8 @@ const GalleryArray = [
   },
   {
     title: "Thorns",
+    titleImage: thorns,
+    titleImageMobile: thornsMobile,
     id: 30,
     keyword: "thorns every words say roses flowers",
     medium: "canvas acrylic",
@@ -2148,6 +2202,8 @@ const GalleryArray = [
   },
   {
     title: "Magical Summer",
+    titleImage: magicalSummer,
+    titleImageMobile: magicalSummerMobile,
     id: 31,
     keyword: "magical summer flowers",
     medium: "cardstock ink",
@@ -2186,6 +2242,8 @@ const GalleryArray = [
   },
   {
     title: "Barn Owl",
+    titleImage: barnOwl,
+    titleImageMobile: barnOwlMobile,
     id: 38,
     keyword: "flowers blossoms cherry owl bird night",
     medium: "canvas acrylic",
@@ -2263,6 +2321,8 @@ const GalleryArray = [
   },
   {
     title: "Ocean Dragon",
+    titleImage: oceanDragon,
+    titleImageMobile: oceanDragonMobile,
     id: 40,
     keyword: "water ocean sea dragon fantasy cute blue",
     medium: "canvas sheet acrylic",
@@ -2301,6 +2361,8 @@ const GalleryArray = [
   },
   {
     title: "Oriole Sunset",
+    titleImage: orioleSunset,
+    titleImageMobile: orioleSunsetMobile,
     id: 41,
     keyword: "flowers sky flower almond blossoms bird oriole sunset",
     medium: "canvas wrap acrylic",
@@ -2333,7 +2395,9 @@ const GalleryArray = [
       "https://society6.com/product/oriole-at-sunset_poster?sku=s6-8402411p66a213v756",
   },
   {
-    title: "Pair of Luna Moths",
+    title: "Pair of Moths",
+    titleImage: pairOfMoths,
+    titleImageMobile: pairOfMothsMobile,
     id: 42,
     keyword: "lunar moths insect bug sky blue",
     medium: "canvas acrylic",
@@ -2369,6 +2433,8 @@ const GalleryArray = [
   },
   {
     title: "Peacock Feather",
+    titleImage: peacockFeather,
+    titleImageMobile: peacockFeatherMobile,
     id: 43,
     keyword: "birds peacock blue feather",
     medium: "canvas sheet acrylic",
@@ -2407,6 +2473,8 @@ const GalleryArray = [
   },
   {
     title: "Pink Flowers",
+    titleImage: pinkFlowers6,
+    titleImageMobile: pinkFlowers6Mobile,
     id: 44,
     keyword: "cherry blossoms pink flowers",
     medium: "canvas acrylic",
@@ -2442,6 +2510,8 @@ const GalleryArray = [
   },
   {
     title: "Enjoy the Simple Things",
+    titleImage: simpleThings,
+    titleImageMobile: simpleThingsMobile,
     id: 45,
     keyword: "plumb cherry blossoms flowers simple enjoy",
     medium: "canvas acrylic",
@@ -2516,6 +2586,8 @@ const GalleryArray = [
   },
   {
     title: "Shine",
+    titleImage: shine,
+    titleImageMobile: shineMobile,
     id: 47,
     keyword: "desert rose flowers shine",
     medium: "canvas acrylic",
@@ -2554,12 +2626,14 @@ const GalleryArray = [
   },
   {
     title: "Solitary Beauty",
+    titleImage: solitaryBeauty,
+    titleImageMobile: solitaryBeautyMobile,
     id: 48,
     keyword: "water lily flowers pink water",
     medium: "canvas acrylic",
     size: "10x10 inches.",
     description: "Acrylic paint on canvas.",
-    price: 50,
+    price: 60,
     buy: "Coming soon.",
     etsyListing: null,
     image:
@@ -2591,6 +2665,8 @@ const GalleryArray = [
   },
   {
     title: "Sun Dragon",
+    titleImage: sunDragon,
+    titleImageMobile: sunDragonMobile,
     id: 49,
     keyword: "sun shine dragon cherry tree blossoms fantasy flowers",
     medium: "canvas acrylic",
@@ -2628,6 +2704,8 @@ const GalleryArray = [
   },
   {
     title: "Wings of Night",
+    titleImage: wingsOfNight,
+    titleImageMobile: wingsOfNightMobile,
     id: 50,
     keyword: "birds owl night sunset sky wings",
     medium: "canvas acrylic",
@@ -2665,6 +2743,8 @@ const GalleryArray = [
   },
   {
     title: "Star Fall",
+    titleImage: starFall,
+    titleImageMobile: starFallMobile,
     id: 51,
     keyword: "stars fall abstract pour blue",
     medium: "canvas acrylic",
@@ -2701,6 +2781,8 @@ const GalleryArray = [
   },
   {
     title: "The Wren",
+    titleImage: theWren,
+    titleImageMobile: theWrenMobile,
     id: 52,
     keyword: "wren birds flowers cherry blossoms pink bird",
     medium: "canvas acrylic",
@@ -2847,6 +2929,8 @@ const GalleryArray = [
   },
   {
     title: "Pair of Peacocks",
+    titleImage: pairOfPeacocks,
+    titleImageMobile: pairOfPeacocksMobile,
     id: 66,
     keyword: "birds peacocks pair",
     medium: "canvas acrylic",
