@@ -136,6 +136,37 @@ import starFall from "../images/ProductImage/desktop/starFall.jpg";
 import starFallMobile from "../images/ProductImage/mobile/starFall.jpg";
 import sunDragon from "../images/ProductImage/desktop/sunDragon.jpg";
 import sunDragonMobile from "../images/ProductImage/mobile/sunDragon.jpg";
+import birthOfAnIsland from "../images/ProductImage/desktop/birthOfAnIsland.jpg";
+import birthOfAnIslandMobile from "../images/ProductImage/mobile/birthOfAnIsland.jpg";
+import bubblingRiver from "../images/ProductImage/desktop/bubblingRiver.jpg";
+import bubblingRiverMobile from "../images/ProductImage/mobile/bubblingRiver.jpg";
+import cosmicWaters from "../images/ProductImage/desktop/cosmicWaters.jpg";
+import cosmicWatersMobile from "../images/ProductImage/mobile/cosmicWaters.jpg";
+import fireEdgeNebula from "../images/ProductImage/desktop/thorns.jpg";
+import fireEdgeNebulaMobile from "../images/ProductImage/mobile/thorns.jpg";
+import gladiolus from "../images/ProductImage/desktop/gladiolus.jpg";
+import gladiolusMobile from "../images/ProductImage/mobile/gladiolus.jpg";
+import goldenBlues from "../images/ProductImage/desktop/goldenBlues.jpg";
+import goldenBluesMobile from "../images/ProductImage/mobile/goldenBlues.jpg";
+import lakeSide from "../images/ProductImage/desktop/lakeSide.jpg";
+import lakeSideMobile from "../images/ProductImage/mobile/lakeSide.jpg";
+import longTailedTitt from "../images/ProductImage/desktop/longTailedTitt.jpg";
+import longTailedTittMobile from "../images/ProductImage/mobile/longTailedTitt.jpg";
+import nebula from "../images/ProductImage/desktop/nebula.jpg";
+import nebulaMobile from "../images/ProductImage/mobile/nebula.jpg";
+import roseFairy from "../images/ProductImage/desktop/roseFairy.jpg";
+import roseFairyMobile from "../images/ProductImage/mobile/roseFairy.jpg";
+import roseVine from "../images/ProductImage/desktop/roseVine.jpg";
+import roseVineMobile from "../images/ProductImage/mobile/roseVine.jpg";
+import sparrowOnMagnolia from "../images/ProductImage/desktop/sparrowOnMagnolia.jpg";
+import sparrowOnMagnoliaMobile from "../images/ProductImage/mobile/sparrowOnMagnolia.jpg";
+import sunsetWaves from "../images/ProductImage/desktop/sunsetWaves.jpg";
+import sunsetWavesMobile from "../images/ProductImage/mobile/sunsetWaves.jpg";
+import swallowtailButterfly from "../images/ProductImage/desktop/swallowtailButterfly.jpg";
+import swallowtailButterflyMobile from "../images/ProductImage/mobile/swallowtailButterfly.jpg";
+import wisteria from "../images/ProductImage/desktop/wisteria.jpg";
+import wisteriaMobile from "../images/ProductImage/mobile/wisteria.jpg";
+
 
 
 
@@ -2968,6 +2999,8 @@ const GalleryArray = [
   },
   {
     title: "Birth of an Island",
+    titleImage: birthOfAnIsland,
+    titleImageMobile: birthOfAnIslandMobile,
     id: 67,
     keyword: "birth island abstract pour",
     medium: "canvas acrylic",
@@ -3005,6 +3038,8 @@ const GalleryArray = [
   },
   {
     title: "Cosmic Waters",
+    titleImage: cosmicWaters,
+    titleImageMobile: cosmicWatersMobile,
     id: 76,
     keyword: "abstract pour water cosmic",
     medium: "canvas acrylic",
@@ -3040,6 +3075,8 @@ const GalleryArray = [
   },
   {
     title: "Sunset Waves",
+    titleImage: sunsetWaves,
+    titleImageMobile: sunsetWavesMobile,
     id: 70,
     keyword: "sunset waves water abstract pour blue",
     medium: "canvas acrylic",
@@ -3075,6 +3112,8 @@ const GalleryArray = [
   },
   {
     title: "Golden Blues",
+    titleImage: goldenBlues,
+    titleImageMobile: goldenBluesMobile,
     id: 92,
     keyword: "gold blue abstract pour",
     medium: "canvas acrylic",
@@ -3112,6 +3151,8 @@ const GalleryArray = [
   },
   {
     title: "Bubbling River",
+    titleImage: bubblingRiver,
+    titleImageMobile: bubblingRiverMobile,
     id: 71,
     keyword: "bubbles bubbling river water abstract pour blue",
     medium: "canvas acrylic",
@@ -3149,12 +3190,14 @@ const GalleryArray = [
   },
   {
     title: "Fire Edge Nebula",
+    titleImage: fireEdgeNebula,
+    titleImageMobile: fireEdgeNebulaMobile,
     id: 88,
     keyword: "fire edge nebula space abstract pour",
     medium: "canvas acrylic",
-    size: "9x12 inches.",
+    size: "12x12 inches.",
     description: "Acrylic paint on canvas.",
-    price: 60,
+    price: 75,
     buy: "Not Available",
     etsyListing: null,
     image:
@@ -3186,6 +3229,8 @@ const GalleryArray = [
   },
   {
     title: "Nebula",
+    titleImage: nebula,
+    titleImageMobile: nebulaMobile,
     id: 85,
     keyword: "blue nebula space abstract pour",
     medium: "canvas acrylic",
@@ -3247,6 +3292,8 @@ const GalleryArray = [
   // },
   {
     title: "Gladiolus",
+    titleImage: gladiolus,
+    titleImageMobile: gladiolusMobile,
     id: 73,
     keyword: "gladiolus flowers pink",
     medium: "canvas acrylic",
@@ -3278,6 +3325,8 @@ const GalleryArray = [
   },
   {
     title: "Lake Side",
+    titleImage: lakeSide,
+    titleImageMobile: lakeSideMobile,
     id: 74,
     keyword: "lake side swamp water abstract",
     medium: "canvas acrylic",
@@ -3313,6 +3362,8 @@ const GalleryArray = [
   },
   {
     title: "Wisteria",
+    titleImage: wisteria,
+    titleImageMobile: wisteriaMobile,
     id: 75,
     keyword: "wisteria flowers plant purple",
     medium: "canvas acrylic",
@@ -3348,45 +3399,47 @@ const GalleryArray = [
     s6Poster:
       "https://society6.com/product/wisteria981935_poster?sku=s6-8402770p66a213v756",
   },
-  {
-    title: "Blue Butterfly",
-    id: 68,
-    keyword: "blue butterfly flowers insect",
-    medium: "canvas acrylic",
-    size: "9x12 inches.",
-    description: "Acrylic paint on canvas.",
-    price: 50,
-    buy: "Not Available",
-    etsyListing: null,
-    image:
-      "https://ctl.s6img.com/society6/img/SAfd6ELg504w9a_WTUIm9c3GWTQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-canvas.jpg",
-    s6CanvasPrintImg:
-      "https://ctl.s6img.com/society6/img/SAfd6ELg504w9a_WTUIm9c3GWTQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-canvas.jpg",
-    s6CanvasPrint:
-      "https://society6.com/product/blue-butterfly1093023_stretched-canvas?sku=s6-8662524p16a6v28",
-    s6PrintImg:
-      "https://ctl.s6img.com/society6/img/zAVwgRWDhaWaMMv2ZF6uin7db2I/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-prints.jpg",
-    s6Print:
-      "https://society6.com/product/blue-butterfly1093023_print?sku=s6-8662524p4a1v45",
-    s6FramedImg:
-      "https://ctl.s6img.com/society6/img/AOYJF_ekVVaCJFRvTJtahVkwF6k/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-framed-prints.jpg",
-    s6Framed:
-      "https://society6.com/product/blue-butterfly1093023_framed-print?sku=s6-8662524p21a12v65a13v54",
-    s6TapestryImg:
-      "https://ctl.s6img.com/society6/img/fEdzfciLQOBHCRolLNhhQI4pefE/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fy_-295,iw_5525,ih_7090/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-tapestries.jpg",
-    s6Tapestry:
-      "https://society6.com/product/blue-butterfly1093023_tapestry?sku=s6-8662524p42a55v412",
-    s6WallHangingImage:
-      "https://ctl.s6img.com/society6/img/XI1BbysegQvFNY8jqQavd2ZFwAs/w_700/wall-hangings/small/front/~artwork,fw_4058,fh_5678,fx_-183,iw_4424,ih_5678/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-wall-hangings.jpg",
-    s6WallHanging:
-      "https://society6.com/product/blue-butterfly1093023_wall-hanging?sku=s6-8662524p74a221v774",
-    s6PosterImage:
-      "https://ctl.s6img.com/society6/img/vfPok1Az6vsT-0O4HBjrTd8w25w/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-51,iw_2819,ih_3618/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-posters.jpg",
-    s6Poster:
-      "https://society6.com/product/blue-butterfly1093023_poster?sku=s6-8662524p66a213v756",
-  },
+  // {
+  //   title: "Blue Butterfly",
+  //   id: 68,
+  //   keyword: "blue butterfly flowers insect",
+  //   medium: "canvas acrylic",
+  //   size: "9x12 inches.",
+  //   description: "Acrylic paint on canvas.",
+  //   price: 50,
+  //   buy: "Not Available",
+  //   etsyListing: null,
+  //   image:
+  //     "https://ctl.s6img.com/society6/img/SAfd6ELg504w9a_WTUIm9c3GWTQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-canvas.jpg",
+  //   s6CanvasPrintImg:
+  //     "https://ctl.s6img.com/society6/img/SAfd6ELg504w9a_WTUIm9c3GWTQ/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-canvas.jpg",
+  //   s6CanvasPrint:
+  //     "https://society6.com/product/blue-butterfly1093023_stretched-canvas?sku=s6-8662524p16a6v28",
+  //   s6PrintImg:
+  //     "https://ctl.s6img.com/society6/img/zAVwgRWDhaWaMMv2ZF6uin7db2I/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-prints.jpg",
+  //   s6Print:
+  //     "https://society6.com/product/blue-butterfly1093023_print?sku=s6-8662524p4a1v45",
+  //   s6FramedImg:
+  //     "https://ctl.s6img.com/society6/img/AOYJF_ekVVaCJFRvTJtahVkwF6k/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-framed-prints.jpg",
+  //   s6Framed:
+  //     "https://society6.com/product/blue-butterfly1093023_framed-print?sku=s6-8662524p21a12v65a13v54",
+  //   s6TapestryImg:
+  //     "https://ctl.s6img.com/society6/img/fEdzfciLQOBHCRolLNhhQI4pefE/w_700/tapestries/standard/~artwork,fw_5525,fh_6500,fy_-295,iw_5525,ih_7090/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-tapestries.jpg",
+  //   s6Tapestry:
+  //     "https://society6.com/product/blue-butterfly1093023_tapestry?sku=s6-8662524p42a55v412",
+  //   s6WallHangingImage:
+  //     "https://ctl.s6img.com/society6/img/XI1BbysegQvFNY8jqQavd2ZFwAs/w_700/wall-hangings/small/front/~artwork,fw_4058,fh_5678,fx_-183,iw_4424,ih_5678/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-wall-hangings.jpg",
+  //   s6WallHanging:
+  //     "https://society6.com/product/blue-butterfly1093023_wall-hanging?sku=s6-8662524p74a221v774",
+  //   s6PosterImage:
+  //     "https://ctl.s6img.com/society6/img/vfPok1Az6vsT-0O4HBjrTd8w25w/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-51,iw_2819,ih_3618/s6-original-art-uploads/society6/uploads/misc/178c5ebad0af4448a91222b66585b204/~~/blue-butterfly1093023-posters.jpg",
+  //   s6Poster:
+  //     "https://society6.com/product/blue-butterfly1093023_poster?sku=s6-8662524p66a213v756",
+  // },
   {
     title: "Long Tailed Titt",
+    titleImage: longTailedTitt,
+    titleImageMobile: longTailedTittMobile,
     id: 77,
     keyword: "long tail birds titt",
     medium: "canvas acrylic",
@@ -3448,6 +3501,8 @@ const GalleryArray = [
   // },
   {
     title: "Swallowtail Butterfly",
+    titleImage: swallowtailButterfly,
+    titleImageMobile: swallowtailButterflyMobile,
     id: 79,
     keyword: "swallowtail butterfly purple flowers insect",
     medium: "canvas acrylic",
@@ -3478,7 +3533,9 @@ const GalleryArray = [
     s6Poster: "",
   },
   {
-    title: "Roses Vine",
+    title: "Rose Vine",
+    titleImage: roseVine,
+    titleImageMobile: roseVineMobile,
     id: 80,
     keyword: "vine roses flowers",
     medium: "canvas acrylic",
@@ -3921,43 +3978,32 @@ const GalleryArray = [
   //   s6Poster:
   //     "https://society6.com/product/purselane_poster?sku=s6-8708420p66a213v756",
   // },
-  // {
-  //   title: "Sea Turtle",
-  //   id: 103,
-  //   keyword: "sea turtle ocean",
-  //   medium: "canvas acrylic",
-  //   size: "9x12 inches.",
-  //   description: "Acrylic paint on canvas.",
-  //   price: 60,
-  //   buy: "Coming soon.",
-  //   etsyListing: null,
-  //   image:
-  //     "https://ctl.s6img.com/society6/img/ljlQ-MxI1cEOi8zb_XT_9m1JIEk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-canvas.jpg",
-  //   s6CanvasPrintImg:
-  //     "https://ctl.s6img.com/society6/img/ljlQ-MxI1cEOi8zb_XT_9m1JIEk/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-canvas.jpg",
-  //   s6CanvasPrint:
-  //     "https://society6.com/product/sea-turtle1109065_stretched-canvas?sku=s6-8700398p16a6v28",
-  //   s6PrintImg:
-  //     "https://ctl.s6img.com/society6/img/coC-rLsjTp9PWyvh3cMT_lmpWW0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-prints.jpg",
-  //   s6Print:
-  //     "https://society6.com/product/sea-turtle1109065_print?sku=s6-8700398p4a1v45",
-  //   s6FramedImg:
-  //     "https://ctl.s6img.com/society6/img/ye9xKlI4I1HSo1GC94NUmaonevg/w_700/framed-prints/10x12/conservation-walnut/~artwork/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-framed-prints.jpg",
-  //   s6Framed:
-  //     "https://society6.com/product/sea-turtle1109065_framed-print?sku=s6-8700398p21a12v63a13v54",
-  //   s6TapestryImg:
-  //     "https://ctl.s6img.com/society6/img/9WVe3icBu2kft_vE7AMIQTJQpVo/w_700/tapestries/standard/~artwork,fw_6500,fh_5525,fx_-586,iw_7672,ih_5525/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-tapestries.jpg",
-  //   s6Tapestry:
-  //     "https://society6.com/product/sea-turtle1109065_tapestry?sku=s6-8700398p42a55v412",
-  //   s6WallHangingImage:
-  //     "https://ctl.s6img.com/society6/img/grZFiKa8j0ZHiC1XuftEBi0yook/w_700/wall-hangings/large/front/~artwork,fw_6545,fh_4673,fx_-745,fy_-36,iw_7885,ih_5678/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-wall-hangings.jpg",
-  //   s6WallHanging:
-  //     "https://society6.com/product/sea-turtle1109065_wall-hanging?sku=s6-8700398p74a221v771",
-  //   s6PosterImage:
-  //     "https://ctl.s6img.com/society6/img/eI0B339Ecar-nPat7bemlqO5iz8/w_700/posters/top/~artwork,fw_2718,fh_3618,fx_-1153,iw_5024,ih_3618/s6-original-art-uploads/society6/uploads/misc/7055525eb73a4ab884c4d5ff66bf57c0/~~/sea-turtle1109065-posters.jpg",
-  //   s6Poster:
-  //     "https://society6.com/product/sea-turtle1109065_poster?sku=s6-8700398p66a213v756",
-  // },
+  {
+    title: "Sparrow on Magnolia",
+    titleImage: sparrowOnMagnolia,
+    titleImageMobile: sparrowOnMagnoliaMobile,
+    id: 103,
+    keyword: "sparrow magnolia pink flowers",
+    medium: "canvas acrylic",
+    size: "8x10 inches.",
+    description: "Acrylic paint on canvas.",
+    price: 50,
+    buy: "Coming soon.",
+    etsyListing: null,
+    image: "https://ctl.s6img.com/society6/img/hTwP83ehYVgfOjfQ2v3Kjj8xhL0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/95a1fdcbf1254a17a10e3c2945d0da71/~~/sparrow-on-magnolia-prints.jpg",
+    s6CanvasPrintImg: null,
+    s6CanvasPrint: "",
+    s6PrintImg: "https://ctl.s6img.com/society6/img/hTwP83ehYVgfOjfQ2v3Kjj8xhL0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/95a1fdcbf1254a17a10e3c2945d0da71/~~/sparrow-on-magnolia-prints.jpg",
+    s6Print: "https://society6.com/product/sparrow-on-magnolia_print?sku=s6-20625095p4a1v45",
+    s6FramedImg: "https://ctl.s6img.com/society6/img/RSroYBjtWscoc9ubmwkDE-z1abA/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/95a1fdcbf1254a17a10e3c2945d0da71/~~/sparrow-on-magnolia-framed-prints.jpg",
+    s6Framed: "https://society6.com/product/sparrow-on-magnolia_framed-print?sku=s6-20625095p21a12v65a13v54",
+    s6TapestryImg: null,
+    s6Tapestry: "",
+    s6WallHangingImage: null,
+    s6WallHanging: "",
+    s6PosterImage: null,
+    s6Poster: "",
+  },
   // {
   //   title: "The Stuff of Life",
   //   id: 104,
@@ -4035,6 +4081,8 @@ const GalleryArray = [
   // },
   {
     title: "Rose Fairy",
+    titleImage: roseFairy,
+    titleImageMobile: roseFairyMobile,
     id: 107,
     keyword: "rose fairy fantasy flower bunny",
     medium: "canvas acrylic",
