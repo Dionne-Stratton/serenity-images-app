@@ -44,8 +44,8 @@ import gloryOfMorning from "../images/ProductImage/desktop/gloryOfMorning.jpg";
 import gloryOfMorningMob from "../images/ProductImage/mobile/gloryOfMorningMobile.jpg";
 import japaneseCranes from "../images/ProductImage/desktop/japaneseCranes.jpg";
 import japaneseCranesMob from "../images/ProductImage/mobile/japaneseCranesMobile.jpg";
-import maleFairyWren from "../images/ProductImage/desktop/japaneseCranes.jpg";
-import maleFairyWrenMob from "../images/ProductImage/mobile/japaneseCranesMobile.jpg";
+import maleFairyWren from "../images/ProductImage/desktop/maleFairyWren.jpg";
+import maleFairyWrenMob from "../images/ProductImage/mobile/maleFairyWrenMobile.jpg";
 import nightFlight from "../images/ProductImage/desktop/nightFlight.jpg";
 import nightFlightMob from "../images/ProductImage/mobile/nightFlightMobile.jpg";
 import redrumpedParakeet from "../images/ProductImage/desktop/red-rumpedParakeet.jpg";
@@ -142,8 +142,8 @@ import bubblingRiver from "../images/ProductImage/desktop/bubblingRiver.jpg";
 import bubblingRiverMobile from "../images/ProductImage/mobile/bubblingRiver.jpg";
 import cosmicWaters from "../images/ProductImage/desktop/cosmicWaters.jpg";
 import cosmicWatersMobile from "../images/ProductImage/mobile/cosmicWaters.jpg";
-import fireEdgeNebula from "../images/ProductImage/desktop/thorns.jpg";
-import fireEdgeNebulaMobile from "../images/ProductImage/mobile/thorns.jpg";
+import fireEdgeNebula from "../images/ProductImage/desktop/fireEdgeNebula.jpg";
+import fireEdgeNebulaMobile from "../images/ProductImage/mobile/fireEdgeNebula.jpg";
 import gladiolus from "../images/ProductImage/desktop/gladiolus.jpg";
 import gladiolusMobile from "../images/ProductImage/mobile/gladiolus.jpg";
 import goldenBlues from "../images/ProductImage/desktop/goldenBlues.jpg";
@@ -3990,9 +3990,9 @@ const GalleryArray = [
     price: 50,
     buy: "Coming soon.",
     etsyListing: null,
-    image: "https://ctl.s6img.com/society6/img/hTwP83ehYVgfOjfQ2v3Kjj8xhL0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/95a1fdcbf1254a17a10e3c2945d0da71/~~/sparrow-on-magnolia-prints.jpg",
-    s6CanvasPrintImg: null,
-    s6CanvasPrint: "",
+    image: "https://ctl.s6img.com/society6/img/VX3S36mWvCZkDl9v09bLhHHXC-Y/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/cf64a50144d8481991467b78a9564043/~~/sparrow-on-magnolia-canvas.jpg",
+    s6CanvasPrintImg: "https://ctl.s6img.com/society6/img/VX3S36mWvCZkDl9v09bLhHHXC-Y/w_700/canvas/~artwork/s6-original-art-uploads/society6/uploads/misc/cf64a50144d8481991467b78a9564043/~~/sparrow-on-magnolia-canvas.jpg",
+    s6CanvasPrint: "https://society6.com/product/sparrow-on-magnolia_stretched-canvas?sku=s6-20625095p16a6v28",
     s6PrintImg: "https://ctl.s6img.com/society6/img/hTwP83ehYVgfOjfQ2v3Kjj8xhL0/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/95a1fdcbf1254a17a10e3c2945d0da71/~~/sparrow-on-magnolia-prints.jpg",
     s6Print: "https://society6.com/product/sparrow-on-magnolia_print?sku=s6-20625095p4a1v45",
     s6FramedImg: "https://ctl.s6img.com/society6/img/RSroYBjtWscoc9ubmwkDE-z1abA/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/95a1fdcbf1254a17a10e3c2945d0da71/~~/sparrow-on-magnolia-framed-prints.jpg",
