@@ -1,33 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
-import { useRouteMatch, Link } from "react-router-dom";
-import art from "./GalleryArray";
 
 export default function Item(props) {
-  const {url} = useRouteMatch()
-  const pageId = Number(url.substring(9, 11));
-
-console.log(pageId)
+  const { items } = props;
+  const { id } = useParams();
 
   const item =
-    art.find((it) => {
+    items.find((it) => {
       // eslint-disable-next-line
-      return it.id == pageId;
+      return it.id == id;
     }) || {};
-    
-    
-    const [ podData, setPodData ] = useState(item.POD);
-    const useData = (data) => {
-      setPodData(podData.map((data) =>{
-        return data
-      }))
-    };
-
-    
-
-    console.log(podData);
-    console.log(item);
-    console.log(art)
 
   const style = {
     background: item.buy !== "Buy Now!" ? "white" : "",
@@ -36,15 +18,30 @@ console.log(pageId)
     textDecoration: "none",
   };
 
-  const clearStyle = {
-    background: "white",
-    textDecoration: "none",
-  };
-
   const productButton = {
     display: item.buy !== "Contact Me" ? "none" : "",
   };
 
+    const clearStyle = {
+      background: "white",
+      textDecoration: "none",
+    };
+
+    const hideNoCanvas = {
+        display: item.s6CanvasPrintImg === null ? "none" : "",
+    };
+
+    const hideNoWallHanging = {
+      display: item.s6WallHangingImage === null ? "none" : "",
+    };
+
+    const hideNoTapestry = {
+      display: item.s6TapestryImg === null ? "none" : "",
+    };
+
+    const hideNoPoster = {
+      display: item.s6PosterImage === null ? "none" : "",
+    };
 
 
   return (
@@ -87,23 +84,110 @@ console.log(pageId)
         </div>
       </section>
       <h3>Print Options</h3>
-        <div className="gallery">
-            {podData.map((data) => (
-            <div className="item-card" key={item.id}>
-                <div className="pic">
-                <Link to={data.link} className="pic" style={clearStyle}>
-                    <img
-                    className="items-list-image"
-                    src={data.img}
-                    alt="art"
-                    />
-                    <p>{data.s6LinkCaption}</p>
-                </Link>
-                </div>
-            </div>
-            ))}
+      <div className="gallery">
+        <div className="pic">
+          <a
+            href={item.s6Framed}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            <img src={item.s6FramedImg} alt="art" />
+          </a>
+          <a
+            style={clearStyle}
+            href={item.s6Framed}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            Framed Print
+          </a>
+        </div>
+        <div className="pic" style={hideNoCanvas}>
+          <a
+            href={item.s6CanvasPrint}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            <img src={item.s6CanvasPrintImg} alt="art" />
+          </a>
+          <a
+            style={clearStyle}
+            href={item.s6CanvasPrint}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            Canvas Print
+          </a>
+        </div>
+        <div className="pic">
+          <a
+            href={item.s6Print}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            <img src={item.s6PrintImg} alt="art" />
+          </a>
+          <a
+            style={clearStyle}
+            href={item.s6Print}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            Art Print
+          </a>
+        </div>
+        <div className="pic" style={hideNoPoster}>
+          <a
+            href={item.s6Poster}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            <img src={item.s6PosterImage} alt="art" />
+          </a>
+          <a
+            style={clearStyle}
+            href={item.s6Poster}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            Poster
+          </a>
+        </div>
+        <div className="pic" style={hideNoTapestry}>
+          <a
+            href={item.s6Tapestry}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            <img src={item.s6TapestryImg} alt="art" />
+          </a>
+          <a
+            style={clearStyle}
+            href={item.s6Tapestry}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            Tapestry
+          </a>
+        </div>
+        <div className="pic" style={hideNoWallHanging}>
+          <a
+            href={item.s6WallHanging}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            <img src={item.s6WallHangingImage} alt="art" />
+          </a>
+          <a
+            style={clearStyle}
+            href={item.s6WallHanging}
+            // eslint-disable-next-line
+            target="_blank"
+          >
+            Wall Hanging
+          </a>
+        </div>
       </div>
-    
     </div>
   );
 }

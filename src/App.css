@@ -43,6 +43,10 @@ header {
   height: 110px;
 }
 
+.item-card {
+  margin: 1%;
+}
+
 h1 {
   font-family: "Lobster", cursive;
 }
@@ -229,6 +233,7 @@ o #pic {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 10%;
+  margin: 1%;
 }
 
 /* caption {
