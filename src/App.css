@@ -43,6 +43,10 @@ header {
   height: 110px;
 }
 
+.item-card {
+  margin: 1%;
+}
+
 h1 {
   font-family: "Lobster", cursive;
 }
