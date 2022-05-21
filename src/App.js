@@ -8,18 +8,21 @@ import About from "./views/About";
 import Gallery from "./components/Gallery";
 import ProductPage from "./components/ProductPage";
 import Watch from "./components/Watch";
-import art from "./components/GalleryArray";
+import axios from "axios";
 
-function fetchArt() {
+// function fetchArt() {
   // fetchStock simulates getting data through axios.get(<URL>)
-  return Promise.resolve({ success: true, art });
-}
+  // return Promise.resolve({ success: true, art });
+// }
 
 export default function App(props) {
   const [stock, setStock] = useState([]);
 
   useEffect(() => {
-    fetchArt().then((res) => setStock(res.art));
+    axios
+      .get("http://localhost:5000/artwork")
+      .then((res) => setStock(res.data))
+      .catch((err) => console.log(err, "it has an error"));
   }, []);
 
   return (
