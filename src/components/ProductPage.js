@@ -22,7 +22,7 @@ export default function Item(props) {
             String.fromCharCode(...new Uint8Array(image.img.data.data))
           );
           return (
-            <div style={{display: "flex"}}>
+            <div className="productPage">
                 <img className="sectionStyle"
                     src={`data:image/png;base64,${base64String}`}
                     alt={image.title}
