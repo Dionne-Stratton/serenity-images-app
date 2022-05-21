@@ -37,7 +37,7 @@
 
   // return (
   //   <div className="shoppage">
-  //     <section className="section1">
+  //     <section className="centerSection">
   //       <h3>Print on Demand</h3>
   //       <br></br>
   //       <p>Comming Soon!</p>

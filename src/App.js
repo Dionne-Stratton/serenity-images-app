@@ -10,17 +10,12 @@ import ProductPage from "./components/ProductPage";
 import Watch from "./components/Watch";
 import axios from "axios";
 
-// function fetchArt() {
-  // fetchStock simulates getting data through axios.get(<URL>)
-  // return Promise.resolve({ success: true, art });
-// }
-
-export default function App(props) {
+export default function App() {
   const [stock, setStock] = useState([]);
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/artwork")
+      .get("https://serenity-images-mongo.herokuapp.com/artwork")
       .then((res) => setStock(res.data))
       .catch((err) => console.log(err, "it has an error"));
   }, []);

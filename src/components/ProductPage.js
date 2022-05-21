@@ -1,193 +1,51 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import axios from "axios";
 
 export default function Item(props) {
-  const { items } = props;
+  
   const { id } = useParams();
 
-  const item =
-    items.find((it) => {
-      // eslint-disable-next-line
-      return it.id == id;
-    }) || {};
+  const [item, setItem] = useState([]);
 
-  const style = {
-    background: item.buy !== "Buy Now!" ? "white" : "",
-    display: item.buy === "Contact Me" ? "none" : "",
-    padding: item.buy !== "Buy Now!" ? "0" : "",
-    textDecoration: "none",
-  };
-
-  const productButton = {
-    display: item.buy !== "Contact Me" ? "none" : "",
-  };
-
-    const clearStyle = {
-      background: "white",
-      textDecoration: "none",
-    };
-
-    const hideNoCanvas = {
-        display: item.s6CanvasPrintImg === null ? "none" : "",
-    };
-
-    const hideNoWallHanging = {
-      display: item.s6WallHangingImage === null ? "none" : "",
-    };
-
-    const hideNoTapestry = {
-      display: item.s6TapestryImg === null ? "none" : "",
-    };
-
-    const hideNoPoster = {
-      display: item.s6PosterImage === null ? "none" : "",
-    };
-
+  useEffect(() => {
+    axios
+      .get(`https://serenity-images-mongo.herokuapp.com/artwork/${id}`)
+      .then((res) => setItem(res.data))
+      .catch((err) => console.log(err, "it has an error"));
+  }, [id]);
 
   return (
     <div className="homepage">
-      <section className="section1">
-        {/* <img src={item.image} alt="art" /> */}
-        <img className="title-image" src={item.titleImage} alt={item.title} />
-        <img className="title-image-mobile" src={item.titleImageMobile} alt={item.title} />
-        <div className="aboutbox">
-          <div className="textbox">
-            {/* <h3>{item.title}</h3>
+      {item.map((image) => {
+          const base64String = btoa(
+            String.fromCharCode(...new Uint8Array(image.img.data.data))
+          );
+          return (
+            <div style={{display: "flex"}}>
+                <img className="sectionStyle"
+                    src={`data:image/png;base64,${base64String}`}
+                    alt={image.title}
+                  />
+            <div className="sectionStyle">
+            <h3>{image.title}</h3>
             <br></br>
-            <p>Price: ${item.price}</p>
-            <p>Size: {item.size}</p>
-            <p>{item.description}</p>
-            <br></br> */}
-            <a
-              style={style}
-              className="buyPrints"
-              href={item.etsyListing}
-              // eslint-disable-next-line
-              target="_blank"
-            >
-              {item.buy}
-            </a>
-            <div style={productButton}>
-              {" "}
+            <p>Price: ${image.price} </p>
+            <p>Size: {image.size}</p>
+            <br></br>
+            <p>{image.description}</p>
+            <br></br>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 className="buyPrints"
-                href={`mailto:SerenityImagesStudio@gmail.com`}
+                href={image.podLink}
               >
-                Contact Me
+                Buy Prints
               </a>
-            </div>
-            <br></br>
-            <br></br>
           </div>
         </div>
-      </section>
-      <h3>Print Options</h3>
-      <div className="gallery">
-        <div className="pic">
-          <a
-            href={item.s6Framed}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            <img src={item.s6FramedImg} alt="art" />
-          </a>
-          <a
-            style={clearStyle}
-            href={item.s6Framed}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            Framed Print
-          </a>
-        </div>
-        <div className="pic" style={hideNoCanvas}>
-          <a
-            href={item.s6CanvasPrint}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            <img src={item.s6CanvasPrintImg} alt="art" />
-          </a>
-          <a
-            style={clearStyle}
-            href={item.s6CanvasPrint}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            Canvas Print
-          </a>
-        </div>
-        <div className="pic">
-          <a
-            href={item.s6Print}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            <img src={item.s6PrintImg} alt="art" />
-          </a>
-          <a
-            style={clearStyle}
-            href={item.s6Print}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            Art Print
-          </a>
-        </div>
-        <div className="pic" style={hideNoPoster}>
-          <a
-            href={item.s6Poster}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            <img src={item.s6PosterImage} alt="art" />
-          </a>
-          <a
-            style={clearStyle}
-            href={item.s6Poster}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            Poster
-          </a>
-        </div>
-        <div className="pic" style={hideNoTapestry}>
-          <a
-            href={item.s6Tapestry}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            <img src={item.s6TapestryImg} alt="art" />
-          </a>
-          <a
-            style={clearStyle}
-            href={item.s6Tapestry}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            Tapestry
-          </a>
-        </div>
-        <div className="pic" style={hideNoWallHanging}>
-          <a
-            href={item.s6WallHanging}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            <img src={item.s6WallHangingImage} alt="art" />
-          </a>
-          <a
-            style={clearStyle}
-            href={item.s6WallHanging}
-            // eslint-disable-next-line
-            target="_blank"
-          >
-            Wall Hanging
-          </a>
-        </div>
-      </div>
+          )})}
     </div>
   );
 }
