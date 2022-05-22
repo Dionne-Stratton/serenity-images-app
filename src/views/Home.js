@@ -6,7 +6,7 @@ import fineartMobile from "../images/fineartImageMobile.jpg";
 const Home = () => {
   return (
     <div className="homepage">
-      <section className="section1">
+      <section className="centerSection">
         <img className="title-image" src={fineart} alt="person" />
         <img className="title-image-mobile" src={fineartMobile} alt="person" />
       <video
