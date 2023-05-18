@@ -3,7 +3,7 @@ import { useRouteMatch, Link } from "react-router-dom";
 
 export default function Gallery(props) {
   const { items } = props;
-  console.log(items)
+  console.log(items);
   const { url } = useRouteMatch();
   const [search, setSearch] = useState("");
 
@@ -19,30 +19,29 @@ export default function Gallery(props) {
         placeholder="Key Word Search"
         onChange={(e) => setSearch(e.target.value)}
       />
+      {items.length === 0 && <p>Loading...</p>}
       <div className="gallery">
         {items
-          .filter((art) =>
-            art.keyword.includes(search.toLowerCase()))
+          .filter((art) => art.keyword.includes(search.toLowerCase()))
           .map((item) => {
-          const base64String = btoa(
-            String.fromCharCode(...new Uint8Array(item.img.data.data))
-          );
-          return (
-            <div style={{margin: "1%"}} key={item.id}>
-              <div className="pic">
-                <Link to={`${url}/${item._id}`} style={clearStyle}>
-                  <img
-                    src={`data:image/png;base64,${base64String}`}
-                    alt={item.title}
-                  />
-                  {/* <p>{item.title}</p> */}
-                </Link>
+            // const base64String = btoa(
+            //   String.fromCharCode(...new Uint8Array(item.img.data.data))
+            // );
+            return (
+              <div style={{ margin: "1%" }} key={item.id}>
+                <div className="pic">
+                  <Link to={`${url}/${item._id}`} style={clearStyle}>
+                    <img src={item.imageURL} alt={item.title} />
+                    {/* <img
+                      src={`data:image/png;base64,${base64String}`}
+                      alt={item.title}
+                    /> */}
+                  </Link>
+                </div>
               </div>
-            </div>
-          )
-})}
+            );
+          })}
       </div>
     </div>
   );
-};
-
+}

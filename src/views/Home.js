@@ -9,18 +9,18 @@ const Home = () => {
       <section className="centerSection">
         <img className="title-image" src={fineart} alt="person" />
         <img className="title-image-mobile" src={fineartMobile} alt="person" />
-      <video
-        autoPlay
-        loop
-        muted
-        style={{
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-        }}
-      >
-        <source src={aboutArt} type="video/mp4" />
-      </video>
+        <video
+          autoPlay
+          loop
+          muted
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+        >
+          <source src={aboutArt} type="video/mp4" />
+        </video>
       </section>
     </div>
   );
