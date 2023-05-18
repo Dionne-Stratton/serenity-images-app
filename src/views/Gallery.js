@@ -19,7 +19,7 @@ export default function Gallery(props) {
         placeholder="Key Word Search"
         onChange={(e) => setSearch(e.target.value)}
       />
-      {items.length === 0 && <p>Loading...</p>}
+      {items.length === 0 && <p>Loading... Please wait...</p>}
       <div className="gallery">
         {items
           .filter((art) => art.keyword.includes(search.toLowerCase()))
