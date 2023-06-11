@@ -16,9 +16,11 @@ export default function App() {
   useEffect(() => {
     axios
       .get("https://serenity-images-mongo.herokuapp.com/artwork")
-      .then((res) => setStock(res.data))
+      .then((res) => setStock(res.data.reverse()))
       .catch((err) => console.log(err, "it has an error"));
   }, []);
+
+  console.log("App.js stock:", stock);
 
   return (
     <div className="App">

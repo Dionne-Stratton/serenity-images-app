@@ -9,18 +9,18 @@ const Footer = () => {
       <footer>
         <div className="ender">
           <h2>Like what you see?</h2>
-          <div>
-            {" "}
-            <a
+          <p>Get in touch on Social Media below.</p>
+          {/* <div> */}
+          {/* <a
               target="_blank"
               rel="noopener noreferrer"
               className="buyPrints"
               href={`mailto:SerenityImagesStudio@gmail.com`}
-            >
-              Contact Me
-            </a>
-            <br></br>
-          </div>
+            > */}
+          {/* Contact Me
+            </a> */}
+          {/* <br></br> */}
+          {/* </div> */}
         </div>
         <div className="icons">
           <a

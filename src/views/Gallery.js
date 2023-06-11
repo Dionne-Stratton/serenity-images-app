@@ -3,7 +3,9 @@ import { useRouteMatch, Link } from "react-router-dom";
 
 export default function Gallery(props) {
   const { items } = props;
-  console.log(items);
+  let index = 0;
+  console.log("Gallery props", items);
+  console.log("Gallery props index", index);
   const { url } = useRouteMatch();
   const [search, setSearch] = useState("");
 
@@ -27,10 +29,13 @@ export default function Gallery(props) {
             // const base64String = btoa(
             //   String.fromCharCode(...new Uint8Array(item.img.data.data))
             // );
+            {
+              index = items.findIndex((indexed) => indexed._id === item._id);
+            }
             return (
               <div style={{ margin: "1%" }} key={item.id}>
                 <div className="pic">
-                  <Link to={`${url}/${item._id}`} style={clearStyle}>
+                  <Link to={`${url}/${index}`} style={clearStyle}>
                     <img src={item.imageURL} alt={item.title} />
                     {/* <img
                       src={`data:image/png;base64,${base64String}`}

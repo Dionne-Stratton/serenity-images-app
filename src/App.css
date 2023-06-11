@@ -136,8 +136,35 @@ nav a:hover {
 .sectionStyle {
   width: 40%;
   margin-top: 5%;
-  margin-left: 5%;
+  margin-left: 3%;
   font-size: 2.3vw;
+  /* border: #f50a0a solid 10px; */
+}
+
+.image {
+  width: 50%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.image img {
+  width: 80%;
+  object-fit: contain;
+}
+
+.arrow {
+  align-self: center;
+  justify-self: center;
+  text-decoration: none;
+  color: rgb(12, 102, 162);
+  font-size: 3vw;
+  /* border: #000000 solid 1px; */
+}
+
+.disabled {
+  color: lightgrey;
 }
 
 .buyPrints {
@@ -159,7 +186,7 @@ nav a:hover {
 
 .title-image-mobile {
   display: none;
-  }
+}
 
 /* o #pic {
   margin-top: 5%;
@@ -229,7 +256,7 @@ nav a:hover {
 }
 
 footer {
-  background-color:#69c8ff;
+  background-color: #69c8ff;
   padding-top: 5%;
   margin-top: 5%;
 }
@@ -239,7 +266,7 @@ footer {
   display: inline-block;
   width: 100%;
   text-align: center;
-  color: black
+  color: black;
 }
 
 .ender p {
@@ -349,11 +376,11 @@ footer {
   } */
 
   .title-image {
-  display: none;
+    display: none;
   }
 
   .title-image-mobile {
-  display: flex;
+    display: flex;
   }
 }
 
@@ -422,13 +449,12 @@ footer {
   } */
 
   .title-image {
-  display: none;
+    display: none;
   }
 
   .title-image-mobile {
-  display: flex;
+    display: flex;
   }
-
 }
 
 @media (max-width: 300px) {
@@ -437,7 +463,7 @@ footer {
   }
   .text-box {
     width: 80%;
-    font-size: 4.0vw;
+    font-size: 4vw;
     margin-top: 10%;
   }
   header {
@@ -502,10 +528,10 @@ footer {
   } */
 
   .title-image {
-  display: none;
+    display: none;
   }
 
   .title-image-mobile {
-  display: flex;
+    display: flex;
   }
 }
