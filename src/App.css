@@ -218,7 +218,11 @@ footer {
 }
 
 .ender p {
-  font-size: 1vw;
+  font-size: 1.5rem;
+}
+
+.ender h2 {
+  margin: 0;
 }
 
 .icons {

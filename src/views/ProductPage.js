@@ -30,7 +30,7 @@ export default function Item(props) {
               String.fromCharCode(...new Uint8Array(image.img.data.data))
             );
             return (
-              <div className="productPage">
+              <div className="productPage" key={item.id}>
                 <div className="sectionStyle image">
                   {index > 0 ? (
                     <Link
@@ -41,7 +41,7 @@ export default function Item(props) {
                       {leftArrow}
                     </Link>
                   ) : (
-                    <p className="left arrow disabled">{leftArrow}</p>
+                    <p className="arrow disabled">{leftArrow}</p>
                   )}
                   <img
                     src={`data:image/png;base64,${base64String}`}

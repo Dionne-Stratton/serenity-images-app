@@ -23,12 +23,18 @@ export default function Gallery(props) {
         {items
           .filter((art) => art.keyword.includes(search.toLowerCase()))
           .map((item) => {
+            const base64String = btoa(
+              String.fromCharCode(...new Uint8Array(item.img.data.data))
+            );
             let index = items.findIndex((indexed) => indexed._id === item._id);
             return (
               <div style={{ margin: "1%" }} key={item.id}>
                 <div className="pic">
                   <Link to={`${url}/${index}`} style={clearStyle}>
-                    <img src={item.imageURL} alt={item.title} />
+                    <img
+                      src={`data:image/png;base64,${base64String}`}
+                      alt={item.title}
+                    />
                   </Link>
                 </div>
               </div>
