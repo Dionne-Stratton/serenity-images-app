@@ -159,8 +159,7 @@ nav a:hover {
   justify-self: center;
   text-decoration: none;
   color: rgb(12, 102, 162);
-  font-size: 3vw;
-  /* border: #000000 solid 1px; */
+  font-size: 5rem;
 }
 
 .disabled {
@@ -180,31 +179,9 @@ nav a:hover {
   background-color: #69c8ff;
 }
 
-/* .buttons {
-  display: block;
-} */
-
 .title-image-mobile {
   display: none;
 }
-
-/* o #pic {
-  margin-top: 5%;
-  border-radius: 30%;
-} */
-
-/* .item {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: 1.4rem;
-  margin: 1% 0;
-} */
-
-/* .item img {
-  width: 20vw;
-  height: 20vw;
-} */
 
 .gallery {
   display: flex;
@@ -212,35 +189,6 @@ nav a:hover {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
-/* .shop {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  justify-content: space-evenly;
-  align-content: center;
-  align-content: space-evenly;
-} */
-
-/* .shop a img {
-  width: 420px;
-  height: 345px;
-} */
-
-/* .shop :hover {
-  opacity: 0.8;
-} */
-
-/* .shop a p {
-  text-decoration: none;
-  color: rgb(0, 2, 2);
-  opacity: 0%;
-  margin-top: -85%;
-  width: 420px;
-  height: 345px;
-  text-align: center;
-  text-justify: center;
-} */
 
 .pic {
   display: flex;
@@ -286,37 +234,46 @@ footer {
 @media (max-width: 800px) {
   .logo {
     width: 20vw;
+    height: 20vw;
   }
+
   .text-box {
     width: 80%;
     font-size: 3vw;
   }
+
   .pic img {
     width: 30vw;
     height: 30vw;
   }
 
-  .sectionStyle {
-    font-size: 2vw;
+  .arrow {
+    font-size: 5rem;
   }
 
-  /* .artist {
-    font-size: 3vw;
-    padding: 5%;
-  } */
+  .disabled {
+    font-size: 5rem;
+  }
+
+  .sectionStyle {
+    font-size: 2.4rem;
+  }
 }
 
 @media (max-width: 500px) {
   .logo {
     width: 30vw;
   }
+
   .text-box {
     width: 80%;
     font-size: 3.5vw;
   }
+
   header {
-    height: 20vh;
+    height: 25vh;
   }
+
   nav {
     display: flex;
     align-items: center;
@@ -337,6 +294,7 @@ footer {
     width: 40vw;
     height: 40vw;
   }
+
   .centerSection {
     display: flex;
     flex-wrap: wrap;
@@ -353,13 +311,17 @@ footer {
     width: 100%;
   }
 
+  .arrow {
+    font-size: 5rem;
+  }
+
+  .disabled {
+    font-size: 5rem;
+  }
+
   .buyPrints {
     font-size: 2.6rem;
   }
-
-  /* .textbox {
-    margin-left: 0;
-  } */
 
   .sectionStyle {
     width: 90%;
@@ -367,13 +329,6 @@ footer {
     text-align: center;
     padding-left: 0;
   }
-
-  /* .artist {
-    width: 80%;
-    font-size: 4vw;
-    text-align: center;
-    margin-left: 5%;
-  } */
 
   .title-image {
     display: none;
@@ -388,18 +343,19 @@ footer {
   .logo {
     width: 30vw;
   }
+
   .text-box {
     width: 80%;
     font-size: 3.5vw;
   }
+
   header {
     height: 25vh;
   }
+
   nav {
     display: flex;
     align-items: center;
-    margin: 0;
-    margin-bottom: 2%;
   }
 
   nav a {
@@ -415,6 +371,7 @@ footer {
     width: 40vw;
     height: 40vw;
   }
+
   .centerSection {
     display: flex;
     flex-wrap: wrap;
@@ -422,17 +379,18 @@ footer {
     width: 100vw;
     margin: 0;
   }
+
   .centerSection img {
     width: 100%;
+  }
+
+  .arrow {
+    font-size: 4rem;
   }
 
   .buyPrints {
     font-size: 2.6rem;
   }
-
-  /* .textbox {
-    margin-left: 0;
-  } */
 
   .sectionStyle {
     width: 90%;
@@ -440,13 +398,6 @@ footer {
     text-align: center;
     padding-left: 0;
   }
-
-  /* .artist {
-    width: 80%;
-    font-size: 4vw;
-    text-align: center;
-    margin-left: 5%;
-  } */
 
   .title-image {
     display: none;
@@ -461,18 +412,21 @@ footer {
   .logo {
     width: 40vw;
   }
+
   .text-box {
     width: 80%;
     font-size: 4vw;
     margin-top: 10%;
   }
+
   header {
-    height: 75vh;
+    height: 35vh;
   }
+
   nav {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 0;
     margin-bottom: 2%;
   }
@@ -480,6 +434,7 @@ footer {
   nav a {
     width: 35%;
     text-align: center;
+    margin-top: 2%;
   }
 
   .pic {
@@ -490,6 +445,7 @@ footer {
     width: 40vw;
     height: 40vw;
   }
+
   .centerSection {
     display: flex;
     flex-wrap: wrap;
@@ -497,17 +453,18 @@ footer {
     width: 100vw;
     margin: 0;
   }
+
   .centerSection img {
     width: 100%;
+  }
+
+  .arrow {
+    font-size: 3rem;
   }
 
   .buyPrints {
     font-size: 2.6rem;
   }
-
-  /* .textbox {
-    margin-left: 0;
-  } */
 
   .sectionStyle {
     width: 90%;
@@ -519,13 +476,6 @@ footer {
   .search {
     margin-left: 0;
   }
-
-  /* .artist {
-    width: 80%;
-    font-size: 4vw;
-    text-align: center;
-    margin-left: 5%;
-  } */
 
   .title-image {
     display: none;

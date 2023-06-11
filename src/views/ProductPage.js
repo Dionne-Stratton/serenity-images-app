@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import axios from "axios";
 
 export default function Item(props) {
   const { items } = props;
@@ -10,24 +9,9 @@ export default function Item(props) {
   const [index, setIndex] = useState(Number(id));
   const [indexLeft, setIndexLeft] = useState(0);
   const [indexRight, setIndexRight] = useState(0);
-
   const [item, setItem] = useState([]);
-  // const [index, setIndex] = useState(0);
 
-  // useEffect(() => {
-  // setItem();
-  // }, [id, items]);
-
-  // useEffect(() => {
-  //   axios
-  //     .get(`https://serenity-images-mongo.herokuapp.com/artwork/${id}`)
-  //     .then((res) => {
-  //       setItem(res.data);
-  //     })
-  //     .catch((err) => console.log(err, "it has an error"));
-  // }, [id]);
   useEffect(() => {
-    // setIndex(items.findIndex((item) => item._id === id));
     if (items.length > 0) {
       setItem([items[index]]);
       setIndexLeft(index - 1);
@@ -35,39 +19,7 @@ export default function Item(props) {
     }
   }, [id, items, index]);
 
-  // function handleLeftClick() {
-  //   if (index > 0) {
-  //     setIndex(index - 1);
-  //   }
-  // }
-
-  // function handleRightClick() {
-  //   if (-1 < index < items.length - 1) {
-  //     setIndex(index + 1);
-  //   }
-  // }
-
-  // let index = items.findIndex((item) => item._id === id);
-  // let indexLeft = index - 1;
-  // let indexRight = index !== -1 ? index + 1 : index;
-
-  // if (indexLeft > -1) {
-  //   idLeft = items[indexLeft]._id;
-  // }
-  // if (indexRight > -1 && indexRight < items.length) {
-  //   idRight = items[indexRight]._id;
-  // }
-  console.log("index:", index);
-  console.log("items", items);
-  console.log("item", item);
-  // console.log("indexLeft:", indexLeft);
-  // console.log("newIdLeft:", idLeft);
-  console.log("indexRight:", indexRight);
-  console.log("indexLeft:", indexLeft);
-  // console.log("id:", id);
-
   return (
-    //if item is not found, display loading message instead of loading the page
     <>
       {item.length === 0 ? (
         <p>Loading... Please wait...</p>
