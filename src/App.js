@@ -11,7 +11,7 @@ import Watch from "./views/Watch";
 import axios from "axios";
 
 export default function App() {
-  const [stock, setStock] = useState([]);
+  const [stock, setStock] = useState([]); //stock is the array of objects from the database initially set to an empty array and then set to the response from the database in the useEffect hook. The array is reversed so that the most recent items are displayed first and then passed down to the Gallery and ProductPage components as props
 
   useEffect(() => {
     axios
