@@ -29,7 +29,6 @@ export default function Gallery(props) {
         <option value="all">All</option>
         <option value="digital">Digital</option>
         <option value="acrylic">Acrylic</option>
-        <option value="watercolor">Watercolor</option>
         <option value="ink">Ink</option>
       </select>
 
