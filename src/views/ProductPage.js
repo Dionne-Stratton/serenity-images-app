@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 
 export default function Item(props) {
-  const { items } = props;
+  const { filtered } = props;
   const { id } = useParams();
   //these are the arrows that will be clicked on to navigate through the items in the items array in the UI. I had to create them as variables and set them to strings with spaces in order to get them to display instead of throwing an error. Might change them to images later.
   const leftArrow = " < ";
@@ -15,12 +15,12 @@ export default function Item(props) {
 
   useEffect(() => {
     //if the items array is not empty, set the item variable to the item in the items array that matches the index. Set the indexLeft variable to the index - 1 and the indexRight variable to the index + 1. This will allow us to navigate through the items array in the UI.
-    if (items.length > 0) {
-      setItem([items[index]]);
+    if (filtered.length > 0) {
+      setItem([filtered[index]]);
       setIndexLeft(index - 1);
       setIndexRight(index + 1);
     }
-  }, [id, items, index]);
+  }, [id, filtered, index]);
 
   return (
     <>
@@ -53,7 +53,7 @@ export default function Item(props) {
                     alt={image.title}
                   />
                   {/* if the index is less than the length of the items array - 1, display the right arrow with a Link that sends the user to the current url but with the index being the indexRight and set className arrow. Otherwise, display the right arrow as a simple <p> and the class of disabled.  */}
-                  {index < items.length - 1 ? (
+                  {index < filtered.length - 1 ? (
                     <Link
                       to={`/gallery/${indexRight}`}
                       onClick={() => setIndex(index + 1)}
@@ -62,7 +62,7 @@ export default function Item(props) {
                       {rightArrow}
                     </Link>
                   ) : (
-                    <p class="arrow disabled">{rightArrow}</p>
+                    <p className="arrow disabled">{rightArrow}</p>
                   )}
                 </div>
                 <div className="sectionStyle">

@@ -12,11 +12,42 @@ import axios from "axios";
 
 export default function App() {
   const [stock, setStock] = useState([]); //stock is the array of objects from the database initially set to an empty array and then set to the response from the database in the useEffect hook. The array is reversed so that the most recent items are displayed first and then passed down to the Gallery and ProductPage components as props
+  const [filteredStock, setFilteredStock] = useState([]); //filteredStock is the array of objects that is filtered by the search and medium variables and then passed down to the Gallery and ProductPage components as props
+  const [search, setSearch] = useState("");
+  const [medium, setMedium] = useState("all");
+
+  const onChange = (e) => {
+    let searchChange = search;
+    let mediumChange = medium;
+
+    if (e.target.name === "search") {
+      searchChange = e.target.value;
+      setSearch(searchChange);
+    }
+    if (e.target.name === "medium") {
+      mediumChange = e.target.value;
+      setMedium(mediumChange);
+    }
+    setFilteredStock(
+      stock.filter((art) => {
+        if (
+          art.keyword.includes(searchChange.toLowerCase()) &&
+          (art.medium === mediumChange || mediumChange === "all")
+        ) {
+          return true;
+        }
+        return false;
+      })
+    );
+  };
 
   useEffect(() => {
     axios
       .get("https://serenity-images-mongo.herokuapp.com/artwork")
-      .then((res) => setStock(res.data.reverse()))
+      .then((res) => {
+        setStock(res.data.reverse());
+        setFilteredStock(res.data);
+      })
       .catch((err) => console.log(err, "it has an error"));
   }, []);
 
@@ -33,11 +64,16 @@ export default function App() {
 
       <Switch>
         <Route path="/gallery/:id">
-          <ProductPage items={stock} />
+          <ProductPage filtered={filteredStock} />
         </Route>
 
         <Route path="/gallery">
-          <Gallery items={stock} />
+          <Gallery
+            onChange={onChange}
+            search={search}
+            medium={medium}
+            filtered={filteredStock}
+          />
         </Route>
 
         <Route path="/home" component={Home} />
