@@ -22,7 +22,7 @@ const Footer = () => {
           <a
             // eslint-disable-next-line
             target="_blank"
-            href="https://www.instagram.com/living_word_designs_art_studio/"
+            href="https://www.instagram.com/serenity_images_studio/"
           >
             <img src={instaicon} alt="instagram logo" />
           </a>
