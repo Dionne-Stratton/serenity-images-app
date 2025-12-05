@@ -40,7 +40,7 @@ export default function Gallery(props) {
       {/* if the items array is empty, display the loading message */}
       {filtered.length === 0 && <p>Loading... Please wait...</p>}
       <div className="gallery">
-        {filtered
+        {filtered.reverse()
           //we are filtering the items array to only display the items that have a keyword that includes the search variable. The search variable is set to the value of the input field as the user types. The filter method is case sensitive so we are converting the search variable to lowercase to ensure that the filter method works as expected
           // .filter((art) => art.keyword.includes(search.toLowerCase()))
           // .filter((art) => {
